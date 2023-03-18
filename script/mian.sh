@@ -3,10 +3,7 @@
 # 下载规则
 curl -o i-1.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
 curl -o i-2.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
-curl -o i-3.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
-curl -o i-4.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt
-curl -o i-5.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
-curl -o i-6.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/KRP/yhosts.txt
+curl -o i-3.txt https://raw.githubusercontent.com/samyansan/AdRules-SamYan/main/KRP/yhosts.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
