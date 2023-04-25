@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-04-25 02:16:31
+! Version: 2023-04-25 09:07:29
 ! Total count: 69262
 
 ||0-owazo4.net.zooplus.de^
