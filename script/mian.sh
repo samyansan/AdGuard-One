@@ -4,10 +4,11 @@
 curl -o i-1.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
 curl -o i-2.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
 curl -o i-3.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt
-curl -o i-4.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
-curl -o i-5.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
-curl -o i-6.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-curl -o i-7.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
+curl -o i-4.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+curl -o i-5.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
+curl -o i-6.txt https://raw.githubusercontent.com/xndeye/adblock_list/main/rule/dns.txt
+curl -o i-7.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
+curl -o i-8.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
