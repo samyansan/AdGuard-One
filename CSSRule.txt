@@ -1,3 +1,16 @@
+## 👇This Part Merge from: /home/runner/work/adblock_list/adblock_list/rule/private.txt
+## 👇This Part Merge from: https://adaway.org/hosts.txt
+## 👇This Part Merge from: https://adguard.com/kb/zh-CN/general/ad-filtering/adguard-filters/
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+## 👇This Part Merge from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+## 👇This Part Merge from: https://raw.githubusercontent.com/sbwml/halflife-list/master/ad-pc.txt
 ###anuncio
 ###bt-ads
 ###invid_call
@@ -12,7 +25,6 @@
 ##.aan_fake__video-units
 ##.adblock-whitelist-messaging__article-wrapper
 ##.adblock-whitelist-messaging__wrapper
-##.addthis_toolbox
 ##.ads_container:not(.text-ad)
 ##.advboxemb
 ##.aff-content-col
@@ -509,8 +521,6 @@ almohtarif-tech.net##+js(aeld, load, onload)
 alotporn.com##+js(aopr, console.clear)
 alotporn.com##+js(aopw, __htapop)
 alotporn.com,best18teens.com,comicxxx.eu,desihoes.com,dirtytamil.com,gayboyshd.com,hotgirlhub.com,hentaiyes.com,lovelynudez.com,nude-beach-tube.com,nudismteens.com,porndollz.com,xnxxvideo.pro,xvideosxporn.com,oosex.net,onlyhgames.com,pornyeah.com,pornstarsadvice.com,pornhegemon.com,porn0.tv,thehentaiworld.com,reddflix.com,stileproject.com,solopornoitaliani.xxx,freehdvideos.xxx##+js(acis, document.querySelectorAll, popMagic)
-alpacafinance.org,tt.live##^script:has-text('join("")')
-alpacafinance.org,tt.live##^script:has-text(join(""))
 alphapolis.co.jp##+js(aeld, copy, preventDefault)
 alphapolis.co.jp##+js(ra, style, div#novelBoby, stay)
 alphapolis.co.jp##+js(set, document.oncontextmenu, null)
@@ -1018,7 +1028,6 @@ bdsmx.tube,blackporn.tube,mrgay.tube,xmilf.com##[style="display:flex !important"
 bearteach.com###externalinject-gpt-passback-iframe
 beastx.top,chillx.top,playerx.stream##+js(aopr, devtoolsDetector)
 beatricedailysun.com##.tnt-ads-container
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
 beautypackaging.com##+js(aopw, adblockerpopup)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##+js(acis, $, #pageWrapper)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##.modal-backdrop
@@ -1222,7 +1231,6 @@ blog.kwick.de##+js(aopr, disableselect)
 blog.kwick.de##+js(aopr, document.onkeydown)
 blog.naver.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 blog.naver.com##+js(aeld, /contextmenu|selectstart|copy/)
-blog.skk.moe##+js(no-fetch-if, body:/[\w\W]{700}/)
 blogbux.net###overlay
 bloggerspice.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 blogpascher.com##.CampaignFullscreen__bravoLayer
@@ -1289,9 +1297,6 @@ bostonglobe.com##.mfp-ready
 bostonglobe.com##body:style(overflow: auto !important;)
 bostonherald.com##+js(nostif, n.trigger, 1)
 bostonherald.com##+js(set, CnnXt.Event.fire, noopFunc)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee,controlconceptsusa.com,tt.live,creatordrop.com,groove.so,cainthus.com,jaywilsonwebsolutions.com,tracktheta.com,panpots.com##+js(acis, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text("join('')")
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,controlconceptsusa.com,creatordrop.com,panpots.com##^script:has-text(join(''))
 box-manga.com##+js(aeld, contextmenu)
 boyfriendtv.com##+js(aeld, click, interstitial)
 boyfriendtv.com##+js(aopw, backgroundBanner)
@@ -1326,7 +1331,6 @@ bricksrus.com##+js(aopr, document.oncontextmenu)
 brighteon.com##body:style(overflow:auto !important)
 brighteon.com##div.overlay, .bottom-banner
 brigitte.de,stern.de##+js(set, Object.prototype.disableAds, true)
-brillen.de##+js(acis, document.createElement, 'script')
 britannica.com###md-media-overlay-ad
 britannica.com##+js(acis, document.createElement, admiral)
 british-birdsongs.uk##ins.adsbygoogle
@@ -2122,7 +2126,6 @@ dobrapogoda24.pl##+js(nostif, , 1)
 doc.mbalib.com##+js(ra, onbeforecopy|oncontextmenu|oncopy|ondragstart|onmouseup|onselect|onselectstart)
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
-docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 dodge-forum.eu##+js(acis, $, offsetHeight)
 dogefaucet.com##+js(ra, disabled, input)
 dogefaucet.com##.loader
@@ -2424,7 +2427,6 @@ encurta.eu##+js(aopr, app_vars.force_disable_adblock)
 encurta.eu##+js(nowoif)
 encurta.eu##.banner-inner
 encurta.eu##[href*="ads.encurta.net/"]
-endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
 endorfinese.com.br##+js(nostif, google_jobrunner)
 energy.de#@##ad_home
 englishlands.net##+js(aopw, document.oncontextmenu)
@@ -2460,8 +2462,6 @@ eporner.com##+js(popads-dummy)
 eppingforestguardian.co.uk##.dfp-ad
 eppingforestguardian.co.uk##.mar-block-ad
 erexams.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-ericdraken.com##+js(aopr, dataLayer)
-ericdraken.com##^script[async]
 erinsakura.com##+js(aeld, copy)
 ero18.cc##+js(acis, document.querySelectorAll, popMagic)
 ero18.cc##[href^="https://rapidgator.net/"]
@@ -2798,7 +2798,6 @@ fivemturk.com##+js(aopr, adBlockDetected)
 fivemturk.com##[src^="https://i.hizliresim.com/"]
 fizyka.org##+js(nobab)
 fizyka.org##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-fjlaboratories.com,stoic.ai##+js(aost, Math.floor, injectedScript)
 flash-firmware.blogspot.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 flashbak.com,geneticliteracyproject.org,marijuanamoment.net,naturalblaze.com,saludmovil.com,thebaffler.com,undark.org,wealthydoc.org###boxzilla-overlay, .boxzilla-container
 flashgirlgames.com,onlinesudoku.games##+js(set, ads, true)
@@ -2994,7 +2993,6 @@ freshstuff4you.com##ins.adsbygoogle
 freyalist.com##.stripper
 frkn64modding.com##+js(no-xhr-if, ad_)
 frkn64modding.com##.ezoic-ad
-frogogo.ru##+js(aopw, ADMITAD)
 frontpage.fok.nl###wa_web_headertofloor
 frontpage.fok.nl##div.commercial_space
 frprn.com##+js(acis, document.querySelectorAll, popMagic)
@@ -3518,11 +3516,7 @@ healthitsecurity.com##.CoverPop-open:style(overflow: auto !important)
 hearthstone-decks.net##+js(acis, jQuery, ai_check)
 heavy-r.com##.mob-ban
 heavy-r.com##.nopop.hd-bar
-heavyfetish.com##+js(cookie-remover, kt_ips)
-heavyfetish.com##+js(cookie-remover, kt_qparams)
-heavyfetish.com##+js(cookie-remover, kt_referer)
 heavyfetish.com##+js(set, flashvars.autoplay, '')
-heavyfetish.com##+js(set, flashvars.event_reporting, '')
 hebrew4christians.com##+js(acis, document.oncontextmenu)
 hebrew4christians.com##+js(aopr, document.onselectstart)
 hebrew4christians.com##+js(aopw, disableSelection)
@@ -4363,7 +4357,6 @@ kpopjjang.com##+js(aopw, stopPrntScr)
 kpopsea.com##+js(aeld, contextmenu)
 kqed.org##[class*="modal"]
 kromaxnofansub.blogspot.com##+js(aopr, adBlockDetected)
-kruidvat.nl##.async-hide:style(opacity:1.0 !important)
 krunkercentral.com##+js(acis, document.onkeydown)
 ksbw.com##+js(nostif, [native code], 500)
 kseriesubthai.com##+js(set, killads, true)
@@ -4509,7 +4502,6 @@ lexlog.pl##+js(aopr, document.onselectstart)
 lg-firmwares.com##+js(nano-sib)
 lg-firmwares.com##.cc-window, .buy_on_amazon, .post-ads
 lgbtqnation.com##+js(aopr, googletag)
-liberation.fr,officedepot.fr,oui.sncf##+js(acis, document.createElement, '.js')
 libertaddigital.com##+js(set, publd.noads, true)
 libertatea.ro##+js(aeld, copy)
 library.avsim.net##^script:has-text(replace)
@@ -5452,7 +5444,6 @@ nibelungen-kurier.de##+js(set, nlf.custom.userCapabilities, false)
 nicematin.com##+js(aeld, , AdB)
 nightdreambabe.com##.banner_place
 nightpoint.io##+js(nofab)
-nikita.tk##+js(aost, document.cookie)
 nilopolisonline.com.br##+js(nostif, blocker)
 ninjastream.to##+js(aeld, , 0x)
 ninjastream.to##+js(aopr, NinjaJsPop)
@@ -5650,7 +5641,6 @@ oko.sh##a[href^="https://href.li/"]
 oko.sh##a[href^="https://taghaugh.com/"]
 okulsoru.com##+js(acis, addEventListener, google_ad_client)
 olarila.com##+js(nostif, offsetHeight)
-old.reddit.com##+js(ra, data-outbound-url, .outbound)
 older-mature.net##+js(aopr, doOpen)
 olinevid.com###layerName_preroll, #layerName_postroll
 oloadporn.com##+js(aopw, _pop)
@@ -6336,8 +6326,6 @@ postype.com##+js(rc, disable-selection, body)
 powerthesaurus.org##+js(aopw, ad_abblock_ad)
 powforums.com##+js(nowoif)
 powforums.com##+js(set, adsBlocked, false)
-ppss.kr,ygosu.com,tgd.kr,inven.co.kr,loawa.com,feedclick.net,dailian.co.kr,algumon.com,sportalkorea.com,hancinema.net##+js(aeld, DOMContentLoaded, _0x)
-ppss.kr,ygosu.com,tgd.kr,inven.co.kr,loawa.com,feedclick.net,dailian.co.kr,algumon.com,sportalkorea.com,hancinema.net##^script:has-text(ad-shield)
 practicequiz.com,reportscam.com,wapkiz.com##+js(aopw, adBlockDetected)
 practicetestgeeks.com##+js(acis, document.oncontextmenu)
 practicetestgeeks.com##+js(acis, document.onselectstart)
@@ -6671,8 +6659,6 @@ recipesdelite.com###btnshow:style(display: block !important;)
 recipesdelite.com##+js(nano-sib, inner)
 redbox.com##.rb-ad-leaderboard-container
 reddflix.com##+js(aopr, LieDetector)
-reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
-reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 reddit.com##.XPromoInFeed
 reddit.com##.XPromoPopup
 reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
@@ -6685,8 +6671,6 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[c
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
 redensarten-index.de##+js(nostif, adb)
 redensarten-index.de##+js(set, is_banner, true)
-rediff.com##+js(ra, onclick, [onclick^="track"])
-rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 redpornblog.com###ads
 redporno.cz##+js(aopr, ExoLoader.serve)
 redporno.cz##.right
@@ -6923,7 +6907,6 @@ sdewery.me##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 sdewery.me##+js(aopw, disableEnterKey)
 sdewery.me##+js(aopw, document.ondragstart)
 sdw-net.me##+js(aeld, load, onload)
-search.brave.com##+js(no-fetch-if, body:browser)
 search.crowdsearch.net#@##adslot1
 searchenginejournal.com##+js(nostif, popup)
 searchenginereports.net##.advert-slot
@@ -7045,7 +7028,6 @@ sfirmware.com##.cc-window
 sfirmware.com##.post-ads
 sflix.to##+js(nosiif, /_0x|devtools/)
 sflix.to##+js(nostif, devtools)
-sfr.fr##+js(aopr, _oEa)
 sfweekly.com##+js(aopw, ai_adb_overlay)
 sh0rt.cc##+js(aopr, adBlockDetected)
 shaamtv.com##+js(aopr, disableSelection)
@@ -7206,7 +7188,6 @@ skincarie.com##+js(nowoif)
 skincarie.com##+js(set, blurred, false)
 skip.li##+js(aopr, app_vars.force_disable_adblock)
 skip.li##.chat-mini-block
-skk.moe##+js(no-fetch-if, method:/post|posT|poSt|poST|pOst|pOsT|pOSt|pOST|Post|PosT|PoSt|PoST|POst|POsT|POSt|POST/)
 sklep-agroland.pl##+js(aeld, /^(?:contextmenu|dragstart|selectstart)$/)
 skpb.live##+js(acis, atob, decodeURIComponent)
 skyozora.com##+js(aeld, copy)
@@ -7465,7 +7446,6 @@ stltoday.com##.dfp-ad
 stltoday.com##.tnt-ads-container
 stockpokeronline.com##+js(acs, document.oncontextmenu)
 stocktwits.com##+js(aopr, Date.prototype.toUTCString)
-stoic.ai##^script:has-text(\x3c)
 stomp.straitstimes.com##.content:has(> div:has-text(Branded Content))
 stoneyroads.com##.ad-container
 store.petvalu.com##.store_locator_loading
@@ -7579,7 +7559,6 @@ t3n.de##+js(nostif, adBlockOverlay)
 tabooporns.com##+js(acis, document.querySelectorAll, popMagic)
 tabooporns.com##+js(aopw, _pop)
 tabstats.com##.afill
-tacobell.com##+js(set, bmak.js_post, false)
 tadu.com##+js(aeld, /contextmenu|selectstart/)
 tagesspiegel.de##+js(aopr, Notification)
 tagmp3.net##+js(acis, document.getElementById, warning)
@@ -7608,7 +7587,6 @@ tanya-tanya.com##body:style(-webkit-touch-callout: default !important; -webkit-u
 tapchipi.com##+js(nostif, mdp)
 taperaki.gr##.widget_et_ads
 targetstudy.com##+js(aopw, stopSelect)
-tarnkappe.info##+js(aopr, Matomo)
 tarnkappe.info##+js(set, traffective, true)
 tarnkappe.info##.around-desktop-ad:upward(1)
 tarnkappe.info##.interscroller-wrapper[style^="height: 700px; "]
@@ -7633,7 +7611,6 @@ tcsjerky.com##body.body-load:style(overflow: auto !important;)
 teamaretuza.com###consentModal,.modal-backdrop
 teamaretuza.com##body:style(overflow: auto!important)
 teamos-hkrg.com##[href^="https://bit.ly/"]
-teamskeet.com##+js(set, $.tstracker, noopFunc)
 techadvisor.com##+js(nostif, .call(null))
 techdracula.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 techdracula.com##ins.adsbygoogle
@@ -8120,7 +8097,6 @@ tvstreampf.xyz##+js(acis, document.onselectstart)
 tvtoday.de##+js(nosiif, fireEvent, 500)
 tvtropes.org##+js(set, valid_user, true)
 twatis.com##+js(aopr, ExoLoader.addZone)
-tweakers.net##+js(aost, btoa, send)
 tweakers.net##.notificationsContainer:has-text(whitelisten of beleef Tweakers)
 twinkietown.com##+js(nostif, adsBlocked)
 twister.porn##+js(aopr, open)
@@ -8308,7 +8284,6 @@ utaten.com##.lyricBody:style(-webkit-touch-callout: default !important; -webkit-
 utorrentgamesps2.blogspot.com##+js(acis, document.onkeydown)
 utorrentgamesps2.blogspot.com##+js(ra, onselectstart)
 utour.me##+js(nostif, myModal, 3000)
-utreon.com##+js(no-xhr-if, utreon.com/pl/api/event method:POST)
 uwayapply.com##+js(ra, oncontextmenu|ondragstart|onselectstart)
 vakil.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 vakil.net##+js(acis, document.oncontextmenu)
@@ -8654,8 +8629,6 @@ webs.com.gt##+js(acis, jQuery, Adblocker)
 webserver.one##[id*="ScriptRoot"]
 webserver.one##div[id^="imCell_"][class=""]:has-text(/Advertisement/i)
 webserver.one##ins.adsbygoogle
-webtoons.com##+js(set, ccsrv, '')
-webtoons.com##+js(set, lcs_SerName, '')
 webtor.io##+js(nowoif)
 webtor.io##.alerts
 webtor.io##.me-ad-container
@@ -9043,7 +9016,6 @@ zeroshare.me##+js(nowebrtc)
 zgbk.com##+js(acis, document.oncontextmenu)
 zgywyd.cn##+js(acis, document.oncontextmenu)
 zhihu.com##+js(aeld, /contextmenu|copy/)
-zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 zhlednito.cz##+js(nosiif, /^/)
 zhulang.com##.idx-bg
 zhulang.com##.tap-hdl
