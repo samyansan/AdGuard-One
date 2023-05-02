@@ -6028,6 +6028,7 @@ watchparksandrecreation.net###keeper2
 watchparksandrecreation.net##+js(aopw, _pop)
 watchparksandrecreation.net##+js(nowoif)
 watchtvseries.video##+js(nosiif, visibility, 1000)
+watson.de##+js(set, _sp_.config, undefined)
 waybig.com##.aff-list
 waybig.com##.aside-adds-col
 waybig.com##.content-aff

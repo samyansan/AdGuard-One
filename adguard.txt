@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-02 14:17:02
-! Total count: 79730
+! Version: 2023-05-02 20:26:51
+! Total count: 79731
 
 ###anuncio
 ###bt-ads
@@ -8241,6 +8241,7 @@ watchseries.*##.show.fade.modal-backdrop
 watchseries.unblocked.*##+js(nowebrtc)
 watchtvseries.*##+js(nowebrtc)
 watchtvseries.video##+js(nosiif, visibility, 1000)
+watson.de##+js(set, _sp_.config, undefined)
 waybig.com##.aff-list
 waybig.com##.aside-adds-col
 waybig.com##.content-aff
