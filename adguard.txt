@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-03 20:25:46
-! Total count: 79689
+! Version: 2023-05-04 02:15:31
+! Total count: 79681
 
 ###anuncio
 ###bt-ads
@@ -2067,7 +2067,6 @@ celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
 cellmapper.net##+js(set, adTestPass, true)
-ceplik.com##ins.adsbygoogle
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -2941,7 +2940,6 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^="hyperfeed_story_id_"]:has(div > span:has(abbr .timestampContent):matches-css(display: none))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="feed"] > div[class]:has([data-ad-preview])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="region"] + div[role="main"] div[role="article"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] > div[class]:not([class*=" "])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="en"] div[aria-posinset] svg[style$="width: 56.8906px;"] use:upward(div[aria-posinset])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="en"] div[aria-posinset] svg[style$="width: 59px;"] use:upward(div[aria-posinset])
@@ -3270,7 +3268,6 @@ freegamescasual.com##+js(nostif, adblock_popup, 500)
 freegogpcgames.com##+js(no-xhr-if, googlesyndication)
 freegogpcgames.com##+js(nostif, show)
 freegogpcgames.com##+js(nowoif)
-freeiptv.life##+js(acs, document.createElement, adblock)
 freejpmusic.net##+js(aopr, blockAdBlock)
 freejpmusic.net##+js(aopr, mdpDeBlocker)
 freelitecoin.vip##+js(aopr, adBlockDetected)
@@ -3570,7 +3567,6 @@ go.bucketforms.com##+js(acs, $, adblocker)
 go.com#@#.has-ad
 goafricaonline.com##+js(aopr, goafricaSplashScreenAd)
 gocurrycracker.com##+js(aopr, encodeURIComponent)
-godmode-trader.de##.adSpace
 godmods.com##+js(aopw, mdp_deblocker)
 godtube.com##+js(aopr, googletag)
 gogaytube.tv,shemaleporntube.tv##.videojs-hero
@@ -4332,10 +4328,10 @@ justlightnovels.com##.adsbyvli
 k511.me##+js(acs, document.getElementById, undefined)
 kabutan.jp,saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 kachelmannwetter.com###meteosafe
-kachelmannwetter.com##+js(nostif, .call(null), 10)
 kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
-kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin-fixed
+kachelmannwetter.com,meteologix.com,weather.us##+js(nostif, .call(null), 10)
+kachelmannwetter.com,meteologix.com,weather.us##.dkpw-billboard-margin-fixed
 kachelmannwetter.com,meteologix.com,weather.us##.kw-ad-right
 kamerabudaya.com##+js(acs, addEventListener, adblock)
 kamerabudaya.com##.ads, div.adsadsense, #HTML1
@@ -5213,7 +5209,6 @@ mtlblog.com,narcity.com##+js(aopw, Ha)
 mtlurb.com##+js(nostif, purple_box)
 mtsproducoes.*##+js(aopw, block_detected)
 mu2-mobi.*##+js(aopr, marker)
-muhendisimaaslari.com##ins.adsbygoogle
 multifaucet.org##+js(aopr, adBlockDetected)
 multifaucet.org##+js(nano-sib, seconds)
 multifaucet.org##.flexbannergroup
@@ -6442,6 +6437,7 @@ reallifecam.vip##+js(acs, String.fromCharCode, 'shift')
 reallifecam.vip##+js(aopr, decodeURI)
 reallifecam.vip##.pm-ads-banner
 reallifecamsex.xyz##.pm-ads-banner
+realtime-chart.info#?#td[style^="vertical-align"] div[id] [style*="top"]:matches-attr("style"="/^\s*top\s*:\s*3\d{2}\.?\d*px;?\s*/") ~ [class][onclick]:has(> [style^="top:1"]):matches-attr("style"="/top\s*:\s*1\d{3}\.?\d*px/"):not(:has(td > a))
 realyoungsex.com###topbar
 receive-sms-online.info##+js(aopr, ga.length)
 recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
@@ -7296,7 +7292,6 @@ teamos-hkrg.com##[href^="https://bit.ly/"]
 techadvisor.com##+js(nostif, .call(null))
 techdracula.com##ins.adsbygoogle
 techhx.com##+js(set, google_jobrunner, true)
-techmoviles.com##+js(aopw, ai_adb)
 techmuzz.com##+js(nosiif, adblocker)
 techmyntra.net##+js(nano-stb)
 technews.tw##+js(acs, jQuery, adblock)
@@ -7446,8 +7441,6 @@ thuglink.com##+js(set, adblockEnabled, false)
 thumpertalk.com##+js(nostif, location)
 thumpertalk.com##.focus-ad
 thurrott.com##+js(acs, $, adblockDetected)
-tibiabr.com##+js(nosiif, visibility, 1000)
-tibiabr.com##div[id^="div-gpt-ad"]
 ticonsiglio.com##+js(aopr, jQuery.adblock)
 tiendaenlinea.claro.com.ni##+js(set, Object.prototype.bk_addPageCtx, noopFunc)
 tiendaenlinea.claro.com.ni##+js(set, Object.prototype.bk_doJSTag, noopFunc)
@@ -18991,7 +18984,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||ancznewozw.com^
 ||and.co.uk.102.122.2o7.net^
 ||and.co.uk^
-||andaluciainformacion.es/*banner
 ||andarldixxi.com^
 ||andbegant.one^
 ||anddalu7si4an.com^
