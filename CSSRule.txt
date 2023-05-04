@@ -3057,6 +3057,7 @@ kissmaturestube.com,yummysextubes.com##.block-a
 kitguru.net##body:style(background-image:none !important)
 kjanime.net##+js(nostif, CekAab, 0)
 klartext-ne.de##+js(acs, document.addEventListener, google_ad_client)
+kleinanzeigen.de###liberty-vip-billboard
 kmo.to##+js(aopr, detectAdBlockAll)
 knowyourmeme.com##.bodycopy > div[style]:not([class])
 knowyourmeme.com##.content-unit-refresh-wrapper
