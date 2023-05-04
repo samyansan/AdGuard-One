@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-04 20:25:02
-! Total count: 78667
+! Version: 2023-05-05 02:15:45
+! Total count: 78668
 
 ###anuncio
 ###bt-ads
@@ -3523,6 +3523,7 @@ gfsvideos.com##+js(aopr, document.dispatchEvent)
 gfsvideos.com##+js(nowoif)
 gfycat.com##+js(acs, Math, ='\x)
 giallozafferano.it##+js(nostif, (), 1)
+giga.de##^script:has-text(.call(null))
 gigaho.com##+js(aopr, onload)
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
 gioialive.it##+js(nostif, rbm_block_active, 1000)
@@ -7042,7 +7043,7 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aost, XMLHttpRequest, /(?=.*(new|Aa))(?=^(?!.*(fetch|Object)))/)
+spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopw, document.hd_ready)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
