@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-04 14:16:37
-! Total count: 78665
+! Version: 2023-05-04 20:25:02
+! Total count: 78667
 
 ###anuncio
 ###bt-ads
@@ -2281,6 +2281,7 @@ cpmlink.net##[href^="https://bit.ly"]
 cpmlink.net##iframe[src="about:blank"]
 cpopchanelofficial.com##+js(nostif, check, 1)
 cracking-dz.com##+js(aeld, load, 0x)
+crackle.com##+js(json-prune, data.device.adSponsorshipTemplate data.device.adsParams)
 crackle.com##.vjs-ad-break-marker-adjustment
 crackllc.com##.onp-sl-content:style(display: block !important;)
 crackllc.com##.onp-sl-social-locker
@@ -39327,6 +39328,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hearst.amp.permutive.com^
 ||hearst.blueconic.net^
 ||hearst.gscontxt.net^
+||heartbeat.crackle.com/tp.png
 ||heartbeat.flickr.com^
 ||heartbeat.pmc.com^
 ||heartbeats.hb.omtrdc.net^

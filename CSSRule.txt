@@ -1305,6 +1305,7 @@ cpmlink.net##[href^="https://bit.ly"]
 cpmlink.net##iframe[src="about:blank"]
 cpopchanelofficial.com##+js(nostif, check, 1)
 cracking-dz.com##+js(aeld, load, 0x)
+crackle.com##+js(json-prune, data.device.adSponsorshipTemplate data.device.adsParams)
 crackle.com##.vjs-ad-break-marker-adjustment
 crackllc.com##.onp-sl-content:style(display: block !important;)
 crackllc.com##.onp-sl-social-locker
