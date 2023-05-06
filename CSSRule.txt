@@ -1574,16 +1574,22 @@ dump.xxx##+js(popads-dummy)
 duplichecker.com###home_before_buton > .adsbygoogle:upward(.data_inbox > div)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
-duplichecker.com##.clearfix + div > style + style + div
-duplichecker.com##.clearfix + div:has(> style:has-text(min-height:302px))
 duplichecker.com##.container div > div[style]:has(.ads-pricing)
 duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(aopw, bioEp)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, /\.css|img_html/)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href^="https://www.grammarly.com/"]
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com###home_after_title
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, /ads|showPopup/)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##.container > div a[href].set-anchor:upward(.container > div)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[data-href*="grammarly.com"]
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[onclick*="grammarly"]
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##a[href].set-anchor
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##aside :is(ins, ._ap_apex_ad):upward(aside)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div:not([id]) > div[class] > ._ap_apex_ad:upward(2)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[class]:not([id]):not(.container):not(.main-content) > div[id] > ins.adsbygoogle:upward(2)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[style]:not([class]) > div[class][style] > span[class] > ._ap_apex_ad:upward(3)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##ins.adsbygoogle:style(max-height: 1px !important; visibility: collapse !important;)
 durtypass.com##+js(aopr, _pop)
 durtypass.com##+js(nowoif)
@@ -3303,14 +3309,14 @@ m.aajtak.in##body > .storyBody:style(display: block !important)
 m.economictimes.com###appBanner,#stickyBanner
 m.economictimes.com##H2:has-text(/Promoted/) + DIV
 m.economictimes.com##h2:has-text(/Promoted/)
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(5)
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(5) + .m
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(5) + .m + .m
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4)
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4) + .m
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3 > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]:upward(4) + .m + .m
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3:has(+ .bg-s3 + .bg-s3:has(> .m > .m .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]))
-m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > .bg-s3:has(+ .bg-s3:has(> .m > .m .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style^="margin-top:1px;"][style$="margin-left:1px;"]))
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5)
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5) + .m
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5) + .m + .m
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4)
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4) + .m
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4) + .m + .m
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3):has(+ :is(.bg-s2, .bg-s3) + :is(.bg-s2, .bg-s3):has(> .m > .m .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]))
+m.facebook.com,touch.facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3):has(+ :is(.bg-s2, .bg-s3):has(> .m > .m .nb[style*="clip-path:inset(0 0 0 0 round 4px)"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]))
 m.forocoches.com##.page > div > ul > li[style^="word-wrap:break-word; word-break:break-word; background-color: #"]
 m.forocoches.com##.page > div > ul[style]:has(> li > div[style] > a[style][href^="/foro/"] > strong)
 m.forocoches.com##[id*="adslot"]:upward(ul > li)
@@ -5040,7 +5046,6 @@ slink.bid##.banner
 slink.bid##^script:has-text('shift')
 slink.bid##^script:has-text(\'shift\')
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
-smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 smallseotools.com##[data-alter]
 smallseotools.com##article
 smallseotools.com##samp
