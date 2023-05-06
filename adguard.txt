@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-06 02:15:25
+! Version: 2023-05-06 09:01:34
 ! Total count: 77698
 
 ###anuncio
@@ -2824,6 +2824,7 @@ eroprofile.com##+js(acs, ExoLoader)
 eroprofile.com##.center-block
 erospots.info##+js(aopr, Pub2)
 erospots.info##.custom-html-widget.textwidget
+es.ylilauta.org^$media,redirect=noop-0.1s.mp3
 eslfast.com##+js(nostif, warning, 100)
 eslint.org#@#.sponsor-link
 esportstales.com##+js(acs, document.createElement, admiral)
@@ -2916,8 +2917,8 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.eg
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:if(a[href^="/ad_campaign"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper:has(a[href*="/ads/"]):not(:has(a[href*="/ads/preferences"]))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper>div div>span>span:has-text(/^Suggested Post$/)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] h4 > span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label="広告"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^="hyperfeed_story_id_"]:has(div > span:has(abbr .timestampContent):matches-css(display: none))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
@@ -5140,7 +5141,6 @@ mp3fiber.com##+js(set, _pop, noopFunc)
 mp3fy.com##+js(nostif, nextFunction, 2000)
 mp3guild.*,mp3clan.*##+js(aopw, Fingerprint2)
 mp4upload.com###lay.lay
-mp4upload.com###overlay, div.container
 mp4upload.com##+js(aopw, _pop)
 mp4upload.com##+js(aopw, adcashMacros)
 mpg.football##+js(set, ads, true)
