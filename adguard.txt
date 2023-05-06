@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-06 14:15:36
-! Total count: 77919
+! Version: 2023-05-06 20:23:02
+! Total count: 77913
 
 ###anuncio
 ###bt-ads
@@ -229,7 +229,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$image,domain=app.trangchu.news|azmath.info|scratch247.info,redirect-rule=1x1.gif
 *$image,domain=asfan.as.com,redirect-rule=1x1.gif
 *$image,domain=delcotimes.com|macombdaily.com|santacruzsentinel.com|saratogian.com|theoaklandpress.com|trentonian.com,redirect-rule=2x2.png
-*$image,domain=fcdn.lauta.media,redirect-rule=32x32.png
 *$image,domain=filecr.com,redirect-rule=1x1.gif
 *$image,domain=grafixfather.com,redirect-rule=1x1.gif
 *$image,domain=krunker.io,redirect-rule=1x1.gif
@@ -3012,10 +3011,6 @@ fcc.lc##+js(nano-sib)
 fcc.lc##+js(ra, disabled, button)
 fcc.lc##+js(set, blurred, false)
 fcc.lc##+js(set, fuckAdBlock._options.baitClass, null)
-fcdn.lauta.media###adf-click:style(cursor: default !important;)
-fcdn.lauta.media##+js(aeld, click)
-fcdn.lauta.media##body::after:style(content: ''; display: block; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-color: white;)
-fcdn.lauta.media##body[style="background: rgb(238, 238, 238) none repeat scroll 0% 0%;"]
 fcportables.com##+js(set, adsClasses, undefined)
 fcportables.com##+js(set, gsecs, 0)
 feet9.com##+js(acs, __ADX_URL_U)
@@ -4869,8 +4864,8 @@ masteranime.es##+js(set, check_adblock, true)
 masterplayer.xyz##+js(aeld, click, popundr)
 mathebibel.de###banner-bottom
 mavanimes.co##+js(aopr, AaDetector)
+maxcheaters.com##+js(nostif, adblock)
 maxcheaters.com##.ipsContained.ipsImage
-maxcheaters.com##.sa_link_overlay
 maxedtech.com##.widget_custom_html
 maxidbr.com##+js(acs, addEventListener, nextFunction)
 mcfucker.com##+js(aopw, t4PP)
@@ -59399,7 +59394,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||s1-12307.kwimgs.com^
 ||s1-adfly.com^
 ||s1.2mdn.net^
-||s1.adform.net/banners/Elements/$important,domain=fcdn.lauta.media
 ||s1.adformdsp.net^
 ||s1.cdn.clickkingdom.net^
 ||s1.cnnx.io^

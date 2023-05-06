@@ -1883,10 +1883,6 @@ fcc.lc##+js(nano-sib)
 fcc.lc##+js(ra, disabled, button)
 fcc.lc##+js(set, blurred, false)
 fcc.lc##+js(set, fuckAdBlock._options.baitClass, null)
-fcdn.lauta.media###adf-click:style(cursor: default !important;)
-fcdn.lauta.media##+js(aeld, click)
-fcdn.lauta.media##body::after:style(content: ''; display: block; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-color: white;)
-fcdn.lauta.media##body[style="background: rgb(238, 238, 238) none repeat scroll 0% 0%;"]
 fcportables.com##+js(set, adsClasses, undefined)
 fcportables.com##+js(set, gsecs, 0)
 feet9.com##+js(acs, __ADX_URL_U)
@@ -3435,8 +3431,8 @@ masteranime.es##+js(set, check_adblock, true)
 masterplayer.xyz##+js(aeld, click, popundr)
 mathebibel.de###banner-bottom
 mavanimes.co##+js(aopr, AaDetector)
+maxcheaters.com##+js(nostif, adblock)
 maxcheaters.com##.ipsContained.ipsImage
-maxcheaters.com##.sa_link_overlay
 maxedtech.com##.widget_custom_html
 maxidbr.com##+js(acs, addEventListener, nextFunction)
 mcfucker.com##+js(aopw, t4PP)
