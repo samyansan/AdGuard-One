@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-07 14:15:58
-! Total count: 77289
+! Version: 2023-05-07 20:23:04
+! Total count: 77286
 
 ###anuncio
 ###bt-ads
@@ -1491,8 +1491,8 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
+aternos.org##.sidebar:style(width: 0.01px !important;)
 aternos.org##.sidebar:style(width: 0px !important;)
-aternos.org##.sidebar:style(width: 1.01px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -2373,6 +2373,7 @@ dailymail.co.uk##.mol-ads-label-container
 dailymail.co.uk##.pufftext > .sponsored:upward(3)
 dailymail.co.uk##.pufftext:has-text(/SPONSORED/):upward(2)
 dailymaverick.co.za##+js(nostif, t(), 0)
+dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
 dailysport.*##+js(acs, String.fromCharCode, atob)
 dailysport.*,eplsite.uk##+js(aopr, AaDetector)
 dailysport.*,eplsite.uk##+js(aopr, open)
@@ -3821,13 +3822,10 @@ hitomi.la##.container > div[class$="content"] > div[class] > script:upward(1)
 hl-live.de##+js(aeld, load, onload)
 hl-live.de##+js(nostif, getComputedStyle, 250)
 hltv.org##+js(nowoif)
-hltv.org##.featured-matches-top
-hltv.org##.gtSmartphone-only > [data-ad-id]:upward(1)
-hltv.org##[class*="ASdvuasdr"]
-hltv.org##[class^="col-rek"][id]
-hltv.org##[data-ad-id]
-hltv.org##[href*="&affid"]
-hltv.org##[href*="utm_source"]
+hltv.org##.leftCol > div[style]
+hltv.org##.newMatches > .gtSmartphone-only
+hltv.org##[data-seen-before]
+hltv.org##[style^="--"]
 hltv.org##body:style(background: transparent !important;)
 hmc-id.blogspot.com,jemerik.com##+js(nostif, AdBlock)
 hobby-machinist.com##+js(nostif, show)
@@ -38899,9 +38897,9 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hlserve.com^
 ||hlsjel.engelvoelkers.com^
 ||hlsrv.vidible.tv^
-||hltv.org/*php|
-||hltv.org/img/static/egbranking$image
-||hltv.org/imgstatic/*?$image
+||hltv.org/img/*?$image
+||hltv.org/img/newwidgets/$image
+||hltv.org/img/static/featured_bet_bg.png$image
 ||hlunlean.com^
 ||hlygsp.modivo.ro^
 ||hm.adform.net^
@@ -59151,7 +59149,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||sample.crazyegg.com^
 ||samples.voice.cti.roku.com^
 ||sams.nikonimaging.com^
-||samsonghiphop.org^$all,badfilter! Title: uBlock₀ filters
+||samsonghiphop.org^$all,badfilter
 ||samsung-germany.demdex.net^
 ||samsung-italy.demdex.net^
 ||samsung.demdex.net^
@@ -63961,7 +63959,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||static.herr.io^
 ||static.hetcash.com^
 ||static.hk.groupon-content.net^
-||static.hltv.org/*images/retina2/*$image,1p
 ||static.httpool.com.mk^
 ||static.hyperfree.com^
 ||static.hyprmx.com^
