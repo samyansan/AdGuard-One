@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-08 02:14:44
-! Total count: 77242
+! Version: 2023-05-08 09:04:34
+! Total count: 77243
 
 ###anuncio
 ###bt-ads
@@ -4306,6 +4306,7 @@ katfile.com##+js(nowoif)
 katfile.com##+js(set, adblock, false)
 katmoviehd.*###sidebar > #custom_html-6
 katmoviehd.*##+js(acs, Math.imul)
+kbb.com##+js(nostif, nrWrapper)
 kbb.com##.ads__disclaimer
 kbb.com##.e1qd4cn00.css-xr0hr0-Rail
 kbb.com##.ehk7le10.css-d4n948-CenterHelper
