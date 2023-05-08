@@ -88,7 +88,6 @@
 ##[id^="p_root_"]
 ##[onclick*="postlnk.com"]
 ##[onclick*="window.open('http://deloplen.com/"]
-##[src="/img/bat-banner.png"]
 ##[src="/static/img/download-top.png"]
 ##[src^="//dombnrs.com/"]
 ##[src^="https://aff1xstavka.com"]
@@ -137,7 +136,6 @@
 10news.dk##.onp-sl-content:style(display: block !important;)
 10news.dk##.onp-sl-social-locker
 10news.dk##.textwidget
-123link.*,adbull.*,bbf.lt,bit-url.com,eg4link.*,url.gem-flash.com##+js(aopr, app_vars.force_disable_adblock)
 123movierulz.*,4movierulz.*,4movierulz1.*,7movierulzfree.*,7moviesrulz.*,movieruls.*,movierulz4k.*,movierulzfree.*,movierulzs.*,movierulzwatch.*,movierulzz.*,moviesrulz.*,moviesrulzfree.*,watchmovierulz.*,watchmoviesrulz.com##.ad_watch_now
 123movierulz.*,7movierulz1.*,7moviesrulz.*,movieruls.*,movierulz.*,movierulzfree.*,movierulzs.*,movierulzwatch.*,movierulzz.*,moviesrulz.*,moviesrulzfree.*,watchmoviesrulz.com##+js(nowoif)
 123movies.lv,123movies4k.net##+js(ra, href, #clickfakeplayer)
@@ -728,6 +726,7 @@ bdsmx.tube,blackporn.tube,mrgay.tube,xmilf.com##[is-footer-banners]
 bdsmx.tube,blackporn.tube,mrgay.tube,xmilf.com##[style="display:flex !important"] > div > div:not(:last-child)
 bearteach.com###externalinject-gpt-passback-iframe
 beatricedailysun.com##.tnt-ads-container
+beautifullywhitening.work,mineralfoundation.work,contents-group.work,bridalgown.work,liquidfoundation.work,nailcolor.work,weddinghall.work,g-journal.jp,japan-indepth.jp,kuroyonhon.com,enno.jp###ad1
 beautypackaging.com##+js(aopw, adblockerpopup)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##+js(acs, $, #pageWrapper)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##.modal-backdrop
@@ -938,6 +937,8 @@ bravoerotica.net##.place
 bravoerotica.net##.table
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
+bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp###ad3
+bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp,dtiblog.com,biz-journal.jp###ad2
 brigitte.de,stern.de##+js(set, Object.prototype.disableAds, true)
 britannica.com###md-media-overlay-ad
 british-birdsongs.uk##ins.adsbygoogle
@@ -1169,7 +1170,6 @@ classicreload.com##.content-top-wrapper
 classicreload.com##ins.adsbygoogle
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
-clik.pw##+js(aopr, app_vars.force_disable_adblock)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
 clik.pw##a[href^="https://href.li/"]
@@ -1208,13 +1208,10 @@ cnnamador.com##+js(nostif, backRedirect)
 cnnamador.com##.banner
 cnnamador.com##.cards__item:has([href*="loboclick"])
 cnnamador.com##.is-ad-visible
+coaptoov.net##+js(adfly-defuser)
 cockmeter.com###alfa_promo_parent
 codeproject.com##+js(aopr, retrievalService)
 codeproject.com#@#[style*="base64"]
-coin.mg##+js(aopr, app_vars.force_disable_adblock)
-coin.mg##+js(aopr, open)
-coin.mg##+js(set, blurred, false)
-coin.mg##.col-md-12
 coindice.win##+js(aopr, adBlockDetected)
 coindice.win##+js(set, CaptchmeState.adb, undefined)
 coinfaucet.io##+js(acs, atob, tabunder)
@@ -2559,7 +2556,6 @@ homebooster.de,newhome.de##+js(acs, document.getElementById, blocker_div)
 homegrownfreaks.net##.fp-brand
 homemature.net##+js(nowoif)
 homemoviestube.com##+js(aopr, decodeURI)
-homemoviestube.com##+js(popads-dummy)
 homemoviestube.com##.film-aside-ads
 honeyhunterworld.com##div[class*="ad_"]
 hopto.org##+js(acs, document.getElementById, undefined)
@@ -2964,7 +2960,6 @@ kachelmannwetter.com,meteologix.com,weather.us##.dkpw-billboard-margin-fixed
 kachelmannwetter.com,meteologix.com,weather.us##.kw-ad-right
 kamerabudaya.com##+js(acs, addEventListener, adblock)
 kamerabudaya.com##.ads, div.adsadsense, #HTML1
-kanqite.com##+js(aopr, app_vars.force_disable_adblock)
 kanqite.com##+js(aopr, open)
 kanqite.com##+js(nano-sib)
 karanapk.com##+js(set, google_jobrunner, true)
@@ -3168,11 +3163,10 @@ linkjust.com##+js(aopr, app_vars.force_disable_adblock)
 linkjust.com##.banner-inner
 linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
-linkrex.net##+js(aopr, app_vars.force_disable_adblock)
 linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)
-linkrex.net##+js(set, blurred, false)
+linkrex.net,linx.cc##+js(set, blurred, false)
 linksht.com###bannerads
 linksht.com###getlink
 linksht.com###originalLink:style(display: block!important;)
@@ -3511,7 +3505,6 @@ mio.to##+js(acs, document.getElementById, abmsg)
 misa-anime.com##+js(aopw, adBlockDetected)
 misa-anime.com##.img-kosana
 mitly.us##+js(aopr, adBlockDetected)
-mitly.us##+js(aopr, app_vars.force_disable_adblock)
 mitly.us##+js(aopr, open)
 mitly.us##+js(aopw, _pop)
 mitly.us##+js(aopw, adcashMacros)
@@ -4603,7 +4596,6 @@ reallifecam.vip##+js(acs, String.fromCharCode, 'shift')
 reallifecam.vip##+js(aopr, decodeURI)
 reallifecam.vip##.pm-ads-banner
 reallifecamsex.xyz##.pm-ads-banner
-realtime-chart.info#?#td[style^="vertical-align"] div[id] [style*="top"]:matches-attr("style"="/^\s*top\s*:\s*3\d{2}\.?\d*px;?\s*/") ~ [class][onclick]:has(> [style^="top:1"]):matches-attr("style"="/top\s*:\s*1\d{3}\.?\d*px/"):not(:has(td > a))
 realyoungsex.com###topbar
 receive-sms-online.info##+js(aopr, ga.length)
 recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
@@ -5086,7 +5078,7 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopw, document.hd_ready)
+spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aost, Math, onreadystatechange)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
@@ -5933,10 +5925,6 @@ whathifi.com##.slot-leaderboard
 whiskypreisvergleich.de,whiskyprices.co.uk,whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be,whiskyprix.fr##.blocker
 whosampled.com##+js(aopw, showAdBlockerOverlay)
 whosampled.com##+js(nostif, ads.length)
-wi.cr###overly
-wi.cr##+js(aopr, app_vars.force_disable_adblock)
-wi.cr##+js(aopw, _pop)
-wi.cr##.banner
 wickedspot.org##+js(aopr, b2a)
 wickedspot.org##+js(aopw, _pop)
 wikifeet.com##+js(aopr, NativeAd)
@@ -6112,12 +6100,7 @@ yeutienganh.com##+js(aopw, adBlockDetected)
 yify-movies.net##+js(acs, JSON, isFinite)
 yiv.com##+js(nostif, Adb)
 yiv.com#@##adsContainer
-ylilauta.org##+js(call-nothrow, Object.defineProperty)
-ylilauta.org##+js(set, alert, noopFunc)
-ylilauta.org##+js(set, confirm, noopFunc)
-ylilauta.org##.toast-root
-ylilauta.org##div[data-a][data-d]
-ylilauta.org##iframe.a, #fake
+ylilauta.org##+js(aeld, , ad-load-fail)
 ylilauta.org#@#iframe.a
 yogitimes.com##+js(aopr, fuckAdBlock)
 you-porn.com##[id^="adblock"]
