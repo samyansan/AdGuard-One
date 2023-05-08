@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-08 14:16:49
-! Total count: 77526
+! Version: 2023-05-08 20:26:15
+! Total count: 77521
 
 ###anuncio
 ###bt-ads
@@ -226,7 +226,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$image,domain=app.trangchu.news|azmath.info|scratch247.info,redirect-rule=1x1.gif
 *$image,domain=asfan.as.com,redirect-rule=1x1.gif
 *$image,domain=delcotimes.com|macombdaily.com|santacruzsentinel.com|saratogian.com|theoaklandpress.com|trentonian.com,redirect-rule=2x2.png
-*$image,domain=filecr.com,redirect-rule=1x1.gif
 *$image,domain=grafixfather.com,redirect-rule=1x1.gif
 *$image,domain=krunker.io,redirect-rule=1x1.gif
 *$image,domain=novelgames.com,redirect-rule=1x1.gif
@@ -1482,7 +1481,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.01px !important;)
+aternos.org##.sidebar:style(width: 0.11px !important;)
 aternos.org##.sidebar:style(width: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
@@ -3049,11 +3048,6 @@ file4go.*##+js(acs, document.getElementById, ad_block)
 file4go.*##+js(aopw, _pop)
 file4go.*##+js(set, time, 0)
 file4go.*##div.banner300b, .lateral
-filecr.com##.gigabyte
-filecr.com##div.filec-widget
-filecr.com##div[id^="aswift"]
-filecr.com##ins.adsbygoogle:style(height: 0px !important;)
-filecr.com#@#ins.adsbygoogle
 filecrypt.*###jvb
 filecrypt.*##+js(acs, decodeURIComponent, replace)
 filecrypt.*##+js(acs, parseInt, open)
@@ -3075,6 +3069,7 @@ filecrypt.co#@?#form > .protection.online ul > li:not(.buttons):-abp-has(> div:n
 filedown.*##+js(nowoif)
 filehorse.com##+js(set, isAdBlockActive, false)
 filelu.com#@#.banner_ads
+filelu.com#@#.banner_ads:not(:empty)
 fileone.tv##+js(acs, document.querySelectorAll, popMagic)
 fileone.tv##+js(aopw, _pop)
 fileone.tv##+js(nowoif)
@@ -3997,12 +3992,12 @@ imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixl
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(set, hold_click, false)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##+js(aopr, console.clear)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##+js(nano-sib, timer)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##div[class][style="display: block;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online##div[style="width:100%;height:110px"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##+js(aopr, console.clear)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##+js(nano-sib, timer)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##div[class][style="display: block;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online##div[style="width:100%;height:110px"]
 imgbaron.com###fadeinbox
 imgbaron.com##+js(aopr, loadTool)
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
@@ -33477,8 +33472,8 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||es.lucanet.com^
 ||es.optimost.com^
 ||es.themoneytizer.com^
-||es.ylilauta.org/static/css/view.css?$css,1p
-||es.ylilauta.org^$media,redirect=noop-0.1s.mp3
+||es.ylilauta.org/static/css/style.css?$css,1p
+||es.ylilauta.org^$media
 ||es.ylilauta.org^$ping,popup
 ||esa-reg-eup.myoppo.com^
 ||esandalargere.com^
