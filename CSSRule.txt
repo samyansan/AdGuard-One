@@ -2983,12 +2983,7 @@ katfile.com##+js(acs, document.createElement, onerror)
 katfile.com##+js(nano-stb)
 katfile.com##+js(nowoif)
 katfile.com##+js(set, adblock, false)
-kbb.com##+js(nostif, nrWrapper)
-kbb.com##.ads__disclaimer
-kbb.com##.e1qd4cn00.css-xr0hr0-Rail
-kbb.com##.ehk7le10.css-d4n948-CenterHelper
-kbb.com##.spotlight__ad
-kbb.com##[id^="kbbAds"]
+kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
 keisekaikuy.blogspot.com##+js(nano-sib)
 keisekaikuy.blogspot.com##+js(nofab)
 kenshi.fandom.com##+js(set, ads, null)
