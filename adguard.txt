@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-09 14:17:07
-! Total count: 77499
+! Version: 2023-05-09 21:01:35
+! Total count: 77500
 
 ###anuncio
 ###bt-ads
@@ -124,7 +124,7 @@
 $removeparam=lpurl,badfilter
 $script,domain=zdnet.fr,3p
 $xhr,redirect-rule=noopjs,domain=player.pl
-(*.js?ver=6.2$script,1p,domain=audiodoceo.com|audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
+(*.js$script,1p,domain=audiodoceo.com|audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 *$1p,image,redirect-rule=1x1.gif,domain=rte.ie
 *$3p,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net|unpkg.com,domain=stfly.me
 *$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com|hwcdn.net|jquery.com|uptomega.com,domain=uptomega.*
@@ -1476,8 +1476,8 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.11px !important;)
 aternos.org##.sidebar:style(width: 0px !important;)
+aternos.org##.sidebar:style(width: 3.15px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -2339,6 +2339,7 @@ daddylive.*##+js(aopw, afStorage)
 daddylive.*##+js(nowebrtc)
 daddylive.*##^script:has-text(decodeURIComponent)
 daddylive.*##div > a.btn-outline-primary.btn
+daddylive.link#@#+js(aopr, require)
 daftporn.com##+js(acs, document.querySelectorAll, popMagic)
 daftporn.com##+js(aopr, document.dispatchEvent)
 daftporn.com##+js(disable-newtab-links)
@@ -3759,6 +3760,7 @@ hentaigo.com##+js(aopr, r3H4)
 hentaigo.com##a[href*="//www.nutaku.net/signup/"]
 hentaihaven.*##.main-sidebar[role="complementary"]
 hentaihaven.com##+js(acs, document.querySelectorAll, popMagic)
+hentaihaven.xxx##+js(aopw, Script_Manager)
 hentaihaven.xxx##+js(noeval-if, debugger)
 hentaihaven.xxx##+js(nowoif)
 hentaihere.com##+js(nowoif)
@@ -8149,7 +8151,6 @@ wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscraper-container
 wordgames.com###skyscrapper-container
 work.ink##+js(nosiif, a0b)
-work.ink##+js(nostif, a0b)
 work.ink##+js(ra, href, [href*="jump"], stay)
 work.ink##.no-overlay
 work.ink##.waldo-display-unit
