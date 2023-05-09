@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-09 21:01:35
-! Total count: 77500
+! Version: 2023-05-10 02:16:06
+! Total count: 77465
 
 ###anuncio
 ###bt-ads
@@ -74,7 +74,6 @@
 ##[href^="http://getalinkandshare.com/r"]
 ##[href^="http://referrer.website/"]
 ##[href^="https://13vm73vbmp.com/"]
-##[href^="https://2go7v1nes8.com/"]
 ##[href^="https://adult.xyz/"]
 ##[href^="https://ahf8n.com/"]
 ##[href^="https://ghoto-12.win/"]
@@ -487,7 +486,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,redirect-rule=noopjs,domain=onemanhua.com
 *$script,redirect-rule=noopjs,domain=ouo.*
 *$script,redirect-rule=noopjs,domain=pandora.com
-*$script,redirect-rule=noopjs,domain=playhydrax.com
 *$script,redirect-rule=noopjs,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
 *$script,redirect-rule=noopjs,domain=puregym.com
 *$script,redirect-rule=noopjs,domain=rjno1.com
@@ -1045,8 +1043,7 @@ ableitungsrechner.net##+js(nostif, ag_adBlockerDetected)
 ableitungsrechner.net##a.extern[href^="//www.amazon.de/"]:upward(2)
 about-drinks.com,familie.de,formel1.de,freenet.de,hifi-forum.de,kicker.de,musiker-board.de,quoka.de,recording.de,ruhr24.de,transfermarkt.*##+js(nostif, .call(null), 10)
 absoluporn.*##+js(acs, ExoLoader)
-abysscdn.com,freeplayervideo.com,geoip.redirect-ads.com,nazarickol.com,player-cdn.com##+js(nowoif, /^/, 1)
-abysscdn.com,freeplayervideo.com,nazarickol.com,player-cdn.com##+js(aeld, , break;case $.)
+abysscdn.com,freeplayervideo.com,nazarickol.com,player-cdn.com##+js(nowoif, /^/, 1)
 acapellas4u.co.uk##+js(nostif, bait, 1)
 accordo.it###bglink
 acdriftingpro.com##+js(nostif, offsetHeight)
@@ -1122,7 +1119,6 @@ adslinkfly.online##+js(aopr, document.write)
 adslinkfly.online##+js(set, blurred, false)
 adslinkfly.online##.banner
 adsrt.*##+js(acs, atob, decodeURIComponent)
-adsrt.*##+js(aopr, app_vars.force_disable_adblock)
 adsrt.*##+js(aopr, rmVideoPlay)
 adsrt.*##+js(aopw, Fingerprint2)
 adsrt.*##+js(set, blurred, false)
@@ -1173,7 +1169,6 @@ alcasthq.com##+js(acs, Math.floor, axtd)
 alcasthq.com##+js(aopr, performance)
 alemannia-aachen.de###grid-image-head
 alemannia-aachen.de##.b-error
-alemdarleech.com##+js(set, koddostu_com_adblock_yok, false)
 alfaloji.org##ins.adsbygoogle
 aliancapes.*##+js(nostif, nextFunction, 2000)
 alibaba.com##.m-product-item:has-text(Sponsored Listing)
@@ -1477,9 +1472,8 @@ aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
 aternos.org##.sidebar:style(width: 0px !important;)
-aternos.org##.sidebar:style(width: 3.15px !important;)
+aternos.org##.sidebar:style(width: 5.10px !important;)
 aternos.org##[style*="opacity:  0"]
-aternos.org#@#.sidebar:style(width: 0px !important;)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, adcashMacros)
 atomixhq.*,pctfenix.*,pctnew.*##+js(nowoif, !/download\/|link/)
@@ -1812,7 +1806,6 @@ bolor-toli.com##[class^="banner"]
 bombuj.*##.ad_banner
 bombuj.*##[id*="ekla"]
 bonedo.de##.banner
-bonstreams.net##+js(popads-dummy)
 boobgirlz.com##.widget-column > center > [href="https://boobgirlz.com/istripper"]:upward(.widget-column)
 boobsforfun.com##.adcontainer
 books-share.com##+js(acs, document.getElementById, 'block')
@@ -2497,7 +2490,6 @@ dogemate.com##+js(nowoif)
 dogemate.com##div[class][style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 dogemate.com##img[id^="ads-"]:style(visibility: hidden !important;)
 dokumen.tips##+js(nano-stb, , , 0.02)
-donia2link.com##+js(aopr, app_vars.force_disable_adblock)
 donk69.com,gfjizz.com,hotdreamsxxx.com,pornxt.com##+js(aopw, phtData)
 donkparty.com##+js(aopr, phantomPopunders)
 donkparty.com##+js(nowoif)
@@ -2649,7 +2641,6 @@ dvdporngay.com##+js(aopr, decodeURIComponent)
 dxb.to##+js(nowebrtc)
 dynamicpapers.com##.ezoic-ad
 dynamicpapers.com##ins.adsbygoogle
-dz4link.com##+js(aopr, app_vars.force_disable_adblock)
 dz4link.com##+js(aopw, Fingerprint2)
 dz4link.com##+js(nowoif)
 dz4link.com##+js(set, blurred, false)
@@ -2704,7 +2695,6 @@ edvok.com##+js(nowebrtc)
 efukt.com##+js(aeld, click, preventDefault)
 efukt.com##+js(aopr, open)
 efukt.com##+js(nostif, _0x, 2000)
-efukt.com##+js(popads-dummy)
 efukt.com##.efukt-widget-slider-nice-try-adblockers
 efukt.com##.hide_before:has([href*="?utm_source=efukt"])
 efukt.com##.plugs-nice-try-adblockers
@@ -2752,8 +2742,6 @@ elmundo.es##.Bloque-anuncios-shadow
 elmundo.es##.disabled-vscroll:style(overflow: auto !important; position: initial !important;)
 elmundo.es,expansion.com,marca.com##+js(aopr, adUnits)
 elpasotimes.com##+js(aopr, _sp_.mms.startMsg)
-elrellano.com###mdp-deblocker-js-disabled
-elrellano.com##+js(nostif, mdpDeBlocker)
 elrellano.com##.widget_media_image
 elsate.com###fab-enabled
 elsfile.org##+js(aeld, load, nextFunction)
@@ -2941,7 +2929,6 @@ fangraphs.com##.fg-ra-mobile
 fapality.com##+js(aopr, document.dispatchEvent)
 fapality.com##+js(aopr, open)
 fapdig.com##+js(acs, document.createElement, 'script')
-fapdig.com##+js(popads-dummy)
 fapxl.com##+js(acs, document.querySelectorAll, popMagic)
 faresgame.com##+js(aopr, adBlockDetected)
 farmeramania.de##+js(acs, $, show)
@@ -3234,13 +3221,13 @@ freejpmusic.net##+js(aopr, blockAdBlock)
 freejpmusic.net##+js(aopr, mdpDeBlocker)
 freelitecoin.vip##+js(aopr, adBlockDetected)
 freelitecoin.vip##+js(nano-sib)
-freeopenvpn.org##.adsbygoogle:style(height: 10px !important;)
 freeopenvpn.org##.ipspeed
+freeopenvpn.org##div[style^="display: block"][style*="width: 336px"]
 freeopenvpn.org#@##advert_top
 freep.com##+js(set, adsEnabled, true)
 freepdf-books.com##+js(nano-sib, myTimer, 1500)
-freeplayervideo.com,geoip.redirect-ads.com,nazarickol.com,player-cdn.com##+js(set, console.clear, undefined)
 freeplayervideo.com,nazarickol.com,player-cdn.com##+js(ra, style, #over)
+freeplayervideo.com,nazarickol.com,player-cdn.com##+js(set, console.clear, undefined)
 freeporn.works##.past
 freeporn.works##.show
 freepornrocks.com##+js(aeld, , open)
@@ -3900,9 +3887,6 @@ hunstulovers.net##[id*="ScriptRoot"]
 hwreload.it##+js(acs, $, show)
 hwupgrade.it#@#.wrapper-xyz
 hwupgrade.it#@#a[href^="https://www.amazon."][href*="tag="]
-hydracdn.*,hydrax.net,playhydrax.com##+js(aopr, AaDetector)
-hydracdn.*,hydrax.net,playhydrax.com##+js(nostif, debugger)
-hydracdn.*,hydrax.net,playhydrax.com##+js(nowoif, /^/, 2)
 hydrogenassociation.org##+js(nostif, ads)
 hyperdebrid.*##+js(acs, decodeURI, atob)
 i8086.de##ins.adsbygoogle
@@ -4135,15 +4119,10 @@ iptvbin.com##+js(aost, String.prototype.charCodeAt, ai_)
 iptvnow.top##+js(acs, addEventListener, displayMessage)
 iptvspor.com##+js(aopr, adBlockDetected)
 iptvtools.net##+js(set, isAdsDisplayed, true)
-iran021.com##+js(popads-dummy)
 irisbuddies.ml###HTML6
 isminiunuttum.com##+js(acs, document.getElementById, block)
 ispunlock.*,tpb.*##+js(aopr, pace)
 italianoxxx.com##+js(aopr, document.dispatchEvent)
-itdmusic.*##+js(acs, addEventListener, google_ad_client)
-itdmusic.*##+js(aopw, _pop)
-itdmusic.*##+js(nowebrtc)
-itdmusic.*##+js(popads-dummy)
 itechfever.com##+js(nobab)
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
 itv.com##+js(json-prune, Playlist.ContentBreaks)
@@ -4269,7 +4248,6 @@ jumpmanclubbrasil.com.br##.home-ad-con
 justjared.com,truetrophies.com##+js(acs, setTimeout, isIframeNetworking)
 justlightnovels.com##.adsbyvli
 k511.me##+js(acs, document.getElementById, undefined)
-kabutan.jp,saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 kachelmannwetter.com###meteosafe
 kachelmannwetter.com##[href="https://pflotsh.com"]
 kachelmannwetter.com,meteologix.com##.dkpw-billboard-margin
@@ -4515,7 +4493,6 @@ limetorrents.*##[href^="https://affiliate.rusvpn.com/"]
 limetorrents.*##tr:has-text(VPN)
 limontorrents.com##+js(aopw, _pop)
 lin-ks.*##+js(nano-sib)
-linclik.com##+js(aopr, app_vars.force_disable_adblock)
 linclik.com##+js(aopw, _pop)
 linclik.com##+js(set, blurred, false)
 line25.com##+js(aopr, decodeURI)
@@ -4552,11 +4529,9 @@ linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)
 linkrex.net,linx.cc##+js(set, blurred, false)
-linkshorts.*##+js(aopr, app_vars.force_disable_adblock)
 linkshorts.*##+js(aopr, open)
 linkshorts.*##+js(aopw, _pop)
 linkshorts.*##+js(set, blurred, false)
-linkshorts.*##.blog-item
 linksht.com###bannerads
 linksht.com###getlink
 linksht.com###originalLink:style(display: block!important;)
@@ -5823,8 +5798,6 @@ playhub.com##.ad-title-megaban
 playhub.com##.ad-title-pave
 playhub.com##.ad-title-sky
 playhub.com##.promo-game
-playhydrax.com##+js(nosiif, _0x)
-playhydrax.com,hydracdn.*,hydrax.net##div#over:remove()
 playok.com##.adsbygoogle:style(height: 1px !important; width: 1px !important;)
 playpaste.com##+js(acs, document.addEventListener, Popup)
 playpaste.com##+js(set, $.ajax, trueFunc)
@@ -5893,7 +5866,7 @@ pornbimbo.com##[href^="https://ca.clcknads.pro"]
 pornbimbo.com##[src^="http://pornbimbo.com/player/html.php"]
 pornblade.com###e_v + aside[id]
 pornblade.com,pornfelix.com##+js(aeld, click, popMagic)
-pornbraze.com##+js(popads-dummy)
+pornbraze.com##.adv-square
 pornbraze.com/sw.js$script,1p
 pornclassic.tube,tubepornclassic.com##.content > div > .container + div
 pornclassic.tube,tubepornclassic.com##.video-page__content > div.left + div[class]:last-child
@@ -6675,7 +6648,6 @@ short.pe##+js(acs, RegExp, POSTBACK_PIXEL)
 short.pe##+js(acs, atob, tabunder)
 short.pe##+js(aeld, mousedown, preventDefault)
 short.pe##+js(aopr, AaDetector)
-short.pe##+js(aopr, app_vars.force_disable_adblock)
 short.pe##+js(aopr, console.clear)
 short.pe##+js(nostif, '0x)
 short.pe##+js(nowebrtc)
@@ -6735,7 +6707,6 @@ shrinkurl.org##+js(aopr, open)
 shrinkurl.org##+js(nosiif, visibility, 1000)
 shrinkurl.org##+js(set, blurred, false)
 shrt10.com##+js(aopr, open)
-shrt10.com##+js(aopr,app_vars.force_disable_adblock)
 shrt10.com##+js(aopw, _pop)
 shrt10.com##+js(aopw, adcashMacros)
 shrt10.com##+js(set, blurred, false)
@@ -7066,7 +7037,6 @@ subdivx.com##+js(acs, document.querySelectorAll, popMagic)
 subdivx.com##+js(cookie-remover, ref_cookie)
 submityourflicks.com##+js(aopr, ExoLoader.serve)
 submityourflicks.com##+js(aopr, decodeURI)
-submityourflicks.com##+js(popads-dummy)
 submityourflicks.com##+js(set, flashvars.adv_pause_html, '')
 submityourflicks.com##.aside
 submityourflicks.com##.spot
@@ -7616,7 +7586,6 @@ up-load.io##+js(noeval)
 up-load.io##+js(nostif, nextFunction, 2000)
 up-load.io##.ads
 upbam.org,upbaam.com##+js(aopw, _pop)
-upbom.com##+js(nowebrtc)
 upclips.*##[id*="ScriptRoot"]
 updato.com##+js(nostif, document.querySelector, 5000)
 updato.com##+js(nostif, updato-overlay, 500)
@@ -8080,7 +8049,6 @@ webcamsdolls.com##.sponsor
 webcheats.com.br##+js(nostif, test, 0)
 webcheats.com.br##+js(set, can_run_ads, true)
 webdesigndev.com##+js(nowoif)
-webdesigndev.com##+js(popads-dummy)
 webmail.email.it##+js(no-fetch-if, googlesyndication)
 webnovel.com##+js(set, adblockSuspected, false)
 webs.com.gt##+js(acs, jQuery, Adblocker)
@@ -8373,7 +8341,6 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtubedownloader.*##+js(nowoif)
 yoututosjeff.*##+js(aeld, load, 2000)
 yoututosjeff.*##+js(aopw, adBlockDetected)
-yoututosjeff1.*##+js(aopr, adBlockDetected)
 ytmp3.*##+js(nowoif)
 ytmp3.cc##+js(nowoif, !/ytmp3|dropbox/)
 ytmp3.cc#@#+js(nowoif)
@@ -39625,9 +39592,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||iam-agof-app.irquest.com^
 ||iam.datasavannah.com^
 ||iam9p3eri3as5lc6hllege.com^
-||iamcdn.net/players/ads.watch.min.js$script,domain=playhydrax.com,important
-||iamcdn.net/players/player*.*mins.js$script,domain=freeplayervideo.com|hydracdn.*|nazarickol.com|player-cdn.com
-||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com
+||iamcdn.net/players/player*.*mins.js$script,domain=freeplayervideo.com|nazarickol.com|player-cdn.com
 ||iamcurrently.lol^
 ||ian029dkl3osl930sian.club^
 ||iaozwe.xyz^
