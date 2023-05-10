@@ -63,7 +63,6 @@
 ##[href^="//look.utndln.com/offer"]
 ##[href^="//mob1ledev1ces.com"]
 ##[href^="//producebreed.com/"]
-##[href^="http://getalinkandshare.com/r"]
 ##[href^="http://referrer.website/"]
 ##[href^="https://13vm73vbmp.com/"]
 ##[href^="https://adult.xyz/"]
@@ -165,8 +164,8 @@
 1shortlink.com##+js(set, letShowAds, true)
 1shortlink.com##[id*="ScriptRoot"]
 1xxx-tube.com###invideo_3
-1xxx-tube.com,asssex-hd.com,bigcockfreetube.com,bigdickwishes.com,freemomstube.com,gobigtitsporn.com,gofetishsex.com,hard-tubesex.com,hd-analporn.com,hiddencamstube.com,kissmaturestube.com,lesbianfantasyxxx.com,modporntube.com,pornexpanse.com,pussytubeebony.com,tubesex.me,vintagesexpass.com,voyeur-pornvideos.com,voyeurspyporn.com,voyeurxxxfree.com,xxxtubenote.com,yummysextubes.com##+js(aopr, Aloader.serve)
-1xxx-tube.com,asssex-hd.com,bigcockfreetube.com,bigdickwishes.com,freemomstube.com,gobigtitsporn.com,gofetishsex.com,hard-tubesex.com,hd-analporn.com,hiddencamstube.com,kissmaturestube.com,lesbianfantasyxxx.com,modporntube.com,pornexpanse.com,pussytubeebony.com,tubesex.me,vintagesexpass.com,voyeur-pornvideos.com,voyeurspyporn.com,voyeurxxxfree.com,xxxtubenote.com,yummysextubes.com##+js(noeval)
+1xxx-tube.com,asssex-hd.com,bigcockfreetube.com,bigdickwishes.com,enjoyfuck.com,freemomstube.com,fuckmonstercock.com,gobigtitsporn.com,gofetishsex.com,hard-tubesex.com,hd-analporn.com,hiddencamstube.com,kissmaturestube.com,lesbianfantasyxxx.com,modporntube.com,pornexpanse.com,pornokeep.com,pussytubeebony.com,tubesex.me,vintagesexpass.com,voyeur-pornvideos.com,voyeurspyporn.com,voyeurxxxfree.com,xxxtubenote.com,yummysextubes.com##+js(aopr, Aloader.serve)
+1xxx-tube.com,asssex-hd.com,bigcockfreetube.com,bigdickwishes.com,enjoyfuck.com,freemomstube.com,fuckmonstercock.com,gobigtitsporn.com,gofetishsex.com,hard-tubesex.com,hd-analporn.com,hiddencamstube.com,kissmaturestube.com,lesbianfantasyxxx.com,modporntube.com,pornexpanse.com,pornokeep.com,pussytubeebony.com,tubesex.me,vintagesexpass.com,voyeur-pornvideos.com,voyeurspyporn.com,voyeurxxxfree.com,xxxtubenote.com,yummysextubes.com##+js(noeval)
 20min.ch,al.com,alphr.com,autoexpress.co.uk,bikeradar.com,blick.ch,chefkoch.de,cyclingnews.com,digitalspy.com,democratandchronicle.com,denofgeek.com,esgentside.com,evo.co.uk,exclusivomen.com,ft.com,gala.de,gala.fr,heatworld.com,itpro.co.uk,livingathome.de,masslive.com,maxisciences.com,metabomb.net,mlive.com,motherandbaby.co.uk,motorcyclenews.com,muthead.com,neonmag.fr,newyorkupstate.com,ngin-mobility.com,nj.com,nola.com,ohmirevista.com,ohmymag.*,oregonlive.com,pennlive.com,programme.tv,programme-tv.net,radiotimes.com,silive.com,simplyvoyage.com,stern.de,syracuse.com,theweek.co.uk,ydr.com##+js(aopr, _sp_._networkListenerData)
 22pixx.xyz##+js(aopr, AdservingModule)
 22pixx.xyz##+js(aopr, ExoLoader.addZone)
@@ -588,8 +587,8 @@ asmwall.com##+js(aopr, adblock)
 assia.tv,assia4.com,assia24.com##+js(nowoif)
 assia.tv,assia4.com,assia24.com##+js(set, ClickUnder, noopFunc)
 assia.tv,assia4.com,assia24.com##[class*="ban"]
+asus-zenfone.com###HTML4
 asus-zenfone.com##+js(nowoif)
-asus-zenfone.com##ins.adsbygoogle
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
@@ -1028,7 +1027,6 @@ camseek.tv##div[style$="height: 240px; background: white"]
 camsexvideo.net##.list-spots
 camvideos.tv##.thumbs-items
 camwhoresbay.com##+js(acs, readCookieDelit)
-camwhoresbay.com##+js(popads-dummy)
 camwhoresbay.com##.content > center:has([style="width:300px;height:250px"])
 camwhoresbay.com##.fake-player
 camwhoresbay.com##div.opt
@@ -1317,7 +1315,6 @@ curvyfemales.com##.im-show
 customercareal.com###locked_action_link.disabled:style(cursor:pointer !important; opacity:1 !important; pointer-events:auto !important)
 customercareal.com##+js(nano-sib)
 customercareal.com##a[id^="actionlinkid_"]
-cut-fly.com##+js(aopr, app_vars.force_disable_adblock)
 cut-fly.com##+js(nowoif)
 cut-fly.com##+js(set, blurred, false)
 cut-fly.com##.banner-inner
@@ -1688,9 +1685,7 @@ encurta.eu##+js(nowoif)
 encurta.eu##.banner-inner
 encurta.eu##[href*="ads.encurta.net/"]
 energy.de#@##ad_home
-enjoyfuck.com##+js(aopr, Aloader.serve)
-enjoyfuck.com##+js(noeval)
-enjoyfuck.com##.advin
+enjoyfuck.com,pornokeep.com##.advin
 enrt.eu##[href*="builderall.net/"]
 enrt.eu,seulink.online##+js(refresh-defuser)
 enstreams.xyz##+js(aopw, _pop)
@@ -2100,8 +2095,6 @@ fuckedporno.com##.bannersinner
 fuckhardporn.com###player_adv_start
 fuckhardporn.com###skim
 fuckhardporn.com##.player_ad_block
-fuckmonstercock.com##+js(aopr, Aloader.serve)
-fuckmonstercock.com##+js(noeval)
 fuckmonstercock.com##.znaipn
 fuckmonstercock.com##.ztkady
 fuckundies.com##+js(acs, puShown, /doOpen|popundr/)
@@ -2180,6 +2173,7 @@ gamefront.com##+js(acs, $, AdBlock)
 gamefront.com##+js(nano-stb, , 10000)
 gameguardian.net##.adsbygoogle:style(height: 1px !important;)
 gamekult.com##+js(aopr, SmartWallSDK)
+gamelopte.com##+js(nano-sib, yuidea-, *)
 gameofporn.com###container
 gameofporn.com##+js(aeld, , exopop)
 gameofporn.com##.block-pub-side
@@ -2780,7 +2774,6 @@ inporn.com##section[is-footer-banners]
 insidemarketing.it##+js(aopr, adblock)
 insidemarketing.it##.homeBannerMax
 insidermonkey.com##+js(acs, Math, '0x)
-inspirationde.com##ins.adsbygoogle
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
 instagram.com#@?#article[role="presentation"] > div[style]:-abp-has(span:-abp-contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
 interfans.org##+js(acs, $, AdBlock)
@@ -3214,6 +3207,8 @@ lolhentai.net##+js(nowoif)
 lolhentai.net##.sponsor
 lonely-mature.com##+js(aopr, EviPopunder)
 lookmovie.ag.w3snoop.com##.ezoic-ad
+loptelink.com##+js(set, blurred, false)
+loptelink.com##center > a[href^="https://loptelink.com/ref/"] > img
 los40.com###adunit
 los40.com##+js(ra, class|style, div[id^="los40_gpt"])
 los40.com##+js(set, huecosPBS.nstdX, null)
@@ -4154,10 +4149,6 @@ player.xxxbestsites.com##+js(aopr, BetterJsPop)
 player.zona-leros.net,zlplayer.net###dvr-vid
 playerhost.net##+js(aopr, open)
 playerhost.net##.adtimes
-playhub.com##.ad-title-megaban
-playhub.com##.ad-title-pave
-playhub.com##.ad-title-sky
-playhub.com##.promo-game
 playok.com##.adsbygoogle:style(height: 1px !important; width: 1px !important;)
 playpaste.com##+js(acs, document.addEventListener, Popup)
 playpaste.com##+js(set, $.ajax, trueFunc)
@@ -4292,9 +4283,6 @@ pornodoido.com##+js(aopr, ExoLoader)
 pornoeggs.com##.card-deck-promotion
 pornoeggs.com##.mediaPlayerBanner
 pornohirsch.net##+js(set, vpPrerollVideo, undefined)
-pornokeep.com##+js(aopr, Aloader.serve)
-pornokeep.com##+js(noeval)
-pornokeep.com##.advin
 pornoman.pl###porno_accept
 pornoman.pl##+js(acs, document.querySelectorAll, popMagic)
 pornoman.pl##+js(aopr, _0x311a)
@@ -4841,6 +4829,8 @@ shemalez.com##.video-page__content > .right
 sheshaft.com##+js(aopr, decodeURI)
 sheshaft.com##.adv-aside
 sheshaft.com##[class*="banner"]
+shindanmaker.com#@#.blog-ad
+shindanmaker.com#@#.blog_ad
 shink.me##+js(acs, $, blockAdBlock)
 shink.me##+js(aopr, jsPopunder)
 shink.me##+js(aopr, pup)
@@ -5520,7 +5510,6 @@ uflash.tv##+js(aopr, open)
 uflash.tv##+js(aopw, ads_priv)
 uflash.tv#@#.ad
 uii.io##+js(aeld, mouseup, _blank)
-uii.io##+js(aopr, app_vars.force_disable_adblock)
 uii.io##+js(noeval)
 uii.io##+js(nowebrtc)
 uii.io##+js(nowoif)
@@ -6068,7 +6057,6 @@ yahoo.com##.ys-mobileFeaturedAd
 yandexcdn.com##+js(nowoif)
 yandexcdn.com##[href="https://t.me/Russia_Vs_Ukraine_War3"]
 yandexcdn.com##a[onclick="openAuc();"]
-yannik.biz##+js(nosiif, visibility, 1000)
 yaoiotaku.com##+js(nostif, afs_ads, 2000)
 yayanimes.net##+js(acs, document.getElementById, null)
 yepi.com##+js(acs, $, modal)
