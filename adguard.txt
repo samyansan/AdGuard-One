@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-11 02:20:14
-! Total count: 77688
+! Version: 2023-05-11 09:06:55
+! Total count: 77689
 
 ###anuncio
 ###bt-ads
@@ -1468,7 +1468,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 5.10px !important;)
+aternos.org##.sidebar:style(width: 0.1% !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -2116,6 +2116,7 @@ classicreload.com##.content-top-wrapper
 classicreload.com##ins.adsbygoogle
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
+click.allkeyshop.com##+js(refresh-defuser)
 clicknupload.*##+js(aopw, _pop)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)

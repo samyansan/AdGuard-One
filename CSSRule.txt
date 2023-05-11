@@ -594,7 +594,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 5.10px !important;)
+aternos.org##.sidebar:style(width: 0.1% !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
 atomtt.com##+js(acs, setTimeout, admc)
@@ -1163,6 +1163,7 @@ classicreload.com##.content-top-wrapper
 classicreload.com##ins.adsbygoogle
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
+click.allkeyshop.com##+js(refresh-defuser)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
 clik.pw##a[href^="https://href.li/"]
