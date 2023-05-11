@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-11 14:16:14
-! Total count: 77120
+! Version: 2023-05-11 20:25:48
+! Total count: 77119
 
 ###anuncio
 ###bt-ads
@@ -121,7 +121,6 @@
 #@#div[id^="div-gpt-"]
 $script,domain=zdnet.fr,3p
 $xhr,redirect-rule=noopjs,domain=player.pl
-(*.js$script,1p,domain=audiodoceo.com|audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 *$1p,image,redirect-rule=1x1.gif,domain=rte.ie
 *$3p,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net|unpkg.com,domain=stfly.me
 *$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com|hwcdn.net|jquery.com|uptomega.com,domain=uptomega.*
@@ -1490,14 +1489,12 @@ atozmath.com##+js(set, googletag._vars_, {})
 atv.pw##+js(aopr, app_vars.force_disable_adblock)
 atv.pw##center > form > button
 atv.pw#@#.g1-advertisement
-audiodoceo.com,audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(noeval-if, blocker)
-audiodoceo.com,magesy.*##+js(no-fetch-if, adsbygoogle)
-audiodoceo.com,magesypro.pro,magesy.*##+js(nostif, AdBlocker)
 audiofanzine.com##+js(set, Math.pow, noopFunc)
 audiotag.info##+js(nostif, xclaim)
 audiotag.info##+js(set, Global.adv, undefined)
 audiotools.*##ins.adsbygoogle
-audiotools.pro,audiodoceo.com,magesypro.pro,magesy.*##+js(acs, document.createElement, admiral)
+audiotools.pro,magesy.blog,magesypro.pro,audioztools.com##+js(noeval-if, blocker)
+audiotools.pro,magesypro.pro,magesy.*##+js(acs, document.createElement, admiral)
 audioz.cc,audioz.es##+js(nostif, modal)
 audioz.cc,audioz.es##+js(set, detectAdBlock, noopFunc)
 audioz.download,peeplink.in##+js(acs, String.fromCharCode, 'shift')
@@ -1538,6 +1535,7 @@ avseesee.com##+js(acs, document.getElementById, _banner)
 avseesee.com##+js(aopw, _pop)
 avseesee.com##.aoa_overlay
 avseesee.com##.textwidget:has(ins)
+ayobelajarbareng.com,semawur.com##+js(nano-sib, , *, 0)
 azarplus.com###overbox3
 azarplus.com##.public-banner-3
 azarplus.com##.td-all-devices > [href][target="_blank"]
@@ -4698,12 +4696,14 @@ madchensex.com###side-spot
 madchensex.com##+js(aopr, ExoLoader)
 mage.si##+js(aeld, load, nextFunction)
 mage.si##+js(nano-sib)
+magesy.*##+js(no-fetch-if, adsbygoogle)
+magesy.*##+js(nobab)
 magesy.*##div[class$="-wrapper"]:has(> div[style="background-color: rgb(255, 255, 255);"])
 magesy.*##div[style="background-color: rgba(255, 0, 0, 0.75);"]
 magesy.*##ins.adsbygoogle
-magesy.*,audiodoceo.com##+js(nobab)
-magesy.download,audiodoceo.com##+js(acs, addEventListener, google_ad_client)
+magesy.download##+js(acs, addEventListener, google_ad_client)
 magesypro.*##ins.adsbygoogle
+magesypro.pro,magesy.*##+js(nostif, AdBlocker)
 magiclen.org##ins.adsbygoogle
 magnetdl.com,magnetdl.org##+js(nowoif)
 magnetdl.com,magnetdl.org##+js(ra, href, a[href="https://vpn-choice.com"])
@@ -6500,7 +6500,6 @@ sekilastekno.com##+js(set, blurred, false)
 sekilastekno.com##[href^="https://poptival.com/direct"]
 semawur.com###main > .text-center > a[href] > img
 semawur.com##+js(aopr, open)
-semawur.com##+js(nano-sib, , *, 0)
 sembunyi.in##+js(aopr, popjs)
 semi168.*##+js(acs, document.oncontextmenu)
 semi168.*##+js(aeld, , _0x)
