@@ -5314,7 +5314,10 @@ theralphretort.com##+js(aopw, adBlockDetected)
 theregister.co.uk##+js(acs, document.createElement, a.adm)
 theregister.co.uk##+js(aopr, RegAdBlocking)
 theshedend.com##+js(nostif, adsbygoogle)
+thesimsresource.com##+js(no-xhr-if, /enthusiastgaming|googleoptimize|googletagmanager/)
 thesimsresource.com##+js(set, isAdBlocked, false)
+thesimsresource.com##.crtv-bottom-wrapper
+thesimsresource.com##.pleasewaitad
 thespruceeats.com##.mntl-leaderboard-spacer
 thespruceeats.com#@#[data-ad-width]
 thesukan.net##+js(aost, String.prototype.charCodeAt, ai_)
