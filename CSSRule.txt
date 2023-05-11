@@ -658,19 +658,9 @@ azarplus.com##.public-banner-3
 azarplus.com##.td-all-devices > [href][target="_blank"]
 azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 azlink.xyz##+js(nano-sib)
-azmath.info##+js(noeval-if, chp_ad)
-azmath.info##+js(nostif, location)
-azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(acs, addEventListener, google_ad_client)
-azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(acs, document.getElementById, style.display)
-azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(nowoif)
-azmath.info,aztravels.net,downfile.site,downphanmem.com,memangbau.com,trangchu.news##+js(nano-stb, "#proceed", 9000)
-azsoft.*,downfile.site##div.display ~ h2.text-center
-azsoft.*,downfile.site##div.display ~ p
-azsoft.*,scratch247.info##+js(nosiif, visibility, 1000)
-aztravels.net,downfile.site,downphanmem.com,expertvn.com##+js(nosiif, visibility, 1000)
-aztravels.net,downfile.site,downphanmem.com,expertvn.com,scratch247.info###adb_detected ~ div.text-content
-aztravels.net,memangbau.com,trangchu.news##+js(ra, onclick, button, stay)
-aztravels.net,memangbau.com,trangchu.news##+js(ra, onclick, input)
+azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(aopr, SMart1)
+azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(noeval-if, chp_ad)
+azmath.info,azsoft.*,downfile.site,downphanmem.com,expertvn.com,memangbau.com,scratch247.info,trangchu.news##+js(set, count, 0)
 b3infoarena.in##+js(aeld, load, 2000)
 babesaround.com,dirtyyoungbitches.com,grabpussy.com,join2babes.com,nightdreambabe.com,novoglam.com,novohot.com,novojoy.com,novoporn.com,novostrong.com,pbabes.com,pussystate.com,redpornblog.com,rossoporn.com,sexynakeds.com,thousandbabes.com##+js(aopr, AaDetector)
 babesaround.com,nightdreambabe.com##.section-bustyMedinaq > a[href^="/click/o/"]
@@ -1498,18 +1488,12 @@ doomovie-hd.com##+js(json-prune, adParam)
 doomovie-hd.com##[src^="data:image/gif;base64,"]
 doseofporn.com##+js(acs, loadTool, popping)
 doujindesu.cc##+js(aeld, load, onload)
-downfile.site##+js(nowoif)
-downfile.site,downphanmem.com,expertvn.com###myModal
-downfile.site,downphanmem.com,expertvn.com##+js(aopr, adBlockDetected)
-downfile.site,downphanmem.com,expertvn.com##.show.fade.modal-backdrop
-downfile.site,downphanmem.com,expertvn.com##body:style(overflow:auto !important)
 download.htdrive.com##+js(acs, document.getElementById, bannerad)
 download.ipeenk.com##+js(aopw, Fingerprint2)
 download.ipeenk.com##+js(aopw, adBlockDetected)
 downloadpirate.com##+js(aopw, Fingerprint2)
 downloadsoft.net##+js(acs, document.createElement, adblock)
 downloadsoft.net##+js(set, better_ads_adblock, 1)
-downphanmem.com,expertvn.com,scratch247.info##div.display ~ div.entry-content
 dozarte.com###banana
 dozarte.com##+js(acs, document.getElementById, undefined)
 dozarte.com##+js(ra, onclick)
@@ -1538,6 +1522,8 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
+dropgalaxy.com#@#[id^="div-gpt-ad-"]
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA
@@ -1748,9 +1734,6 @@ exey.io##+js(acs, encodeURIComponent, XMLHttpRequest)
 exey.io##+js(set, blurred, false)
 exfaucet.com##+js(aopr, adBlockDetected)
 experts-exchange.com##.ctaSolutionSticky
-expertvn.com##.float-ck
-expertvn.com##.td-adspot-title
-expertvn.com,scratch247.info##div.display ~ div.single_post
 express.de,mopo.de###nativendo-marginal
 express.de,mopo.de##.dm_ad
 express.de,mopo.de##.dm_ad-container
@@ -3422,6 +3405,7 @@ megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
 megaup.net##body .metaRedirectWrapperBottomAds:style(margin-top: -10000px !important; pointer-events: none !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
+megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
 megawarez.org##+js(aopw, smrtSB)
 megawarez.org##.onp-sl-content:style(display: block !important;)
 megawarez.org##.onp-sl-social-locker
@@ -5406,8 +5390,6 @@ tr.savefrom.net##+js(nowoif)
 tr.savefrom.net##.second-btn-box
 trade2win.com##+js(nostif, .show)
 trakt.tv##:xpath("//*[(text()='Advertisement')]"):upward(1)
-trangchu.news##+js(nostif, _0x)
-trangchu.news##.video-js
 tranny.one##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 tranny.one##+js(aopr, open)
 tranny.one##+js(popads-dummy)
