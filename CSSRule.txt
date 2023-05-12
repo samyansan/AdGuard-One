@@ -3678,6 +3678,7 @@ ndtv.com##body:style(overflow: auto !important)
 ndtv.com#@##taboola-below-article-thumbnails
 ndtv.com#@#amp-embed[type="taboola"]
 negumo.com##+js(set, fabActive, false)
+neilpatel.com##+js(no-xhr-if, ip-api)
 neko-miku.com##+js(aeld, load, nextFunction)
 nensaysubs.net###outerdiv
 neoteo.com##+js(set, jQuery.adblock, false)

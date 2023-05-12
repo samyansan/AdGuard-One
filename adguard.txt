@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-12 20:24:39
-! Total count: 76807
+! Version: 2023-05-13 02:15:17
+! Total count: 76810
 
 ###anuncio
 ###bt-ads
@@ -741,6 +741,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /iframe.php?spotID=
 /images/*/b/*$image,redirect=2x2.png,domain=babesandbitches.net|babesaround.com|babesbang.com|babeuniversum.com|grabpussy.com|join2babes.com|nightdreambabe.com|novojoy.com|novoporn.com|novostrong.com|pbabes.com|pussystate.com|redpornblog.com|rossoporn.com|sexynakeds.com
 /images/*/banners/*$image,redirect=2x2.png,domain=100bucksbabes.com|8boobs.com|babeimpact.com|babesandgirls.com|babesaround.com|babesinporn.com|babesmachine.com|bustybloom.com|chickteases.com|decorativemodels.com|dirtyyoungbitches.com|exgirlfriendmarket.com|fooxybabes.com|girlsofdesire.org|glam0ur.com|hotstunners.com|livejasminbabes.net|morazzia.com|nakedneighbour.com|novoglam.com|pleasuregirl.net|rabbitsfun.com|sexyaporno.com|sexykittenporn.com|silkengirl.*|slutsandangels.com|theomegaproject.org|thousandbabes.com|vibraporn.com|wantedbabes.com|wildfanny.com
+/images/ad/*$badfilter
 /img/ads/Spinner.png$image,redirect-rule=1x1.gif
 /invoke.js$script,domain=mirrorace.*
 /istripper/istripper_$image,domain=8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|pleasuregirl.net|rabbitsfun.com|silkengirl.*|wantedbabes.com
@@ -5192,6 +5193,7 @@ ndtv.com##body:style(overflow: auto !important)
 ndtv.com#@##taboola-below-article-thumbnails
 ndtv.com#@#amp-embed[type="taboola"]
 negumo.com##+js(set, fabActive, false)
+neilpatel.com##+js(no-xhr-if, ip-api)
 neko-miku.com##+js(aeld, load, nextFunction)
 nekopoi.*##+js(acs, atob, tabunder)
 nekopoi.*##+js(aeld, , adsense)
@@ -6985,6 +6987,7 @@ streamporn.pw###overlays
 streamporn.pw##+js(aopr, ExoLoader.serve)
 streamporn.pw##+js(nowoif)
 streamporn.pw##.btn-lg.btn-block.btn
+streamtape.*#@#.play-overlay
 streamty.com##+js(aopr, open)
 streanplay.*##+js(nowebrtc)
 streanplay.*##+js(set, console.clear, noopFunc)
