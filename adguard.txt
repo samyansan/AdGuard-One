@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-13 02:15:17
-! Total count: 76810
+! Version: 2023-05-13 09:04:15
+! Total count: 76814
 
 ###anuncio
 ###bt-ads
@@ -4449,6 +4449,7 @@ liferayiseasy.*##+js(aeld, load, adsense)
 liferayiseasy.*##+js(aeld, load, getComputedStyle)
 lifesurance.info##+js(aopr, showAds)
 ligainsider.de##+js(acs, $, MutationObserver)
+lightnovelpub.*,lightnovelspot.com,lightnovelworld.com,novelpub.com,webnovelpub.com##+js(nostif, =>)
 lightnovelworld.com##+js(set, importFAB, undefined)
 lightnovelworld.com##.adsbox
 lightnovelworld.com##.vl-ad
@@ -5740,6 +5741,9 @@ pixiv.net##iframe[name][width="500"][height="520"]:upward(1)
 pixiv.net##section > div[class^="sc-"]:last-child > div[style*="width: 728px;"]:only-child > iframe[name="footer"][width="728"][height="90"]:upward(2):matches-css(margin-bottom: -16px)
 pixlr.com###right-space
 pixlr.com###workspace:style(right: 0px !important;)
+plagiarismdetector.net###first_slot
+plagiarismdetector.net###second_slot
+plagiarismdetector.net##+js(aost, adblock)
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
@@ -53763,7 +53767,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||placemypixel.com^
 ||placeofres.com^
 ||placidperson.com^
-||plagiarismdetector.net/js/bioep.min.js
+||plagiarismdetector.net/js/*bioep
 ||plaguealacritytwitter.com^
 ||plaguemanipulatedrag.com^
 ||plaicestems.com^
