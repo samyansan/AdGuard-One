@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-14 20:23:20
-! Total count: 77052
+! Version: 2023-05-15 02:14:26
+! Total count: 77028
 
 ###anuncio
 ###bt-ads
@@ -94,7 +94,6 @@
 ##[id^="p_root_"]
 ##[onclick*="postlnk.com"]
 ##[onclick*="window.open('http://deloplen.com/"]
-##[src="/static/img/download-top.png"]
 ##[src^="//dombnrs.com/"]
 ##[src^="https://aff1xstavka.com"]
 ##a[href*="/go.php?a_aid="]
@@ -131,7 +130,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$3p,denyallow=google.com|googleapis.com|gstatic.com,domain=uplinkto.*
 *$3p,denyallow=google.com|googleapis.com|gstatic.com|recaptcha.net,domain=slink.bid
 *$3p,denyallow=google.com|googleapis.com|gstatic.net,domain=dailyuploads.net
-*$3p,frame,domain=videobin.co
 *$3p,image,domain=rd.com,badfilter
 *$3p,popunder,domain=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
 *$3p,popup,domain=avgle.com
@@ -563,7 +561,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *.gif$domain=www.visionias.net,image
 *.gif$image,domain=misa-anime.com
 *.gif$image,domain=stream1688.com
-*.jpg#$image,domain=radiocockpit.fr,redirect=3x2.png
 *.jpg$script,domain=allthingsvegas.com|clashdaily.com|madworldnews.com|menrec.com|politicalcowboy.com|reviveusa.com|sonsoflibertymedia.com|themattwalshblog.com|videogamesblogger.com
 *.mp4$media,3p,redirect=noopmp3-0.1s,domain=ashemaletube.com
 *.mp4$media,domain=crackle.com
@@ -1329,10 +1326,6 @@ anon-v.com##.place
 anon-v.com##.sponsor
 anon-v.com##.table
 anonymousemail.me##+js(acs, document.getElementById, adblock)
-anonyviet.com##+js(aopr, Date.prototype.toUTCString)
-anonyviet.com##+js(nostif, nextFunction, 250)
-anonyviet.com##.ai-viewport-1
-anonyviet.com##ins.adsbygoogle
 anyporn.com##+js(acs, ExoLoader)
 anyporn.com##+js(nowoif)
 anyporn.com##.inplb3x2
@@ -1535,7 +1528,6 @@ avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotak
 avengerinator.blogspot.com##+js(aeld, load, nextFunction)
 avgle.com###player_3x2_close:style(opacity: 0 !important; height: 300px !important;)
 avgle.com###ps32-container
-avgle.com##+js(nowebrtc)
 avoiderrors.com##+js(nostif, css_class.show)
 avoiderrors.com##.ai-viewport-1.code-block-3.code-block
 avoiderrors.com##[href^="https://www.avoiderrors.com/robinhood"]
@@ -2105,11 +2097,9 @@ classicpornbest.com##+js(aeld, popstate)
 classicpornbest.com##+js(aopr, localStorage)
 classicpornbest.com##.h-bns-bl
 classicpornbest.com,desihoes.com,indianpornvideo.org,porn18sex.com,slaughtergays.com,sexiestpicture.com##+js(aopr, decodeURI)
-classicreload.com###div-gpt-ad
 classicreload.com##+js(nostif, show())
 classicreload.com##.ad-wrapper:upward(div.region-sidebar-first-wrapper)
 classicreload.com##.content-top-wrapper
-classicreload.com##ins.adsbygoogle
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
 click.allkeyshop.com##+js(refresh-defuser)
@@ -2831,7 +2821,6 @@ exey.io##+js(acs, disableItToContinue)
 exey.io##+js(acs, encodeURIComponent, XMLHttpRequest)
 exey.io##+js(set, blurred, false)
 exfaucet.com##+js(aopr, adBlockDetected)
-experts-exchange.com##.ctaSolutionSticky
 express.de,mopo.de###nativendo-marginal
 express.de,mopo.de##.dm_ad
 express.de,mopo.de##.dm_ad-container
@@ -4496,7 +4485,6 @@ linkdrop.net##[id*="ScriptRoot"]
 linkedin.com##.ad-banner-container
 linkedin.com##.artdeco-list__item:has(.job-card-search__promoted-tag)
 linkedin.com##.feed-shared-update:has-text(Promoted)
-linkfinal.com##+js(aopr, app_vars.force_disable_adblock)
 linkfinal.com##+js(set, blurred, false)
 linkfinal.com##.banner
 linkfinal.com##.blog-content
@@ -5546,15 +5534,11 @@ pastpapers.papacambridge.com##[id^="aswift"]
 payskip.org###link-view > p
 payskip.org###link-view a[href] > img
 payskip.org##+js(aeld, DOMContentLoaded, &nbsp)
-payskip.org##+js(aopr, app_vars.force_disable_adblock)
 payskip.org##+js(aopw, _pop)
 payskip.org##+js(aopw, atOptions)
 payskip.org##+js(ra, onclick)
 payskip.org##+js(set, blurred, false)
 payskip.org##.box-main center > a[href][target="_blank"] > img
-payskip.org##[href^="https://ladsipz.com/"]
-payskip.org##[href^="https://offers.backstreetaffiliates.com/"]
-payskip.org##[src^="https://payskip.org/banner"]
 payskip.org##center > center
 pcbolsa.com###ContenidoPubliCotiza
 pcbolsa.com###ContenidoPubliCotizax1
@@ -7397,7 +7381,6 @@ tryboobs.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 tryboobs.com##+js(aopr, open)
 tryboobs.com##.bottomspots
 tryboobs.com##.flirt.spot
-tt1069.com##[src="page20_top.php"]
 ttsmp3.com##ins.adsbygoogle
 tube8.*###flvplayer > [style]:has(.js-remove-ads-premium-link)
 tube8.*###result_container > [class]:not(.video_box)
@@ -7676,7 +7659,7 @@ vectorizer.io##+js(nostif, modal)
 vectorizer.io##[href^="https://track.fiverr.com/"]
 veedi.com##+js(set, adBlocker, false)
 veekyforums.com##+js(nowoif)
-venstrike.jimdo.com,venstrike.jimdofree.com##+js(aeld, load, nextFunction)
+venstrike.jimdofree.com##+js(aeld, load, nextFunction)
 veporno.net##+js(aopr, LieDetector)
 veporno.net#@#.video_ads
 ver-pelis-online.*##+js(set, decodeURIComponent, trueFunc)
@@ -7720,9 +7703,6 @@ video.gazzetta.it##+js(set, google.ima.OmidVerificationVendor, {})
 video.gjirafa.com##+js(json-prune, 0)
 video.sibnet.ru###vjs-overlayclip-box
 video.sibnet.ru##.vjs-overlayclip-box-close
-videobin.co##+js(acs, document.addEventListener, initBCPopunder)
-videobin.co##+js(aopw, Fingerprint2)
-videobin.co##+js(set, adb, 0)
 videogreen.xyz##+js(nowoif)
 videogreen.xyz##+js(set, clientSide.adbDetect, noopFunc)
 videos1002.com##+js(acs, $, azar)
@@ -38971,9 +38951,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hotmovs.com/sw.js$script,1p
 ||hotngay.vn^
 ||hotplay-games.life^
-||hotpornfile.org/*/push/$script,1p
-||hotpornfile.org/qwerty.js^$script,1p
-||hotpornfile.org^$popup
 ||hotpot.360in.com^
 ||hotscope.tv/_next/static/chunks/pages/go-$script,1p
 ||hotscope.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: https://disqus.com *.disqus.com *.google-analytics.com *.disquscdn.com
@@ -72007,7 +71984,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||videoads-cloud.rovio.com^
 ||videoamp.com^
 ||videoapi.smartadserver.com^
-||videobin.co/sw.js$script,1p
 ||videoblocks.evyy.net^
 ||videobox.com^
 ||videoclip.cdn.vidyome.com^
