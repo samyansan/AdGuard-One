@@ -594,7 +594,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.1% !important;)
+aternos.org##.sidebar:style(width: 0.01cm !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.sidebar:style(width: 0px !important;)
 atomtt.com##+js(acs, setTimeout, admc)
@@ -1756,8 +1756,8 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.eg
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:if(a[href^="/ad_campaign"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper:has(a[href*="/ads/"]):not(:has(a[href*="/ads/preferences"]))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper>div div>span>span:has-text(/^Suggested Post$/)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] h4 span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-describedby])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label="広告"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^="hyperfeed_story_id_"]:has(div > span:has(abbr .timestampContent):matches-css(display: none))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
@@ -2419,7 +2419,6 @@ hclips.com##iframe[src="javascript:false"]
 hd-easyporn.com##[rel*="sponsored"]
 hd-easyporn.com,pornblade.com,pornfelix.com###wrapper_content > aside[id]
 hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
-hd-streams.org##+js(nowoif)
 hd-tch.com##+js(acs, addEventListener, nextFunction)
 hdblog.it##.ads_container_top
 hdblog.it##[id^="google_ads_iframe"]
@@ -2613,8 +2612,8 @@ igg-games.com##+js(acs, navigator, FingerprintJS)
 igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
-igg-games.com##[href^="https://igg-games.com/nf"][href$=".html"]
 igg-games.com##[href^="https://tm-offers"]
+igg-games.com##[style^="margin-top"]:has([target="_blank"])
 igg-games.com#@#.uk-panel.widget-text
 ign.com###king
 ign.com##+js(acs, JSON, g02.ign)
@@ -3408,7 +3407,7 @@ megapastes.com##+js(aopw, _pop)
 megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
-megaup.net##body .metaRedirectWrapperBottomAds:style(margin-top: -10000px !important; pointer-events: none !important;)
+megaup.net##body .metaRedirectWrapperBottomAds > div:style(margin-top: -10000px !important; pointer-events: none !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
 megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
 megawarez.org##+js(aopw, smrtSB)
@@ -4940,8 +4939,13 @@ slink.bid##.banner
 slink.bid##^script:has-text('shift')
 slink.bid##^script:has-text(\'shift\')
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
+smallseotools.com##.mxauto.my-2
+smallseotools.com##.show.fade.modal-backdrop
+smallseotools.com##.show.g_popup.fade.modal
+smallseotools.com##.sticky_ssb.my-2
 smallseotools.com##[data-alter]
 smallseotools.com##article
+smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##samp
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
