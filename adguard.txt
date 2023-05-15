@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-15 14:16:55
-! Total count: 77830
+! Version: 2023-05-15 20:27:01
+! Total count: 77828
 
 ###anuncio
 ###bt-ads
@@ -1198,7 +1198,7 @@ allmusic.com##+js(no-fetch-if, ads)
 allmusic.com##.advertising
 allpeliculas.*##+js(nowebrtc)
 allporncomic.com##+js(aopr, exoJsPop101)
-allporncomic.com##+js(aopw, ExoLoader)
+allporncomic.com##+js(aopw, ExoSupport)
 allporncomic.com##.ad
 allporncomic.com##iframe
 allusione.org##+js(aopr, b2a)
@@ -1534,7 +1534,6 @@ avoiderrors.com##.ai-viewport-1.code-block-3.code-block
 avoiderrors.com##[href^="https://www.avoiderrors.com/robinhood"]
 avseesee.com##+js(acs, document.getElementById, _banner)
 avseesee.com##+js(aopw, _pop)
-avseesee.com##.aoa_overlay
 avseesee.com##.textwidget:has(ins)
 ayobelajarbareng.com,semawur.com##+js(nano-sib, , *, 0)
 azarplus.com###overbox3
@@ -2542,8 +2541,8 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
-dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; pointer-events: none !important;)
-dropgalaxy.com#@#[id^="div-gpt-ad-"]
+dropgalaxy.com###vi-smartbanner
+dropgalaxy.com#@#.GoogleActiveViewElement,.middle-container,.mys-wrapper
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA
@@ -3939,12 +3938,12 @@ imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixl
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(set, hold_click, false)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(aopr, console.clear)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(nano-sib, timer)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[class][style="display: block;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[style="width:100%;height:110px"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(aopr, console.clear)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(nano-sib, timer)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[class][style="display: block;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[style="width:100%;height:110px"]
 imgbaron.com###fadeinbox
 imgbaron.com##+js(aopr, loadTool)
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
@@ -4875,7 +4874,6 @@ milfzr.com###post-0
 milfzr.com##+js(acs, String.prototype.charCodeAt, tabunder)
 milfzr.com##+js(aopw, _pop)
 milfzr.com##+js(nowoif)
-milfzr.com##.aoa_overlay
 milfzr.com##.wpfp_custom_ad_content
 mimaletadepeliculas.*##+js(aeld, load, advertising)
 mimaletamusical.blogspot.com##+js(aeld, load, 2000)
@@ -5151,6 +5149,7 @@ nakedarab-tube.com,xxxtubepass.com,yestubemature.com,yourhomemadetube.com,yourtr
 nakedneighbour.com##.banner:upward(.block)
 namemc.com##+js(acs, setTimeout, runInIframe)
 namemc.com##+js(aopw, deployads)
+namemc.com##.ad-container
 namethatporn.com##+js(popads-dummy)
 namethatporn.com##[data-flba^="https://landing.brazzersnetwork.com"]
 nanime.us##+js(acs, document.querySelectorAll, popMagic)
@@ -6198,7 +6197,6 @@ quora.com##div > [class^="Box-"] > div > .q-box.qu-pb--tiny.qu-pt--medium.qu-px-
 quora.com##div[class="pagedlist_item"]  div[id*="paged_list"]
 quora.com##div[class="question_main_col"]  > div:nth-child(3) > div[class="UnifiedAnswerPagedList PagedListFoo unified"]
 quora.com##div[id$="_content_box"]
-r34anim.com##.aoa_overlay
 rabbitsfun.com##.gallery-banner
 rabbitsfun.com##.picture-banner
 radio.*##.topAdSpacer
@@ -18516,7 +18514,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
 ||analytics2.awsli.com.br^
-||analytics2.dashboard.fingerprint.com^
 ||analytics2.tvreport.co.kr^
 ||analytics3.starschina.com^
 ||analytics33.techsmith.com^
@@ -29893,6 +29890,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||dashbo15myapp.com^
 ||dashboard.aimtell.com^
 ||dashboard.evolveplatform.net^
+||dashboard.fingerprint.com^$strict3p,xhr,domain=dashboard.fingerprint.com
 ||dashboard.hiido.com^
 ||dashboard.io^
 ||dashboard.tinypass.com^
@@ -37559,7 +37557,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=homes.co.nz
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kinoheld.de
 ||googletagservices.com/tag/js/gpt.js$script,redirect=noopjs,domain=ladbible.com
-||googletagservices.com/tag/js/gpt.js$script,redirect=noopjs,domain=playground.ru|radio-canada.ca|tvguide.com
+||googletagservices.com/tag/js/gpt.js$script,redirect=noopjs,domain=radio-canada.ca|tvguide.com
 ||googletagservices.com^
 ||googletagservices.com^$domain=pccomponentes.com,important
 ||googleusaanalytics.com^

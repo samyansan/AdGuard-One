@@ -373,7 +373,7 @@ allmonitors24.com##+js(nostif, (), 2000)
 allmusic.com##+js(no-fetch-if, ads)
 allmusic.com##.advertising
 allporncomic.com##+js(aopr, exoJsPop101)
-allporncomic.com##+js(aopw, ExoLoader)
+allporncomic.com##+js(aopw, ExoSupport)
 allporncomic.com##.ad
 allporncomic.com##iframe
 allusione.org##+js(aopr, b2a)
@@ -646,7 +646,6 @@ avoiderrors.com##.ai-viewport-1.code-block-3.code-block
 avoiderrors.com##[href^="https://www.avoiderrors.com/robinhood"]
 avseesee.com##+js(acs, document.getElementById, _banner)
 avseesee.com##+js(aopw, _pop)
-avseesee.com##.aoa_overlay
 avseesee.com##.textwidget:has(ins)
 ayobelajarbareng.com,semawur.com##+js(nano-sib, , *, 0)
 azarplus.com###overbox3
@@ -1515,8 +1514,8 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
-dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; pointer-events: none !important;)
-dropgalaxy.com#@#[id^="div-gpt-ad-"]
+dropgalaxy.com###vi-smartbanner
+dropgalaxy.com#@#.GoogleActiveViewElement,.middle-container,.mys-wrapper
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA
@@ -2654,12 +2653,12 @@ imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > div:first-of-typ
 imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > h3:first-child
 imgadult.com,imgdrive.net,imgwallet.com##.bottom_abs
 imgadult.com,imgdrive.net,imgwallet.com##.centered
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(aopr, console.clear)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(nano-sib, timer)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[class][style="display: block;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online##div[style="width:100%;height:110px"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(aopr, console.clear)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(nano-sib, timer)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[class][style="display: block;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online##div[style="width:100%;height:110px"]
 imgbaron.com###fadeinbox
 imgbaron.com##+js(aopr, loadTool)
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
@@ -3443,7 +3442,6 @@ milfzr.com###post-0
 milfzr.com##+js(acs, String.prototype.charCodeAt, tabunder)
 milfzr.com##+js(aopw, _pop)
 milfzr.com##+js(nowoif)
-milfzr.com##.aoa_overlay
 milfzr.com##.wpfp_custom_ad_content
 mimaletamusical.blogspot.com##+js(aeld, load, 2000)
 mimaletamusical.blogspot.com##+js(nowebrtc)
@@ -3636,6 +3634,7 @@ nakedarab-tube.com,xxxtubepass.com,yestubemature.com,yourhomemadetube.com,yourtr
 nakedneighbour.com##.banner:upward(.block)
 namemc.com##+js(acs, setTimeout, runInIframe)
 namemc.com##+js(aopw, deployads)
+namemc.com##.ad-container
 namethatporn.com##+js(popads-dummy)
 namethatporn.com##[data-flba^="https://landing.brazzersnetwork.com"]
 nanime.us##+js(acs, document.querySelectorAll, popMagic)
@@ -4478,7 +4477,6 @@ quora.com##div > [class^="Box-"] > div > .q-box.qu-pb--tiny.qu-pt--medium.qu-px-
 quora.com##div[class="pagedlist_item"]  div[id*="paged_list"]
 quora.com##div[class="question_main_col"]  > div:nth-child(3) > div[class="UnifiedAnswerPagedList PagedListFoo unified"]
 quora.com##div[id$="_content_box"]
-r34anim.com##.aoa_overlay
 rabbitsfun.com##.gallery-banner
 rabbitsfun.com##.picture-banner
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##+js(nostif, .call(null), 10)
