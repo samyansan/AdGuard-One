@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-15 02:14:26
+! Version: 2023-05-15 09:08:53
 ! Total count: 77028
 
 ###anuncio
@@ -621,6 +621,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 .wa|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 .wsm|$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
 .xyz/event|$xhr,3p
+.xyz/|$xhr,domain=dropgalaxy.com
 /(?:com|net)\/[0-9a-f]{12}\.js$/$script,1p,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /(?:com|net)\/[a-z-]{3,10}\.html$/$frame,1p,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xhr,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to,badfilter
@@ -2018,7 +2019,6 @@ celebmasta.com##img.size-medium
 celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
-cellmapper.net##+js(set, adTestPass, true)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -2542,7 +2542,7 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
-dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; pointer-events: none !important;)
 dropgalaxy.com#@#[id^="div-gpt-ad-"]
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)

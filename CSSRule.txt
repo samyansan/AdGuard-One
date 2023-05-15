@@ -1075,7 +1075,6 @@ celebmasta.com##img.size-medium
 celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
-cellmapper.net##+js(set, adTestPass, true)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -1516,7 +1515,7 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.oncontextmenu)
 drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
-dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; pointer-events: none !important;)
 dropgalaxy.com#@#[id^="div-gpt-ad-"]
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
