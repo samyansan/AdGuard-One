@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-15 20:27:01
-! Total count: 77828
+! Version: 2023-05-16 02:15:50
+! Total count: 77829
 
 ###anuncio
 ###bt-ads
@@ -958,7 +958,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 4j.com##body:style(overflow: auto !important;)
 4movierulz.*##+js(aeld, , _0x)
 4movierulz.*,4movierulz1.*,7movierulzfree.*,movieruls.*,movierulz4k.*,movierulzfree.*,movierulzwatch.*,movierulzs.*##.ad_btn-white
-4players.de,buffed.de,gamesaktuell.de,gamezone.de,pcgames.de,player.pcgameshardware.de,videogameszone.de##+js(set, CustomEvent, noopFunc)
+4players.de,buffed.de,gamesaktuell.de,gamezone.de,pcgames.de,player.pcgameshardware.de,videogameszone.de,spieletipps.de##+js(set, CustomEvent, noopFunc)
 4share.vn##+js(nano-stb)
 4share.vn##+js(nowoif)
 4shared.com##+js(nosiif, .append, 1000)
@@ -1512,7 +1512,7 @@ australianfrequentflyer.com.au##+js(nostif, prompt)
 auto-data.net##+js(acs, document.getElementById, adblock)
 auto-motor-und-sport.de,caravaning.de,womenshealth.de##+js(aopw, adblockActive)
 autobild.de##+js(aopr, adSSetup)
-autobild.de,computerbild.de,golem.de,desired.de,stern.de,familie.de,tvnow.*,kino.de,spieletipps.de##+js(no-xhr-if, damoh)
+autobild.de,computerbild.de,golem.de,desired.de,stern.de,familie.de,tvnow.*,kino.de##+js(no-xhr-if, damoh)
 autoblog.com###ymm-sub-nav:style(top:0px !important)
 autobytel.com,cesoirtv.com,gamesradar.com,huffingtonpost.co.uk,huffingtonpost.com,moviefone.com,playboy.de##+js(aopw, _sp_)
 autofaucet.dutchycorp.space##.show-on-medium
@@ -6846,7 +6846,7 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aost, Math, onreadystatechange)
+spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopr, AAilccEoG)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
@@ -66739,6 +66739,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||tags.soloway.ru^
 ||tags.spider-mails.com^
 ||tags.srv.stackadapt.com^
+||tags.tiqcdn.com/utag/aaa/main/prod/utag.js$script,domain=aaa.com
 ||tags.tiqcdn.com^$badfilter
 ||tags.topshareware.com^
 ||tags.w55c.net^
