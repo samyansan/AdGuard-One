@@ -64,7 +64,6 @@
 ##[href^="//mob1ledev1ces.com"]
 ##[href^="//producebreed.com/"]
 ##[href^="http://referrer.website/"]
-##[href^="https://13vm73vbmp.com/"]
 ##[href^="https://adult.xyz/"]
 ##[href^="https://ahf8n.com/"]
 ##[href^="https://ghoto-12.win/"]
@@ -574,7 +573,6 @@ ashemaletube.com##.header-ads-wrapper
 ashemaletube.com##.video-end-overlay
 asiananimaltube.org,zoosex.pink##+js(nowoif)
 asianclub.tv##+js(aeld, click, open)
-asiansister.com##+js(acs, document.getElementById, adsBlockAlert)
 asianxxxvideo.net##+js(aopw, ExoLoader)
 asianxxxvideo.net##.a_all
 asianxxxvideo.net##.play
@@ -1515,7 +1513,7 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 dropgalaxy.com###vi-smartbanner
-dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; max-width: 1px !important; opacity: 0 !important;)
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(opacity: 0 !important; pointer-events: none !important;)
 dropgalaxy.com#@#.GoogleActiveViewElement,.middle-container,.mys-wrapper
 dropgalaxy.com#@#[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
 drrtyr.mx##+js(nosiif, visibility, 1000)
@@ -2170,14 +2168,12 @@ games.usatoday.com##+js(acs, ark_jQuery, Adblock)
 games.usatoday.com##+js(set, arkPage.arena.disableGameWithAdblock, false)
 games.wkb.jp##+js(set, gWkbAdVert, true)
 games.wkb.jp##+js(set, noblock, true)
-games2rule.com###adContainer
 games2rule.com##+js(ra, target)
 games2rule.com##.col-sm-4:has-text(Advertisement)
 games2rule.com##[id^="gdsdk_"]
 games2rule.com##div.border_radius:has-text(Advertisement)
 games2rule.com##div:has(> div:has(> .adsbygoogle))
 games2rule.com##embed:style(display:inherit!important)
-games2rule.com##ins.adsbygoogle
 games4king.com###ava-game_container:style(display:inherit!important)
 games4king.com###wrapped-content:style(display:inherit!important)
 games4king.com##+js(ra, target)
@@ -2871,7 +2867,6 @@ javtiful.com##.v3sb-box
 javtiful.com##.v3sx
 javtiful.com##[href^="//"][rel="nofollow norefferer noopener"]
 javtiful.com##body > div[style*="z-index:"]
-javtrust.com##body > div[class="clearfix"] + div[style^="overflow"]
 javxxx.me###player_3x2_container_inner
 jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 jellynote.com##+js(nostif, byepopup, 5000)
@@ -3109,8 +3104,6 @@ linkdrop.net##[href="https://linkdrop.net/getlink"]
 linkdrop.net##[href^="javascript:"]
 linkdrop.net##[id*="ScriptRoot"]
 linkedin.com##.ad-banner-container
-linkedin.com##.artdeco-list__item:has(.job-card-search__promoted-tag)
-linkedin.com##.feed-shared-update:has-text(Promoted)
 linkfinal.com##+js(set, blurred, false)
 linkfinal.com##.banner
 linkfinal.com##.blog-content
@@ -4094,7 +4087,6 @@ pixiv.net##iframe[name="topbranding_rectangle"][width="300"][height="250"]:upwar
 pixiv.net##iframe[name][width="184"][height="232"]:upward(1)
 pixiv.net##iframe[name][width="500"][height="520"]:upward(1)
 pixiv.net##section > div[class^="sc-"]:last-child > div[style*="width: 728px;"]:only-child > iframe[name="footer"][width="728"][height="90"]:upward(2):matches-css(margin-bottom: -16px)
-pixlr.com###right-space
 pixlr.com###workspace:style(right: 0px !important;)
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
@@ -4290,15 +4282,6 @@ pornrabbit.com##+js(nowoif)
 pornrabbit.com##.footer-margin
 pornrabbit.com##.stage-promo
 pornrabbit.com##.table
-pornrox.com##+js(acs, document.querySelectorAll, popMagic)
-pornrox.com##+js(aeld, getexoloader)
-pornrox.com##+js(aopr, document.dispatchEvent)
-pornrox.com##+js(aopr, open)
-pornrox.com##.footer-zone > .is-relative.is-flex
-pornrox.com##.ntv-code-container
-pornrox.com##.overlay-content
-pornrox.com##.video-player-overlay
-pornrox.com##[href="/advertising"]
 pornsocket.com##+js(set, _site_ads_ns, true)
 pornstarsadvice.com##.banners
 porntop.com###inv_pause
@@ -4691,7 +4674,6 @@ scubidu.eu###custom_html-15
 scubidu.eu###custom_html-16
 scubidu.eu##+js(aost, String.prototype.charCodeAt, ai_)
 scubidu.eu##ins.adsbygoogle
-sdw-net.me##+js(aeld, load, onload)
 search.crowdsearch.net#@##adslot1
 searchenginereports.net##.advert-slot
 seatguru.com##+js(nowoif)
@@ -4808,8 +4790,6 @@ shink.me##+js(aopr, jsPopunder)
 shink.me##+js(aopr, pup)
 shink.me##+js(aopw, Fingerprint2)
 shink.me##+js(popads.net)
-shippuden.tv###ads
-shippuden.tv##+js(nowebrtc)
 shiropro-re.net#@##ad_link
 sholah.net,2rdroid.com##+js(nostif, keep-ads, 2000)
 shon.xyz##+js(aopw, Fingerprint2)
@@ -5022,7 +5002,7 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopr, AAilccEoG)
+spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopr, NJoQiEAppq)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
@@ -5973,7 +5953,11 @@ xiaopan.co##+js(aopw, AdBlockDetectorWorkaround)
 xmovies08.org##+js(aeld, , '0x)
 xnxx-sexfilme.com###wa-banner
 xnxx-sexfilme.com##+js(aopw, SpecialUp)
+xnxx-sexfilme.com##.grid_box:has(a[target="_blank"])
 xnxx-sexfilme.com##.img_box:has-text(Anzeige)
+xnxx-sexfilme.com##.preroll-blocker
+xnxx-sexfilme.com##.preroll-skip-button
+xnxx-sexfilme.com##.vjs-overlayed
 xnxx-sexfilme.com##aside ins:upward(aside)
 xnxxjapon.com###asg-inplayer-block:upward(4)
 xnxxvideo.pro##.video-archive-ad
@@ -6030,7 +6014,6 @@ yayanimes.net##+js(acs, document.getElementById, null)
 yepi.com##+js(acs, $, modal)
 yeswegays.com,youramateurtube.com##+js(nowoif)
 yeutienganh.com##+js(aopw, adBlockDetected)
-yify-movies.net##+js(acs, JSON, isFinite)
 yiv.com##+js(nostif, Adb)
 yiv.com#@##adsContainer
 ylilauta.org##+js(aeld, , ad-load-fail)
