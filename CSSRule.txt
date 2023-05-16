@@ -3213,6 +3213,8 @@ luscious.net##a[rel$="sponsored"]
 luscious.net##div[class^="adDisplay-module"]
 lusthero.com##+js(nostif, (), 50)
 luxuretv.com##+js(acs, $, ltvModal)
+luxuretv.com##+js(aopr, popns)
+luxuretv.com##+js(set, luxuretv.config, '')
 luxuretv.com##iframe[data-src^="https://networkmanag.com/"]
 luzernerzeitung.ch,tagblatt.ch##+js(nostif, adblock, 5)
 lyricsongation.com##+js(nobab)
