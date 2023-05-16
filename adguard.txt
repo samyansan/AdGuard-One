@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-16 14:16:24
-! Total count: 78314
+! Version: 2023-05-16 20:27:39
+! Total count: 78316
 
 ###anuncio
 ###bt-ads
@@ -633,7 +633,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /2.gif?$badfilter
 /3.gif?$badfilter
 /?*&callback=callback_json_adblade*$script
-/?log=stats$xhr,domain=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+/?log=$xhr,domain=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
 /?r=dir&zoneid=$all
 /YandexAds.$badfilter
 /YandexMetric.$badfilter
@@ -1467,9 +1467,8 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.01cm !important;)
+aternos.org##.sidebar:style(width: 0.15mm !important; padding: 1px !important;)
 aternos.org##[style*="opacity:  0"]
-aternos.org#@#.sidebar:style(width: 0px !important;)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, adcashMacros)
 atomixhq.*,pctfenix.*,pctnew.*##+js(nowoif, !/download\/|link/)
@@ -2181,6 +2180,7 @@ compucalitv.com##.onp-sl-social-locker
 compucalitv.com,compupaste.com,paste3.org##+js(aopw, _pop)
 compupaste.com##+js(nowoif)
 computerbild.de##.startdownload > a[data-is-manager-usable="1"]
+computerworld.com,networkworld.com,probuildstats.com##div.ad-placement
 comunidadgzone.es##+js(nostif, nextFunction, 2000)
 configspc.com##+js(set, jsUnda, noopFunc)
 conservativebrief.com###main-box-3
@@ -2542,7 +2542,9 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 dropgalaxy.com###vi-smartbanner
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; max-width: 1px !important; opacity: 0 !important;)
 dropgalaxy.com#@#.GoogleActiveViewElement,.middle-container,.mys-wrapper
+dropgalaxy.com#@#[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA

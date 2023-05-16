@@ -589,9 +589,8 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.01cm !important;)
+aternos.org##.sidebar:style(width: 0.15mm !important; padding: 1px !important;)
 aternos.org##[style*="opacity:  0"]
-aternos.org#@#.sidebar:style(width: 0px !important;)
 atomtt.com##+js(acs, setTimeout, admc)
 atozmath.com##+js(set, google.javascript, {})
 atozmath.com##+js(set, google.javascript.ads, {})
@@ -1220,6 +1219,7 @@ compucalitv.com##.onp-sl-social-locker
 compucalitv.com,compupaste.com,paste3.org##+js(aopw, _pop)
 compupaste.com##+js(nowoif)
 computerbild.de##.startdownload > a[data-is-manager-usable="1"]
+computerworld.com,networkworld.com,probuildstats.com##div.ad-placement
 comunidadgzone.es##+js(nostif, nextFunction, 2000)
 configspc.com##+js(set, jsUnda, noopFunc)
 conservativebrief.com###main-box-3
@@ -1515,7 +1515,9 @@ drivelinks.me,hackshort.me,pelislinks.me##+js(acs, document.onmousedown)
 dronedj.com##+js(set, String.prototype.charCodeAt, trueFunc)
 dronedj.com##.adsense, a[target="_blank"][rel="noopener noreferrer"]
 dropgalaxy.com###vi-smartbanner
+dropgalaxy.com##[id^="div-gpt-ad-"]:style(max-height: 5px !important; max-width: 1px !important; opacity: 0 !important;)
 dropgalaxy.com#@#.GoogleActiveViewElement,.middle-container,.mys-wrapper
+dropgalaxy.com#@#[id^="div-gpt-ad-"]:style(max-height: 2px !important; max-width: 1px !important; opacity: 0 !important;)
 drrtyr.mx##+js(nosiif, visibility, 1000)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA
