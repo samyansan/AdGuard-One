@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-17 02:15:45
-! Total count: 78299
+! Version: 2023-05-17 09:09:43
+! Total count: 78304
 
 ###anuncio
 ###bt-ads
@@ -1508,7 +1508,6 @@ australianfrequentflyer.com.au##+js(nostif, prompt)
 auto-data.net##+js(acs, document.getElementById, adblock)
 auto-motor-und-sport.de,caravaning.de,womenshealth.de##+js(aopw, adblockActive)
 autobild.de##+js(aopr, adSSetup)
-autobild.de,computerbild.de,golem.de,desired.de,stern.de,familie.de,tvnow.*,kino.de##+js(no-xhr-if, damoh)
 autoblog.com###ymm-sub-nav:style(top:0px !important)
 autobytel.com,cesoirtv.com,gamesradar.com,huffingtonpost.co.uk,huffingtonpost.com,moviefone.com,playboy.de##+js(aopw, _sp_)
 autofaucet.dutchycorp.space##.show-on-medium
@@ -2177,6 +2176,7 @@ compucalitv.com##.onp-sl-social-locker
 compucalitv.com,compupaste.com,paste3.org##+js(aopw, _pop)
 compupaste.com##+js(nowoif)
 computerbild.de##.startdownload > a[data-is-manager-usable="1"]
+computerbild.de,golem.de,desired.de,tvnow.*##+js(no-xhr-if, damoh)
 computerworld.com,networkworld.com,probuildstats.com##div.ad-placement
 comunidadgzone.es##+js(nostif, nextFunction, 2000)
 configspc.com##+js(set, jsUnda, noopFunc)
@@ -2388,7 +2388,9 @@ designbump.com,thedesigninspiration.com##+js(aost, Math.random, /(?=.*onerror)(?
 designmodo.com##.onp-sl-content:style(display: block !important;)
 designmodo.com##.onp-sl-social-locker
 designoptimal.com##ins.adsbygoogle
+desired.de##+js(ra, data-ivad-preroll-adtag, video, stay)
 desired.de##.sad_banner
+desired.de,kino.de##+js(no-xhr-if, svonm)
 desiremovies.*##+js(acs, document.createElement, console)
 desiremovies.*##+js(aeld, , _0x)
 desiremovies.*##+js(aopw, _pop)
@@ -2734,7 +2736,7 @@ empflix.com##.mewDv
 empflix.com##.padAdvx
 empflix.com#@##hideAd
 empflix.com,tnaflix.com##.lastLiAvx
-emurom.net##+js(set, dvsize, 21)
+emurom.net##+js(set, dvsize, 51)
 encoretvb.com###square-ad-1
 encurta.eu##+js(aopr, app_vars.force_disable_adblock)
 encurta.eu##+js(nowoif)
@@ -2880,6 +2882,7 @@ factable.com##.puicontainer
 fake-it.ws##+js(set, adsLoadable, true)
 fakyutube.com##+js(aopr, __Y)
 fakyutube.com##+js(nowoif)
+familie.de,kino.de,stern.de,autobild.de#@#+js(no-xhr-if, damoh)
 familyhandyman.com##.ad
 familyhandyman.com##.advertisement
 familyhandyman.com##.cm-ad-unit-section
@@ -27530,6 +27533,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||compufixshop.com^
 ||compulite.actonservice.com^
 ||compulsionspotsbeacon.com^
+||computer-bild.de/_static-assets/homad/homad.js
 ||computerbild.de/assets/homad/*$xhr,redirect=nooptext,domain=computerbild.de
 ||computers.panasonic.eu^
 ||computerworld.com/*/gpt_includes.js$script,redirect-rule=googletagservices_gpt.js
@@ -65829,6 +65833,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||stereotypedclub.com^
 ||stereotypedsugar.com^
 ||sterlingwoods.com^
+||stern.de/__assets/homad
 ||sternlythese.com^
 ||stethydelicat.com^
 ||stetic.com^
