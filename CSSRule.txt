@@ -1172,6 +1172,7 @@ cloudvideotv.*,cloudvideo.tv##^script:has-text(FingerprintJS)
 club-flank.com##+js(aopr, ExoLoader.serve)
 cnbc.com##+js(set, cnbc.canShowAds, true)
 cnbc.com##[class^="CreditCardCalloutWildcard-styles-select"]:has([href*="/?lid="])
+cnn.com##.ad-slot-header__wrapper:style(display: none !important; top: 0 !important)
 cnnamador.com##+js(aeld, , pop)
 cnnamador.com##+js(aeld, /^(click|mousedown|mousemove|touchstart|touchend|touchmove)/, system.popunder)
 cnnamador.com##+js(aopw, adv_post_duration)
@@ -2772,6 +2773,7 @@ investing.com##[class*="overlay_overlay"]
 investing.com##body:style(overflow: auto !important)
 investmentwatchblog.com##+js(acs, Math, '0x)
 investmentwatchblog.com##+js(aopw, ABD)
+iphoneincanada.ca#@#a[href^="https://click.linksynergy.com/fs-bin/"]
 iphonesoft.fr##+js(nostif, replace, 1500)
 iphonesoft.fr##.bigPub
 iphonetweak.fr##.bigPub
