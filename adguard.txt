@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-17 20:25:29
-! Total count: 78240
+! Version: 2023-05-18 02:15:34
+! Total count: 78237
 
 ###anuncio
 ###bt-ads
@@ -246,6 +246,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$media,domain=series-d.com,redirect=noopmp3-0.1s
 *$media,domain=stream1688.com,redirect=noopmp3-0.1s
 *$media,redirect-rule=noop-0.1s.mp3,3p,domain=gmx.*|web.de
+*$media,redirect-rule=noopmp4-1s,domain=spiegel.de|t-online.de|giga.de
 *$media,redirect=noopmp3-0.1s,domain=canalplus.com
 *$media,redirect=noopmp3-0.1s,domain=funimation.com
 *$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
@@ -1243,8 +1244,6 @@ andiim3.com##+js(acs, jQuery, AdBlock)
 androgamer.org##+js(acs, jQuery, ai_adb)
 androidaba.*##+js(aopw, adBlockDetected)
 androidcure.com,bodytr.com,kasvekuvvet.net##+js(aopr, googletag)
-androidcustom.com##+js(nano-sib)
-androidcustom.com##+js(set, safelink.adblock, false)
 androidonepro.com##+js(aopr, downloadJSAtOnload)
 androidrepublic.org##+js(acs, $, samInitDetection)
 androidweblog.com##.ezoic-ad
@@ -2397,7 +2396,6 @@ desiremovies.*##.code-block-2.code-block
 desiupload.*##+js(acs, getCookie)
 desiupload.*##[href*="desifile.in/404"]
 desiupload.*,9xupload.*##+js(nano-stb)
-desktopsolution.org,svipvids.com##+js(aopw, KillAdBlock)
 detroitnews.com###partner-poster-0
 devast.io###advert
 devdrive.cloud##+js(acs, document.getElementById, undefined)
@@ -5027,9 +5025,6 @@ mp4upload.com###lay.lay
 mp4upload.com##+js(aopw, _pop)
 mp4upload.com##+js(aopw, adcashMacros)
 mpg.football##+js(set, ads, true)
-mrcong.com###fukie1
-mrcong.com##+js(aeld, /.?/, popMagic)
-mrcong.com##+js(set, importFAB, null)
 mrdeepfakes.com##+js(acs, document.getElementsByTagName, script)
 mrdeepfakes.com##+js(aopw, ReactAds)
 mrdeepfakes.com##+js(aopw, phtData)
@@ -6832,7 +6827,6 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopr, NJoQiEAppq)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
@@ -7021,6 +7015,7 @@ supforums.com##.sidebar-rcs
 suzylu.co.uk##+js(set, adsbygoogle, trueFunc)
 suzylu.co.uk##+js(set, player.ads.cuePoints, undefined)
 svapo.it##+js(aopw, adBlockDetected)
+svipvids.com##+js(aopw, KillAdBlock)
 sxyprn.*###vid_container_id > .tdn
 sxyprn.*##+js(acs, decodeURI, decodeURIComponent)
 sxyprn.*##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
@@ -7044,6 +7039,7 @@ t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
 t-online.de##+js(set, abp, false)
+t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
 t-online.de##[href^="https://ad1.adfarm1.adition.com"]
 t-online.de##^script:has-text(,window\);)
@@ -7547,9 +7543,6 @@ uploadbuzz.*##+js(aopw, _pop)
 uploadev.*##+js(nowoif)
 uploadev.*##+js(set, openInNewTab, noopFunc)
 uploadever.com##+js(nano-stb)
-uploadfiles.pw##+js(aopr, decodeURIComponent)
-uploadfiles.pw##+js(nano-stb)
-uploadfiles.pw,w4files.ws##+js(ra, onclick)
 uploadfree.info###at-btn-download
 uploadrar.*##+js(acs, Math, _0x)
 uploadrar.*##+js(aopr, popns)
@@ -7997,6 +7990,7 @@ webtvhd.com##ins.adsbygoogle
 welovestream.xyz##.video-fake
 welovestream.xyz##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 welt.de##+js(aost, Object, /gdpr.*inlineScript/)
+welt.de,~dutyfarm.welt.de##div[id][style^="z-index:"][style*=" margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0);"]:remove()
 wemakesites.net##+js(acs, $, adBlockChecker)
 westword.com##.AirBillboardInlineContentresponsive
 wetter.com##+js(acs, $, lobster)
@@ -8269,10 +8263,12 @@ youtube.com###promotion-shelf
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtubedownloader.*##+js(nowoif)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
 yoututosjeff.*##+js(aeld, load, 2000)
 yoututosjeff.*##+js(aopw, adBlockDetected)
 ytmp3.*##+js(nowoif)
@@ -15846,7 +15842,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=943thex.com
 ||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=973espn.com
 ||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=espn1420.com
-||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=newstalk1290.com
 ||adservice.google.com/adsid/integrator.js$xhr,redirect=noopjs,domain=maxedtech.com
 ||adservice.google.com^
 ||adservice.google.cv^
@@ -16338,6 +16333,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||adventurefeeds.xml-v6.ak-is2.net^
 ||adventurefeeds.xml.ak-is2.net^
 ||adventurercraft.com^
+||adventuresro.com^$badfilter
 ||adventureurgently.com^
 ||adventurouscondensedrebuff.com^
 ||advenueplatform.com^
@@ -31750,6 +31746,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||doubleclick.net^$important,script,domain=wired.com
 ||doubleclick.net^$script,important,domain=auto-motor-und-sport.de
 ||doubleclick.net^$script,important,domain=spiegel.de
+||doubleclick.net^$script,important,domain=spiegel.de,badfilter
 ||doubleclick.shockwave.com^
 ||doubleclickbygoogle.com^
 ||doubleclicks.co.kr^
@@ -37862,7 +37859,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=gameguardian.net
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=igniel.com
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=iptvdroid1.blogspot.com
-||googlesyndication.com/pagead/$script,redirect=noopjs,domain=main-echo.de
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=mitly.us
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=solvetube.site,important
 ||googlesyndication.com/pagead/$script,redirect=noopjs,domain=uploadbox.io
@@ -37943,6 +37939,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlevideo.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?expire$media,domain=lifehacker.com,redirect=noopmp3-0.1s
 ||googlevideo.com^$media,redirect=noopmp4-1s,domain=mlb.com
+||googlevideo.com^$media,redirect=noopmp4-1s,domain=t-online.de|giga.de
 ||goomaphy.com^
 ||goon.ru^
 ||gooods4you.com^
@@ -39018,6 +39015,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hexaware.evergage.com^
 ||hexodesmacker.com^
 ||hexovythi.pro^
+||hexupload.net/images/Premium_Banners/$3p
 ||hey.lt^
 ||heylink.com^
 ||heymatic.com^
@@ -60810,8 +60808,8 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||securemvt.apple.com^
 ||secureoutreach.unisys.com^
 ||securepaths.com^
+||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,important,domain=spiegel.de
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
-||securepubads.g.doubleclick.net/tag/js/gpt.js$xhr,redirect=noop.js,domain=rp-online.de|saarbruecker-zeitung.de|volksfreund.de
 ||securerunner.com^
 ||securestate.evergage.com^
 ||securestats.cafepress.com^
@@ -72244,7 +72242,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||uplift-platform.com^
 ||upload.kipa.co.il^
 ||uploadbank.com/js/abcode.js
-||uploadfiles.pw^$csp=default-src 'self' 'unsafe-inline'
 ||uploadrar.*/sw.js$script
 ||uplog.inews.qq.com^
 ||uplucarioon.com^

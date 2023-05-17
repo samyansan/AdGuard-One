@@ -409,8 +409,6 @@ ancensored.com##+js(aopr, AaDetector)
 andiim3.com##+js(acs, jQuery, AdBlock)
 androgamer.org##+js(acs, jQuery, ai_adb)
 androidcure.com,bodytr.com,kasvekuvvet.net##+js(aopr, googletag)
-androidcustom.com##+js(nano-sib)
-androidcustom.com##+js(set, safelink.adblock, false)
 androidonepro.com##+js(aopr, downloadJSAtOnload)
 androidrepublic.org##+js(acs, $, samInitDetection)
 androidweblog.com##.ezoic-ad
@@ -1404,7 +1402,6 @@ designoptimal.com##ins.adsbygoogle
 desired.de##+js(ra, data-ivad-preroll-adtag, video, stay)
 desired.de##.sad_banner
 desired.de,kino.de##+js(no-xhr-if, svonm)
-desktopsolution.org,svipvids.com##+js(aopw, KillAdBlock)
 detroitnews.com###partner-poster-0
 devast.io###advert
 devdrive.cloud##+js(acs, document.getElementById, undefined)
@@ -3541,9 +3538,6 @@ mp4upload.com###lay.lay
 mp4upload.com##+js(aopw, _pop)
 mp4upload.com##+js(aopw, adcashMacros)
 mpg.football##+js(set, ads, true)
-mrcong.com###fukie1
-mrcong.com##+js(aeld, /.?/, popMagic)
-mrcong.com##+js(set, importFAB, null)
 mrdeepfakes.com##+js(acs, document.getElementsByTagName, script)
 mrdeepfakes.com##+js(aopw, ReactAds)
 mrdeepfakes.com##+js(aopw, phtData)
@@ -5006,7 +5000,6 @@ spiegel.de#@#a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
-spiegel.de,t-online.de,giga.de,welt.de,~dutyfarm.welt.de##+js(aopr, NJoQiEAppq)
 spiele.bild.de##+js(nano-stb, , 10000)
 spiele.bild.de##.ad-vertical-box
 spiele.bild.de##div[id^="ad-gamepage-"]
@@ -5127,6 +5120,7 @@ supforums.com##.sidebar-rcs
 suzylu.co.uk##+js(set, adsbygoogle, trueFunc)
 suzylu.co.uk##+js(set, player.ads.cuePoints, undefined)
 svapo.it##+js(aopw, adBlockDetected)
+svipvids.com##+js(aopw, KillAdBlock)
 symbolab.com##.googleAdsense
 symbolab.com##.googleAdsenseMiddle
 symbolab.com##.googleLeftSkyScrapper
@@ -5142,6 +5136,7 @@ t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
 t-online.de##+js(set, abp, false)
+t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
 t-online.de##[href^="https://ad1.adfarm1.adition.com"]
 t-online.de##^script:has-text(,window\);)
@@ -5527,9 +5522,6 @@ uploadbox.cc##.hopa
 uploadbox.cc##.soundy
 uploadbox.io##+js(nosiif, (), 5000)
 uploadever.com##+js(nano-stb)
-uploadfiles.pw##+js(aopr, decodeURIComponent)
-uploadfiles.pw##+js(nano-stb)
-uploadfiles.pw,w4files.ws##+js(ra, onclick)
 uploadfree.info###at-btn-download
 upornia.com##+js(nosiif, undefined)
 upornia.com##+js(nowoif)
@@ -5831,6 +5823,7 @@ webtvhd.com##ins.adsbygoogle
 welovestream.xyz##.video-fake
 welovestream.xyz##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 welt.de##+js(aost, Object, /gdpr.*inlineScript/)
+welt.de,~dutyfarm.welt.de##div[id][style^="z-index:"][style*=" margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0);"]:remove()
 wemakesites.net##+js(acs, $, adBlockChecker)
 westword.com##.AirBillboardInlineContentresponsive
 wetter.com##+js(acs, $, lobster)
@@ -6062,9 +6055,11 @@ youtube.com###promotion-shelf
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
 ytmp3.cc##+js(nowoif, !/ytmp3|dropbox/)
 ytmp3.cc#@#+js(nowoif)
 yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
