@@ -3,11 +3,12 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-18 20:26:04
-! Total count: 78243
+! Version: 2023-05-19 02:15:39
+! Total count: 78246
 
 ###anuncio
 ###bt-ads
+###floating_ads_bottom_textcss_container
 ###invid_call
 ###invideo_2
 ###invideo_data
@@ -8266,12 +8267,13 @@ youtube.com###promotion-shelf
 youtube.com##.masthead-ad-control,.ad-div,.pyv-afc-ads-container
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtubedownloader.*##+js(nowoif)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
-youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
 yoututosjeff.*##+js(aeld, load, 2000)
 yoututosjeff.*##+js(aopw, adBlockDetected)
 ytmp3.*##+js(nowoif)
@@ -23322,6 +23324,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||body-by-jake.ojrq.net^
 ||bodybuilding.7eer.net^
 ||bodymedia.ojrq.net^
+||bodysize.org^$csp=child-src *
 ||boerse.today^
 ||bofa.inq.com^
 ||boffinsoft.com^
