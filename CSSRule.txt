@@ -585,7 +585,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 0.15mm !important; padding: 1px !important;)
+aternos.org##.sidebar:style(width: 1.81px !important; padding: 1px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
 atozmath.com##+js(set, google.javascript, {})
@@ -2824,6 +2824,8 @@ javcl.com##+js(aopw, _pop)
 javcl.com##+js(nosiif, 0x)
 javcl.com##+js(nostif, 0x)
 javcrave.com#@#.widget_custom_html
+javgg.net##.home_iframead > iframe:upward(1)
+javgg.net#@#.home_iframead
 javhay.net###logoplayer
 javhay.net##+js(aopw, _pop)
 javhay.net##.title-most-views:first-child
