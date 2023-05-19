@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-19 14:16:19
-! Total count: 78247
+! Version: 2023-05-19 20:24:07
+! Total count: 78248
 
 ###anuncio
 ###bt-ads
@@ -4637,6 +4637,7 @@ m.timesofindia.com##.asAffiliate
 m.timesofindia.com##.brand_ctn:has-text(/Ad:/):xpath(../..)
 m.timesofindia.com##p:has-text(/Ad:/):xpath(../../..)
 m.timesofindia.com##span:has-text(/Ad:/):xpath(../..)
+m.timesofindia.com,timesofindia.indiatimes.com##+js(nostif, adb)
 m.viptube.com##+js(aopw, mobilePop)
 m.wcostream.com##.ui-content
 m.wcostream.com##center
@@ -7227,7 +7228,6 @@ tiendaenlinea.claro.com.ni##+js(set, Object.prototype.bk_doJSTag, noopFunc)
 timeforbitco.in##+js(set, adBlock, false)
 timesofindia.com##+js(aopr, detector)
 timesofindia.indiatimes.com##+js(aeld, , adb)
-timesofindia.indiatimes.com##+js(nostif, adb)
 timesofindia.indiatimes.com##+js(set, nsShowMaxCount, 0)
 timesofindia.indiatimes.com##.asAffiliate
 timesofindia.indiatimes.com##.esi_container:has([onclick] P:matches-css-before(content:/Ad/))
@@ -75124,6 +75124,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||workoperation.com^
 ||workplace.ricoh.be^
 ||workplacesolutions.inform.equifax.com^
+||works.do^$doc,badfilter
 ||world-ad.jp^
 ||world.popadscdn.net^
 ||worldactualstories.com^
