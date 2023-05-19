@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-19 02:15:39
-! Total count: 78246
+! Version: 2023-05-19 09:07:47
+! Total count: 78247
 
 ###anuncio
 ###bt-ads
@@ -7227,6 +7227,7 @@ tiendaenlinea.claro.com.ni##+js(set, Object.prototype.bk_doJSTag, noopFunc)
 timeforbitco.in##+js(set, adBlock, false)
 timesofindia.com##+js(aopr, detector)
 timesofindia.indiatimes.com##+js(aeld, , adb)
+timesofindia.indiatimes.com##+js(nostif, adb)
 timesofindia.indiatimes.com##+js(set, nsShowMaxCount, 0)
 timesofindia.indiatimes.com##.asAffiliate
 timesofindia.indiatimes.com##.esi_container:has([onclick] P:matches-css-before(content:/Ad/))
