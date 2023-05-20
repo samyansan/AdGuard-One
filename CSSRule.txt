@@ -227,7 +227,6 @@
 7r6.com##+js(aopr, console.clear)
 7r6.com##+js(set, blurred, false)
 7r6.com##.banner
-7sim.net##+js(nostif, adblock_detect, 10000)
 8boobs.com,babesinporn.com,boobgirlz.com,fooxybabes.com,hotstunners.com,jennylist.xyz,jumboporn.xyz,mainbabes.com,mysexybabes.com,nakedbabes.club,pleasuregirl.net,rabbitsfun.com,sexybabesz.com,silkengirl.*,vibraporn.com,zazzybabes.com,zehnporn.com##+js(aopr, loadTool)
 8muses.com###content > div > .gallery > a.t-hover.c-tile:has(iframe[src^="/banner/"])
 8muses.com##.a-image
@@ -991,7 +990,6 @@ camclips.cc##[href="/upgrade"]:upward(1)
 camfucks.com##+js(nobab)
 camfucks.com##[href="//yescams.com"]
 camgirlfap.com##+js(aopw, _pop)
-camgirlfap.com##+js(aopw, ai_adb_overlay)
 camhub.cc##+js(nostif, innerText, 2000)
 camhub.cc##+js(set, flashvars.popunder_url, '')
 camhub.cc##.table
@@ -2260,8 +2258,6 @@ globaltv.com##.adChoices_overlayContainer
 globaltv.com##.adTile
 globaltv.com##.dynamic-ad-wrapper
 globaltv.com##.footerAd-wrapper
-glory-link.com##+js(aopr, app_vars.force_disable_adblock)
-glory-link.com##.banner
 gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 gmx.*,web.de##+js(aeld, timeupdate)
 gnomio.com##+js(no-xhr-if, /doubleclick|googlesyndication/)
@@ -4192,7 +4188,6 @@ porndoe.com##.below-video
 porndoe.com##.player-right
 porndoe.com##.vpb-holder
 porndollz.com,xnxxvideo.pro,xvideosxporn.com,onlyhgames.com,filmpornofrancais.fr,pictoa.com##+js(aeld, getexoloader)
-porndoo.com##+js(aeld, click, pop)
 pornerbros.com##+js(aopr, ExoLoader)
 pornerbros.com##+js(aopr, document.dispatchEvent)
 pornerbros.com##+js(aopw, ads_priv)
@@ -4863,7 +4858,6 @@ simsdom.com##+js(nowoif)
 simsdom.com##._ad
 simsdom.com##._pubL
 simsdom.com##._pubR
-simulasyonturk.com##+js(aopw, ai_adb_overlay)
 sintelevisor.com###floatLayer
 sintelevisor.com,tvpor-internet.com##+js(nowebrtc)
 siouxcityjournal.com##.tnt-ads-container
@@ -5906,7 +5900,6 @@ wowescape.com##div:has(> div:has(> .adsbygoogle))
 wowescape.com##embed:style(display:inherit!important)
 wp-time.com###pop-ad-wrap
 wp-time.com##a[href^="https://goo.gl/"]:has(img)
-wpcolt.com##+js(aopr, googletag)
 wpgdadatong.com##+js(aopr, checkAdblock)
 wplink.online##+js(aopr, app_vars.force_disable_adblock)
 wplink.online##+js(nosiif, visibility, 1000)
