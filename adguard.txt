@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-20 14:15:15
-! Total count: 78237
+! Version: 2023-05-20 20:22:55
+! Total count: 78239
 
 ###anuncio
 ###bt-ads
@@ -4480,6 +4480,8 @@ linkjust.com##+js(aopr, app_vars.force_disable_adblock)
 linkjust.com##.banner-inner
 linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
+linkneverdie.net##.show.fade.modal-backdrop
+linkneverdie.net##body:style(overflow: auto !important;)
 linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)

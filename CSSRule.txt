@@ -3106,6 +3106,8 @@ linkjust.com##+js(aopr, app_vars.force_disable_adblock)
 linkjust.com##.banner-inner
 linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
+linkneverdie.net##.show.fade.modal-backdrop
+linkneverdie.net##body:style(overflow: auto !important;)
 linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)
