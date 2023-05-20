@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-20 09:04:50
-! Total count: 78242
+! Version: 2023-05-20 14:15:15
+! Total count: 78237
 
 ###anuncio
 ###bt-ads
@@ -445,7 +445,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,redirect-rule=noopjs,domain=animedao.*
 *$script,redirect-rule=noopjs,domain=animeshouse.net
 *$script,redirect-rule=noopjs,domain=apps2app.com
-*$script,redirect-rule=noopjs,domain=arkadium.com
 *$script,redirect-rule=noopjs,domain=aternos.org
 *$script,redirect-rule=noopjs,domain=bigbrothercanada.ca
 *$script,redirect-rule=noopjs,domain=canaltdt.es
@@ -1421,9 +1420,6 @@ arianatoday.net###phpeverywherewidget-2
 ariestube.com,asian-teen-sex.com,18asiantube.com,wholevideos.com,asianporntube69.com,babeswp.com,bangyourwife.com,basiltube.com,bdsmslavemovie.com,bdsmwaytube.com,bestmaturewomen.com,classicpornvids.com,cockmeter.com,cocogals.com,pornpaw.com,dawntube.com,desihoes.com,desimmshd.com,dirtytubemix.com,plumperstube.com,enormousbabes.net,erowall.com,exclusiveindianporn.com,figtube.com,amateur-twink.com,freeboytwinks.com,freegrannyvids.com,freexmovs.com,freshbbw.com,frostytube.com,fuckhottwink.com,fuckslutsonline.com,gameofporn.com,gayboyshd.com,getitinside.com,giantshemalecocks.com,erofus.com,hd-tube-porn.com,hardcorehd.xxx,hairytwat.org,iwantmature.com,justababes.com,juicyflaps.com,jenpornuj.cz,javteentube.com,hard-tube-porn.com,klaustube.com,kaboomtube.com,lustyspot.com,lushdiaries.com,lovelynudez.com,dailyangels.com,ljcam.net,myfreemoms.com,mybestxtube.com,nakenprat.com,oosex.net,oldgrannylovers.com,ohueli.net,pornuploaded.net,pornstarsadvice.com,alotporn.com,bobs-tube.com,pornohaha.com,pornmam.com,pornhegemon.com,pornabcd.com,porn-hd-tube.com,pandamovies.pw,pomelotube.com,teensporn.tv,thehentaiworld.com,pantyhosepink.com,queenofmature.com,realvoyeursex.com,realbbwsex.com,rawindianporn.com,onlygoldmovies.com,rainytube.com,stileproject.com,slutdump.com,nastybulb.com,babesinporn.com,wantedbabes.com,sextube-6.com,porntubegf.com,sassytube.com,smplace.com,maturell.com,nakedolders.com,nudemilfwomen.com,pornoplum.com,teensfacialized.com,widewifes.com,wowpornlist.xyz,vulgarmilf.com,oldgirlsporn.com,freepornrocks.com,desivideos.*##+js(aopr, document.dispatchEvent)
 ariva.de###iqd_mainAd
 ariva.de##.werb_textlink
-arkadium.com##+js(nano-sib)
-arkadium.com##div[class^="GameTemplate-gameAreaTopAdContainer"]
-arkadium.com#@#display-ad-component
 arlinadzgn.com,idntheme.com##+js(aopw, hidekeep)
 arstechnica.com#@#a[href^="https://www.amazon."][href*="tag="]
 art19.com##+js(json-prune, ad_pods.0.ads.0.segments.0.media ad_pods.1.ads.1.segments.1.media ad_pods.2.ads.2.segments.2.media ad_pods.3.ads.3.segments.3.media ad_pods.4.ads.4.segments.4.media ad_pods.5.ads.5.segments.5.media ad_pods.6.ads.6.segments.6.media ad_pods.7.ads.7.segments.7.media ad_pods.8.ads.8.segments.8.media)
@@ -23321,7 +23317,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||body-by-jake.ojrq.net^
 ||bodybuilding.7eer.net^
 ||bodymedia.ojrq.net^
-||bodysize.org^$csp=child-src *
 ||boerse.today^
 ||bofa.inq.com^
 ||boffinsoft.com^

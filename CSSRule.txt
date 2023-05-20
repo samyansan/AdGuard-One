@@ -553,9 +553,6 @@ argio-logic.net##+js(acs, document.getElementById, alert)
 arianatoday.net###phpeverywherewidget-2
 ariva.de###iqd_mainAd
 ariva.de##.werb_textlink
-arkadium.com##+js(nano-sib)
-arkadium.com##div[class^="GameTemplate-gameAreaTopAdContainer"]
-arkadium.com#@#display-ad-component
 arlinadzgn.com,idntheme.com##+js(aopw, hidekeep)
 arstechnica.com#@#a[href^="https://www.amazon."][href*="tag="]
 art19.com##+js(json-prune, ad_pods.0.ads.0.segments.0.media ad_pods.1.ads.1.segments.1.media ad_pods.2.ads.2.segments.2.media ad_pods.3.ads.3.segments.3.media ad_pods.4.ads.4.segments.4.media ad_pods.5.ads.5.segments.5.media ad_pods.6.ads.6.segments.6.media ad_pods.7.ads.7.segments.7.media ad_pods.8.ads.8.segments.8.media)
