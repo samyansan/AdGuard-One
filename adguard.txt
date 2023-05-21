@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-21 20:22:49
-! Total count: 78222
+! Version: 2023-05-22 02:14:52
+! Total count: 78218
 
 ###anuncio
 ###bt-ads
@@ -120,7 +120,7 @@
 #@#div[id^="div-gpt-"]
 $script,domain=zdnet.fr,3p
 $xhr,redirect-rule=noopjs,domain=player.pl
-(*.js$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
+(*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 *$1p,image,redirect-rule=1x1.gif,domain=rte.ie
 *$3p,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net|unpkg.com,domain=stfly.me
 *$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com|hwcdn.net|jquery.com|uptomega.com,domain=uptomega.*
@@ -3920,12 +3920,12 @@ imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixl
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##+js(set, hold_click, false)
 imgair.net,imgblaze.net,imgfrost.net,pixsera.net,vestimage.site,imgwia.buzz,pixlev.*##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##+js(aopr, console.clear)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##+js(nano-sib, timer)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##div[class][style="display: block;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store##div[style="width:100%;height:110px"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##+js(aopr, console.clear)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##+js(nano-sib, timer)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##div[class][style="display: block;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store##div[style="width:100%;height:110px"]
 imgbaron.com###fadeinbox
 imgbaron.com##+js(aopr, loadTool)
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
@@ -4510,7 +4510,6 @@ linkviet.*##+js(aopr, app_vars.force_disable_adblock)
 linkviet.*##+js(aopr, open)
 linkviet.*##+js(aopw, _pop)
 linkviet.*##+js(set, blurred, false)
-linsoo.co.kr##+js(acs, addEventListener, fetch)
 lippycorn.com##+js(acs, document.createElement, __esModule)
 lirik3satu.blogspot.com##+js(aeld, load, 2000)
 listenonrepeat.com##+js(acs, googlefc)
@@ -8318,9 +8317,6 @@ zmovs.com##+js(nowoif)
 zona-leros.net##+js(aeld, DOMContentLoaded, shortener)
 zona-leros.net##.Body > .Container > ul.Rows > li:first-child:has(> article > a[href][target="_blank"])
 zona-leros.net##.content_store
-zonatorrent.tv##+js(aopr, BetterJsPop)
-zonatorrent.tv##+js(aopr, encodeURIComponent)
-zonatorrent.tv##+js(popads-dummy)
 zonebourse.com##+js(acs, $, AdBlocker)
 zooqle.*##+js(aeld, /^(?:mousedown|mouseup)$/, 0x)
 zooqle.*##+js(aopw, _pop)
