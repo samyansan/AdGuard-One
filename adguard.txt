@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-22 14:17:08
-! Total count: 78218
+! Version: 2023-05-22 20:25:19
+! Total count: 78221
 
 ###anuncio
 ###bt-ads
@@ -721,6 +721,8 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /drh.hh?$frame
 /ea/fl.js
 /ea2/fl.js
+/fingerprint\.com/[a-zA-Z0-9]{5}$/$xhr,1p,domain=dashboard.fingerprint.com
+/fingerprint\.com/[a-zA-Z0-9]{5}\/$/$xhr,1p,domain=fingerprint.com
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
 /frame.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /frtd_ldr_$script,1p
@@ -4187,9 +4189,9 @@ jotapov.com##+js(acs, jQuery, adblocker)
 jotapov.com##.jconfirm
 joyn.de##+js(no-fetch-if, zomap.de)
 jpopsingles.eu##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
-jpopsingles.eu##+js(aeld, , ads)
 jpopsingles.eu##+js(aopw, _pop)
 jpopsingles.eu##+js(nano-sib, downloadTimer)
+jpopsingles.eu##+js(noeval-if, adsBlocked)
 juba-get.com##+js(aopr, detectAdBlock)
 juegoviejo.com##+js(nano-stb)
 juicywest.com##+js(aopr, __Y)
@@ -4475,6 +4477,7 @@ linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
 linkneverdie.net##.show.fade.modal-backdrop
 linkneverdie.net##body:style(overflow: auto !important;)
+linkneverdie.net#@#+js(nostif, t)
 linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)

@@ -2883,9 +2883,9 @@ jotapov.com##+js(acs, jQuery, adblocker)
 jotapov.com##.jconfirm
 joyn.de##+js(no-fetch-if, zomap.de)
 jpopsingles.eu##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
-jpopsingles.eu##+js(aeld, , ads)
 jpopsingles.eu##+js(aopw, _pop)
 jpopsingles.eu##+js(nano-sib, downloadTimer)
+jpopsingles.eu##+js(noeval-if, adsBlocked)
 juba-get.com##+js(aopr, detectAdBlock)
 juegoviejo.com##+js(nano-stb)
 juicywest.com##+js(aopr, __Y)
@@ -3104,6 +3104,7 @@ linkneverdie.net###adsqc
 linkneverdie.net##.quangcao
 linkneverdie.net##.show.fade.modal-backdrop
 linkneverdie.net##body:style(overflow: auto !important;)
+linkneverdie.net#@#+js(nostif, t)
 linkrex.net##+js(aopr, open)
 linkrex.net##+js(aopw, __htapop)
 linkrex.net##+js(aopw, _pop)
