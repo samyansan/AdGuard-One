@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-22 20:25:19
-! Total count: 78221
+! Version: 2023-05-23 02:15:31
+! Total count: 78222
 
 ###anuncio
 ###bt-ads
@@ -2003,6 +2003,9 @@ celebmasta.com##img.size-medium
 celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
+cellmapper.net##.modal_dialog_base:has( > .modal_top_header:has-text(Ads))
+cellmapper.net##table:has( > thead > .collapsableSection > td:has-text(Ads))
+cellmapper.net#@#.modal_dialog_base:has-text(Ads)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -3026,8 +3029,6 @@ filescdn.com##+js(nowoif)
 filesharing.io##+js(aopw, showMsgAb)
 fileshilez.com##+js(aopr, app_vars.force_disable_adblock)
 filespace.com##+js(set, fuckAdBlock, false)
-filmeserialeonline.org##+js(aopr, LieDetector)
-filmeserialeonline.org##+js(nowebrtc)
 filmlecteur.info,tpxanime.in,welovestream.xyz##+js(nowoif)
 filmonerileri.org##+js(acs, document.querySelector, adblock)
 filmytoday.com##.advertisement, .adsbygoogle
@@ -39238,7 +39239,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hlsjel.engelvoelkers.com^
 ||hlsrv.vidible.tv^
 ||hltv.org/*.gif?ixlib=$image
-||hltv.org/*.jpg?ixlib=$image
+||hltv.org/*.jpg?ixlib=$image,1p
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
 ||hlul6k.r8w0.com^

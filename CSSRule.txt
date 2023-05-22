@@ -1062,6 +1062,9 @@ celebmasta.com##img.size-medium
 celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
+cellmapper.net##.modal_dialog_base:has( > .modal_top_header:has-text(Ads))
+cellmapper.net##table:has( > thead > .collapsableSection > td:has-text(Ads))
+cellmapper.net#@#.modal_dialog_base:has-text(Ads)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -1881,8 +1884,6 @@ filescdn.com##+js(nowoif)
 filesharing.io##+js(aopw, showMsgAb)
 fileshilez.com##+js(aopr, app_vars.force_disable_adblock)
 filespace.com##+js(set, fuckAdBlock, false)
-filmeserialeonline.org##+js(aopr, LieDetector)
-filmeserialeonline.org##+js(nowebrtc)
 filmlecteur.info,tpxanime.in,welovestream.xyz##+js(nowoif)
 filmonerileri.org##+js(acs, document.querySelector, adblock)
 filmytoday.com##.advertisement, .adsbygoogle
