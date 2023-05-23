@@ -445,7 +445,6 @@ animeidhentai.com##a[target] > img[src$=".gif"]
 animekaizoku.com##+js(aopr, decodeURI)
 animeshouse.net##+js(aopr, thumbad)
 animeshouse.net##+js(aopw, _pop)
-animeshow.tv##+js(set, String.fromCharCode, trueFunc)
 animetemaefiore.club##+js(nowoif)
 anitube.site###protetorVideo
 aniwatcher.com##+js(aopw, _pop)

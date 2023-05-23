@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-23 09:07:18
-! Total count: 78212
+! Version: 2023-05-23 14:16:34
+! Total count: 78213
 
 ###anuncio
 ###bt-ads
@@ -1293,7 +1293,6 @@ animepahe.*,kwik.*##^script:has-text('shift')
 animepahe.*,kwik.*##^script:has-text(\'shift\')
 animeshouse.net##+js(aopr, thumbad)
 animeshouse.net##+js(aopw, _pop)
-animeshow.tv##+js(set, String.fromCharCode, trueFunc)
 animesvision.*##+js(aopr, LieDetector)
 animesvision.*##+js(aopw, _pop)
 animesvision.*##[href^="https://bit.ly/"]
@@ -17291,6 +17290,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||akamaisecure3.qualtrics.com.edgekey.net^
 ||akamaisecure7.qualtrics.com.edgekey.net^
 ||akamaitechcloudservices.com^
+||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
 ||akanoo.com^
 ||akavita.com^
 ||akdbr.com^
@@ -60068,6 +60068,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||scatteredheat.com^
 ||scatteredstream.com^
 ||sccdn.f2zd.com^
+||scdn.co/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||scene.vip.xunlei.com^
 ||scenespathreconciliation.com^
 ||scentbird.7eer.net^
