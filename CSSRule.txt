@@ -696,7 +696,6 @@ bdsmx.tube,blackporn.tube,mrgay.tube,xmilf.com##[is-footer-banners]
 bdsmx.tube,blackporn.tube,mrgay.tube,xmilf.com##[style="display:flex !important"] > div > div:not(:last-child)
 bearteach.com###externalinject-gpt-passback-iframe
 beatricedailysun.com##.tnt-ads-container
-beautifullywhitening.work,mineralfoundation.work,contents-group.work,bridalgown.work,liquidfoundation.work,nailcolor.work,weddinghall.work,g-journal.jp,japan-indepth.jp,kuroyonhon.com,enno.jp###ad1
 beautypackaging.com##+js(aopw, adblockerpopup)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##+js(acs, $, #pageWrapper)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##.modal-backdrop
@@ -906,8 +905,6 @@ bravoerotica.net##.place
 bravoerotica.net##.table
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
-bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp###ad3
-bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp,dtiblog.com,biz-journal.jp###ad2
 brigitte.de,stern.de##+js(set, Object.prototype.disableAds, true)
 britannica.com###md-media-overlay-ad
 british-birdsongs.uk##ins.adsbygoogle
@@ -1759,7 +1756,6 @@ factable.com##.puicontainer
 fake-it.ws##+js(set, adsLoadable, true)
 fakyutube.com##+js(aopr, __Y)
 fakyutube.com##+js(nowoif)
-familie.de,kino.de,stern.de,autobild.de,desired.de#@#+js(no-xhr-if, damoh)
 familyhandyman.com##.ad
 familyhandyman.com##.advertisement
 familyhandyman.com##.cm-ad-unit-section
@@ -2230,6 +2226,7 @@ gfsvideos.com##+js(nowoif)
 gfycat.com##+js(acs, Math, ='\x)
 giallozafferano.it##+js(nostif, (), 1)
 giga.de##^script:has-text(.call(null))
+giga.de,kino.de##+js(sed, script, /\"homad\"\,/)
 gigaho.com##+js(aopr, onload)
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
 gioialive.it##+js(nostif, rbm_block_active, 1000)
@@ -4776,8 +4773,6 @@ shemalez.com##.video-page__content > .right
 sheshaft.com##+js(aopr, decodeURI)
 sheshaft.com##.adv-aside
 sheshaft.com##[class*="banner"]
-shindanmaker.com#@#.blog-ad
-shindanmaker.com#@#.blog_ad
 shink.me##+js(acs, $, blockAdBlock)
 shink.me##+js(aopr, jsPopunder)
 shink.me##+js(aopr, pup)
@@ -4983,9 +4978,7 @@ speedtest.net##+js(set, isBlocked, false)
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 spellcheck.net,spellchecker.net,spellweb.com##+js(nostif, bioEp)
 spellchecker.net##+js(aopr, gPartners)
-spiegel.de##+js(json-prune, adBehavior)
-spiegel.de##+js(json-prune, enabled, config)
-spiegel.de##+js(no-xhr-if, ads)
+spiegel.de##^script:has-text(homad)
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
 spiegel.de#@#.nativead + .headline-date
@@ -5129,6 +5122,7 @@ sznlink.xyz##+js(nostif, jQuery)
 t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
+t-online.de##+js(sed, script, /\"homad\":\{\"state\":\"enabled\"\}/, "homad":{"state":"disabled"})
 t-online.de##+js(set, abp, false)
 t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
@@ -5650,7 +5644,7 @@ vintageporntubes.com##+js(aeld, getexoloader)
 vintageporntubes.com##+js(aopr, ExoLoader.serve)
 vintageporntubes.com##.VPT_player_ads
 vinylcollective.com##+js(acs, jQuery, dismissAdBlock)
-vip.de,rtl.de,fitforfun.de##+js(no-xhr-if, svonm)
+vip.de,rtl.de,fitforfun.de,desired.de,kino.de##+js(no-xhr-if, svonm)
 vipergirls.to##.body_wrapper > [id^="ad_global"], #notices.notices
 vipergirls.to##[src="files/se.gif"]
 vipstand.se##+js(aeld, , _0x)

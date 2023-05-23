@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-23 02:15:31
-! Total count: 78222
+! Version: 2023-05-23 09:07:18
+! Total count: 78212
 
 ###anuncio
 ###bt-ads
@@ -574,7 +574,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *.xml$xhr,3p,domain=eporner.com
 */ads$media,redirect-rule=noopmp3-0.1s,domain=podu.me
 */adsid/integrator.js$script,redirect=noopjs,domain=dl.ccbluex.net
-*/api/spots/$frame,script
+*/api/spots/$frame,script,xhr
 */assets.sidearmsports.com/$script,redirect-rule=noopjs
 */b/ss/*&aqe=$image,redirect=1x1-transparent.gif
 */blockadblock-$script,redirect=fuckadblock.js-3.2.0:5
@@ -700,7 +700,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /ap-plugin-scripteo/frontend/img/728x90.png$image,redirect-rule=1x1.gif
 /api/model/feed?siteId=$xhr,3p
 /api/models?userId=$xhr,domain=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster20.*|xhamster2.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
-/api/spots/*^fill=$xhr
 /api/v1/metrics$badfilter
 /apu.php?*&zoneid=$important
 /assets/jwplayer-*/vast.js$script,1p
@@ -1591,7 +1590,6 @@ bdupload.*##+js(nano-stb)
 bdupload.*##[href*="/dloadbutton.php"]
 bearteach.com###externalinject-gpt-passback-iframe
 beatricedailysun.com##.tnt-ads-container
-beautifullywhitening.work,mineralfoundation.work,contents-group.work,bridalgown.work,liquidfoundation.work,nailcolor.work,weddinghall.work,g-journal.jp,japan-indepth.jp,kuroyonhon.com,enno.jp###ad1
 beautypackaging.com##+js(aopw, adblockerpopup)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##+js(acs, $, #pageWrapper)
 beautypackaging.com,coatingsworld.com,contractpharma.com,happi.com,inkworldmagazine.com,labelandnarrowweb.com,mpo-mag.com,nutraceuticalsworld.com,odtmag.com,printedelectronicsnow.com##.modal-backdrop
@@ -1817,8 +1815,6 @@ bravoerotica.net##.place
 bravoerotica.net##.table
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
-bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp###ad3
-bridalgown.work,contents-group.work,liquidfoundation.work,nailcolor.work,studioglass.work,teaceremony.work,weddinghall.work,heisei-housewarming.work,g-journal.jp,dtiblog.com,biz-journal.jp###ad2
 brigitte.de,stern.de##+js(set, Object.prototype.disableAds, true)
 britannica.com###md-media-overlay-ad
 british-birdsongs.uk##ins.adsbygoogle
@@ -2873,7 +2869,6 @@ factable.com##.puicontainer
 fake-it.ws##+js(set, adsLoadable, true)
 fakyutube.com##+js(aopr, __Y)
 fakyutube.com##+js(nowoif)
-familie.de,kino.de,stern.de,autobild.de,desired.de#@#+js(no-xhr-if, damoh)
 familyhandyman.com##.ad
 familyhandyman.com##.advertisement
 familyhandyman.com##.cm-ad-unit-section
@@ -3422,6 +3417,7 @@ gfsvideos.com##+js(nowoif)
 gfycat.com##+js(acs, Math, ='\x)
 giallozafferano.it##+js(nostif, (), 1)
 giga.de##^script:has-text(.call(null))
+giga.de,kino.de##+js(sed, script, /\"homad\"\,/)
 gigaho.com##+js(aopr, onload)
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
 gioialive.it##+js(nostif, rbm_block_active, 1000)
@@ -6550,8 +6546,6 @@ shemalez.com##.video-page__content > .right
 sheshaft.com##+js(aopr, decodeURI)
 sheshaft.com##.adv-aside
 sheshaft.com##[class*="banner"]
-shindanmaker.com#@#.blog-ad
-shindanmaker.com#@#.blog_ad
 shink.me##+js(acs, $, blockAdBlock)
 shink.me##+js(aopr, jsPopunder)
 shink.me##+js(aopr, pup)
@@ -6809,9 +6803,7 @@ speedtest.net##+js(set, isBlocked, false)
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 spellcheck.net,spellchecker.net,spellweb.com##+js(nostif, bioEp)
 spellchecker.net##+js(aopr, gPartners)
-spiegel.de##+js(json-prune, adBehavior)
-spiegel.de##+js(json-prune, enabled, config)
-spiegel.de##+js(no-xhr-if, ads)
+spiegel.de##^script:has-text(homad)
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
 spiegel.de#@#.nativead + .headline-date
@@ -6942,7 +6934,6 @@ streamporn.pw###overlays
 streamporn.pw##+js(aopr, ExoLoader.serve)
 streamporn.pw##+js(nowoif)
 streamporn.pw##.btn-lg.btn-block.btn
-streamtape.*#@#.play-overlay
 streamty.com##+js(aopr, open)
 streanplay.*##+js(nowebrtc)
 streanplay.*##+js(set, console.clear, noopFunc)
@@ -7031,6 +7022,7 @@ sznlink.xyz##+js(nostif, jQuery)
 t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
+t-online.de##+js(sed, script, /\"homad\":\{\"state\":\"enabled\"\}/, "homad":{"state":"disabled"})
 t-online.de##+js(set, abp, false)
 t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
@@ -7744,7 +7736,7 @@ vintageporntubes.com##+js(aeld, getexoloader)
 vintageporntubes.com##+js(aopr, ExoLoader.serve)
 vintageporntubes.com##.VPT_player_ads
 vinylcollective.com##+js(acs, jQuery, dismissAdBlock)
-vip.de,rtl.de,fitforfun.de##+js(no-xhr-if, svonm)
+vip.de,rtl.de,fitforfun.de,desired.de,kino.de##+js(no-xhr-if, svonm)
 vipbox.*##+js(aopw, _pop)
 vipbox.*##.btn-lg.btn
 vipbox.*##.btn-success.btn
@@ -17657,7 +17649,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||amazona9-imp.aarki.net^
 ||amazonadvertising.com^
 ||amazonaws.com/homad-global-configs-eu-fra.schneevonmorgen.com/global_config.json$xhr,redirect=nooptext,domain=desired.de
-||amazonaws.com/homad-global-configs.schneevonmorgen.com$xhr,domain=spiegel.de
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json$xhr,redirect=nooptext,domain=ani-stream.com
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json$xhr,redirect=nooptext,domain=fitforfun.de|golem.de|n-tv.de|wetter.de
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com/global_config.json$xhr,redirect=nooptext,domain=tele5.de
@@ -23676,6 +23667,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||bravotrk.com^
 ||brax-cdn.com^
 ||braze.eu^
+||braze.eu^$badfilter
 ||brazenwholly.com^
 ||brc.englishdict.cc^
 ||brc.englishtimes.cc^
@@ -27518,7 +27510,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||compulite.actonservice.com^
 ||compulsionspotsbeacon.com^
 ||computer-bild.de/_static-assets/homad/homad.js
-||computerbild.de/assets/homad/*$xhr,redirect=nooptext,domain=computerbild.de
 ||computers.panasonic.eu^
 ||computerworld.com/*/gpt_includes.js$script,redirect-rule=googletagservices_gpt.js
 ||comradeglorious.com^
@@ -39239,7 +39230,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hlsjel.engelvoelkers.com^
 ||hlsrv.vidible.tv^
 ||hltv.org/*.gif?ixlib=$image
-||hltv.org/*.jpg?ixlib=$image,1p
 ||hltv.org/img/newwidgets/$image
 ||hltv.org/img/static/featured_bet_bg.png$image
 ||hlul6k.r8w0.com^
@@ -41577,6 +41567,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||intellitxt.com^
 ||intelserviceupdate.com^
 ||intely.cn^
+||intensedebate.com^$badfilter
 ||intent.cmo.com.au^
 ||intent.goodgearguide.com.au^
 ||intent.macworld.co.uk^
@@ -66508,7 +66499,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||svkmxwssih.com^
 ||svmarketing.destinationtoronto.com^
 ||svoffer.pro^
-||svonm.com/hd-main.j$xhr,domain=spiegel.de
 ||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=cinema.de|cdnapi.kaltura.com
 ||svonm.com/hd-main.js$script,redirect=hd-main.js,domain=kicker.de|myspass.de|spielaffe.de|tele5.de
 ||svonm.com^
