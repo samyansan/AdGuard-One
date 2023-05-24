@@ -1889,6 +1889,7 @@ findandfound.ga,png.is##+js(aopr, adb_checker)
 findwords.info##.ads-block-horizontal
 findwords.info##div[itemtype="http://schema.org/WPAdBlock"]
 finevids.xxx##.spot3-holder
+fingerprint.com,~dashboard.fingerprint.com,~dev.fingerprint.com##+js(no-xhr-if, method:POST)
 finofilipino.org##+js(set, caca, noopFunc)
 fir3.net###link-view > [href][target="_blank"]
 fir3.net##+js(aopr, app_vars.force_disable_adblock)
@@ -3368,6 +3369,8 @@ megapastes.com##+js(aopw, _pop)
 megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
+megaup.net##+js(sed, script, /if\(\$.*return;}/)
+megaup.net##.metaRedirectWrapperBottomAds
 megaup.net##body .metaRedirectWrapperBottomAds > div > .imgAds:style(margin-top: -10000px !important; pointer-events: none !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
 megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
@@ -4968,6 +4971,7 @@ speedtest.net##+js(set, isBlocked, false)
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 spellcheck.net,spellchecker.net,spellweb.com##+js(nostif, bioEp)
 spellchecker.net##+js(aopr, gPartners)
+spiegel.de##+js(sed, script, /^\(function\(\)/, if(false))
 spiegel.de##^script:has-text(homad)
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
@@ -5799,7 +5803,7 @@ webtvhd.com##ins.adsbygoogle
 welovestream.xyz##.video-fake
 welovestream.xyz##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 welt.de##+js(aost, Object, /gdpr.*inlineScript/)
-welt.de,~dutyfarm.welt.de##div[id][style^="z-index:"][style*=" margin-left: auto; margin-right: auto; background-color: rgb(0, 0, 0);"]:remove()
+welt.de##+js(set, funkotron.config.page.videoAdTag, undefined)
 wemakesites.net##+js(acs, $, adBlockChecker)
 westword.com##.AirBillboardInlineContentresponsive
 wetter.com##+js(acs, $, lobster)
