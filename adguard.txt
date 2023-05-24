@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-24 20:25:02
-! Total count: 77748
+! Version: 2023-05-25 02:15:40
+! Total count: 77743
 
 ###anuncio
 ###bt-ads
@@ -137,9 +137,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$3p,script,redirect=noopjs,domain=lolalytics.com
 *$3p,xhr,domain=ceesty.com|corneey.com|destyy.com|festyy.com|gestyy.com
 *$3p,xhr,domain=rd.com,badfilter
-*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google.com *.addthis.com *.addthisedge.com *.facebook.net *.twitter.com *.jquery.com *.zencdn.net,domain=kinox.to|kinos.to|kinox.si|kinox.io|kinox.sx|kinox.am|kinox.nu|kinox.sg|kinox.gratis|kinox.mobi|kinox.sh|kinox.lol|kinox.wtf|kinox.fun|kinox.fyi|kinox.cloud|kinox.ai|kinox.club|kinox.digital|kinox.tube|kinox.direct|kinox.pub|kinox.express|kinox.party|kinox.space|kinoz.to,badfilter
 *$css,3p,domain=gamez1a.com,badfilter
-*$css,3p,domain=h-98reale.com,badfilter
 *$css,3p,domain=q1-tdsge.com,badfilter
 *$css,3p,domain=vidshare.tv,badfilter
 *$css,3p,domain=wotcheatmods.com,badfilter
@@ -205,7 +203,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$image,3p,denyallow=earnload.com,domain=earnload.*
 *$image,3p,domain=fc-lc.com
 *$image,3p,domain=gamez1a.com,badfilter
-*$image,3p,domain=h-98reale.com,badfilter
 *$image,3p,domain=q1-tdsge.com,badfilter
 *$image,3p,domain=shugraithou.com,badfilter
 *$image,3p,domain=waudeesestew.com,badfilter
@@ -1015,8 +1012,8 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 ://a.*/loader?a=$frame,3p
 ://ads.$popup,domain=~kakaku.com|~smartnews.com
 ://ads.$popup,domain=~smartnews.com,badfilter
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.chunichi.co.jp|~adv.cr|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
+://adv.$domain=adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com,badfilter
 ?zoneId=*&sponsor$frame
 ?zoneid=*&ab=1|$script,3p
 a-o.ninja,anime-odcinki.pl##+js(set, showAds, true)
@@ -6282,7 +6279,6 @@ rifurl.com##+js(aopr, open)
 rifurl.com##+js(aopw, _pop)
 ringsidenews.com##+js(aopr, googletag)
 rjno1.com##+js(acs, onload)
-rjno1.com##+js(nostif, /^/)
 rjno1.com##+js(ra, class|id, .breadcrumb + div, asap)
 rjno1.com##+js(set, _hmt.id, 1)
 rjno1.com##^script:has-text(/window.location|getTimezoneOffset|google_global_correlator|getElementById|dat1e24|parseHTML/)
@@ -74757,7 +74753,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||wsmobltyhs.com^
 ||wsod.com^
 ||wspsbhvnjk.com^
-||wss.analyticacdn.com^$badfilter
 ||wss.hbpl.co.uk^
 ||wssgmstats.vibbo.com^
 ||wsstats.coches.net^
