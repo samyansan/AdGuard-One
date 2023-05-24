@@ -2454,7 +2454,6 @@ hesgoal.com##+js(nowebrtc)
 hesgoal.com##pp
 hexupload.net##+js(aopw, Fingerprint2)
 hexupload.net##+js(aopw, _pop)
-hexupload.net##+js(nowoif)
 hiddenobjectgames.com##.banner
 highload.to##+js(aopr, open)
 hihonor.com#@#.ad-section

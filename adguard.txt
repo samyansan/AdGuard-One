@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-24 02:15:27
-! Total count: 78199
+! Version: 2023-05-24 09:09:32
+! Total count: 78198
 
 ###anuncio
 ###bt-ads
@@ -119,6 +119,7 @@ $script,domain=zdnet.fr,3p
 $xhr,redirect-rule=noopjs,domain=player.pl
 (*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 *$1p,image,redirect-rule=1x1.gif,domain=rte.ie
+*$1p,inline-script,script,domain=click.allkeyshop.com
 *$3p,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net|unpkg.com,domain=stfly.me
 *$3p,denyallow=bootstrapcdn.com|cloudflare.net|fontawesome.com|hwcdn.net|jquery.com|uptomega.com,domain=uptomega.*
 *$3p,denyallow=cdnjs.cloudflare.com|googleapis.com|gstatic.com|support.send.cm|userscloud.net,domain=userscloud.com
@@ -715,8 +716,8 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /drh.hh?$frame
 /ea/fl.js
 /ea2/fl.js
-/fingerprint\.com/[a-zA-Z0-9]{5}$/$xhr,1p,domain=dashboard.fingerprint.com
-/fingerprint\.com/[a-zA-Z0-9]{5}\/$/$xhr,1p,domain=fingerprint.com
+/fingerprint\.com/[a-zA-Z0-9]{6}\/$/$xhr,1p,domain=fingerprint.com
+/fingerprint\.com/[a-zA-Z0-9]{7}$/$xhr,1p,domain=dashboard.fingerprint.com
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
 /frame.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /frtd_ldr_$script,1p
@@ -3704,7 +3705,6 @@ hesgoal.com##+js(nowebrtc)
 hesgoal.com##pp
 hexupload.net##+js(aopw, Fingerprint2)
 hexupload.net##+js(aopw, _pop)
-hexupload.net##+js(nowoif)
 hiddenobjectgames.com##.banner
 hideout.*##+js(acs, stop, adblock)
 highload.to##+js(aopr, open)
@@ -26300,7 +26300,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||click.aimtell.com^
 ||click.alibaba.com^
 ||click.allkeyshop.com^
-||click.allkeyshop.com^$inline-script
 ||click.alternate.de^
 ||click.aristotle.net^
 ||click.baburnadir.com^
