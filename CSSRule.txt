@@ -2539,15 +2539,11 @@ hydrogenassociation.org##+js(nostif, ads)
 i8086.de##ins.adsbygoogle
 ibcomputing.com##+js(nostif, Adblocker, 10000)
 icdrama.*,vlist.se##+js(set, adblock, 1)
-icutlink.com###link-view > p, #link-view > br
-icutlink.com##+js(aopr, app_vars.force_disable_adblock)
 icutlink.com##+js(aopr, open)
 icutlink.com##+js(nano-sib, time)
 icutlink.com##+js(set, blurred, false)
 icutlink.com##+js(set, sec, 0)
 icutlink.com##.banner-inner
-icutlink.com##[href="http://cuiys.com/"]
-icutlink.com##[src="/img/download-now.gif"]
 icy-veins.com##+js(aopr, adbackDebug)
 idalponse.blogspot.com##ins.adsbygoogle
 idealhome.co.uk,look.co.uk##body > div#wrapper:style(padding-top: 0px !important;)
@@ -3970,8 +3966,6 @@ pendekarsubs.us##+js(nostif, nextFunction, 250)
 penis-bilder.com##+js(aopr, popunder)
 penis-bilder.com##+js(nobab)
 pennlive.com##+js(aeld, load, PrivateMode)
-pentafaucet.com##+js(aopw, _pop)
-pentafaucet.com##.is-vcentered
 perfectmomsporn.com##+js(aopr, Aloader)
 perfectmomsporn.com##+js(noeval)
 pes24.com##.adsbig
@@ -4500,8 +4494,6 @@ redensarten-index.de##+js(set, is_banner, true)
 redpornblog.com###ads
 redporno.cz##+js(aopr, ExoLoader.serve)
 redporno.cz##.right
-relmz.io##+js(nobab)
-relmz.io##[id^="relmz-io_"]
 remangas.top##.ads, [class^="ads-"]
 remodelista.com##+js(set, adsAreBlocked, false)
 remodelista.com##[data-advert]
@@ -4585,7 +4577,6 @@ sankakucomplex.com##+js(acs, document.querySelectorAll, popMagic)
 sankakucomplex.com##+js(aeld, DOMContentLoaded, prestitialData)
 sankakucomplex.com##+js(aopr, sankAdCurrentScript)
 sankakucomplex.com##.vce-ad-container
-sapixcraft.com##+js(aopr, adBlockDetected)
 saruch.co##+js(aopr, AaDetector)
 saruch.co##+js(aopw, _pop)
 saruch.co##+js(nowebrtc)
@@ -4836,7 +4827,6 @@ skeimg.com##+js(nowoif)
 skidrowcodexgames.com##+js(aopr, _pop)
 skidrowcodexgames.com##[class^="aligncenter wp-image-"]
 skidrowfull.com##+js(aopw, _pop)
-skidrowfull.com##+js(nobab)
 skidrowreloaded.com##+js(acs, open)
 skidrowreloaded.com##+js(aopw, _pop)
 skidrowreloaded.com##+js(no-fetch-if, /^/)
@@ -4907,9 +4897,7 @@ socientifica.com.br##+js(nobab)
 socks24.org##+js(aeld, load, onload)
 socks24.org##[href^="http://www.linkev.com/"]
 soft112.com##+js(nano-sib)
-soft98.ir##+js(spoof-css, a[href*="s0ft98.ir" i], clip-path, none)
-soft98.ir##+js(spoof-css, a[href*="smostafa" i], clip-path, none)
-soft98.ir##+js(spoof-css, article > aside, clip-path, none)
+soft98.ir##+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
 soft98.ir##a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
 softdescargas.com,softwaredescargas.com##+js(aeld, DOMContentLoaded, scriptwz_url)
 software-on.com##+js(aopr, decodeURIComponent)
@@ -5095,7 +5083,6 @@ sypl.xyz##+js(aopr, AaDetector)
 sypl.xyz##+js(nowoif)
 sypl.xyz##+js(set, clientSide.adbDetect, noopFunc)
 syracusefan.com##+js(aopw, XF)
-sysnettechsolutions.com##+js(nostif, ai_adb)
 sysnettechsolutions.com##a[href^="https://bit.ly/"]
 t-online.de###T-Shopping
 t-online.de###Tasfeed1
@@ -5138,7 +5125,6 @@ techmyntra.net##+js(nano-stb)
 technews.tw##+js(acs, jQuery, adblock)
 technews.tw##.AD_wrapper
 technisches-zeichnen.net###ad-unten-01
-technisches-zeichnen.net##+js(nobab)
 technisches-zeichnen.net##.bild-rechts-01
 technisches-zeichnen.net##[id^="banner-"]
 techperiod.com##+js(set, blockAdBlock, true)
@@ -5714,7 +5700,6 @@ watchallchannels.com##.widget-title
 watchallchannels.com##[href^="https://www.xvinlink.com/"]
 watchanimesub.net,wco.tv,wcoanimesub.tv,wcoforever.net##+js(set, isAdBlockActive, false)
 watchcartoononline.bz##.BorderColorChangeElement
-watchdoctorwhoonline.com###keeper2
 watchfreexxx.net###tracking-url
 watchfreexxx.net##+js(acs, document.createElement, 'script')
 watchfreexxx.net##+js(aeld, getexoloader)
@@ -6044,8 +6029,8 @@ zazzybabes.com##+js(aeld, /error|canplay/, (t))
 zee5.com##+js(set, Object.prototype.setDisableFlashAds, noopFunc)
 zeeebatch.blogspot.com##+js(aopr, adBlockDetected)
 zegtrends.com##+js(nano-sib, time, 2500)
+zegtrends.com##+js(noeval-if, /chp_?ad/)
 zegtrends.com##+js(nowoif)
-zegtrends.com##.tpm-ads-unit
 zeit.de##+js(nostif, .call(null), 10)
 zemporn.com##+js(aopr, h1mm.w3)
 zemporn.com##.player-aside-banners
