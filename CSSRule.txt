@@ -281,14 +281,6 @@ adictosalatele.com##+js(aopw, _pop)
 adictosalatele.com##[style*="z-index: 99999999"]
 adivineencounter.com,alcasthq.com,au-di-tions.com,badgehungry.com,bloggingawaydebt.com,chipandco.com,cornerstoneconfessions.com,dearcreatives.com,divinelifestyle.com,eslauthority.com,heresyoursavings.com,investingchannel.com,irresistiblepets.net,justjared.com,kompas.com,lovegrowswild.com,mjsbigblog.com,mommybunch.com,mustardseedmoney.com,myfunkytravel.com,mywomenstuff.com,onetimethrough.com,panlasangpinoymeatrecipes.com,peru21.pe,savespendsplurge.com,savvyhoney.com,silverpetticoatreview.com,tamaratattles.com,the-military-guide.com,the2seasons.com,therelaxedhomeschool.com,thetechieguy.com,truesteamachievements.com,truetrophies.com,waterheaterleakinginfo.com,zeroto60times.com##^script:has-text(axtd)
 adn.com##+js(aopr, MG2Loader)
-adomainscan.com###ad-modal
-adomainscan.com##.footer-btns:style(display: block !important;)
-adomainscan.com##.iframe-overlay
-adomainscan.com,mynewsmedia.co##.show.modal-backdrop
-adomainscan.com,mynewsmedia.co##.smart-link-banner-ad-container
-adomainscan.com,mynewsmedia.co,mynewspost.in###wpsafe-generate:style(display: block !important;)
-adomainscan.com,mynewsmedia.co,mynewspost.in###wpsafe-snp:style(display: block !important;)
-adomainscan.com,mynewsmedia.co,mynewspost.in###wpsafe-wait1,#container-countdown
 adonisfansub.com##+js(nobab)
 adproceed.com#@#.single-ad
 adsafelink.com##+js(aopr, app_vars.force_disable_adblock)
@@ -302,12 +294,6 @@ adsh.cc##+js(set, blurred, false)
 adshrink.it##+js(aeld, load, nextFunction)
 adshrink.it##+js(aopr, open)
 adshrink.it##.active.dimmer.ui:has-text(/Wait|Skip/i)
-adslinkfly.online##+js(acs, document.addEventListener, nextFunction)
-adslinkfly.online##+js(acs, mMcreateCookie)
-adslinkfly.online##+js(aopr, app_vars.force_disable_adblock)
-adslinkfly.online##+js(aopr, document.write)
-adslinkfly.online##+js(set, blurred, false)
-adslinkfly.online##.banner
 adultdvdparadise.com,freeomovie.info,fullxxxmovies.me,mangoparody.com,mangoporn.co,netflixporno.net,pandamovie.*,pandamovies.me,playpornfree.xyz,pornkino.cc,pornwatch.ws,speedporn.*,watchfreexxx.pw,watchpornfree.*,watchxxxfree.pw,xopenload.pw,xtapes.me,xxxmoviestream.xyz,xxxparodyhd.net,xxxscenes.net,xxxstream.me,youwatchporn.com##+js(aopr, exoNoExternalUI38djdkjDDJsio96)
 adultdvdparadise.com,freeomovie.info,fullxxxmovies.me,mangoparody.com,mangoporn.co,netflixporno.net,pandamovie.*,pandamovies.me,playpornfree.xyz,pornkino.cc,pornwatch.ws,speedporn.*,watchfreexxx.pw,watchpornfree.*,watchxxxfree.pw,xopenload.pw,xtapes.me,xxxmoviestream.xyz,xxxparodyhd.net,xxxscenes.net,xxxstream.me,youwatchporn.com##+js(nowoif)
 advocate.com,arobasenet.com,cultofmac.com,currentaffairs.gktoday.in,dailycaller.com,dogtime.com,fallbrook247.com,gamesgames.com,gazettenet.com,insidenova.com,jetztspielen.de,leitesculinaria.com,practicalpainmanagement.com,pwinsider.com,ruinmyweek.com,sanangelolive.com,sanfoundry.com,selfhacked.com,sporcle.com,stylecaster.com,upi.com,viraliq.com##+js(aopr, googletag)
@@ -1991,8 +1977,6 @@ freegamescasual.com##+js(nostif, adblock_popup, 500)
 freegogpcgames.com##+js(no-xhr-if, googlesyndication)
 freegogpcgames.com##+js(nostif, show)
 freegogpcgames.com##+js(nowoif)
-freejpmusic.net##+js(aopr, blockAdBlock)
-freejpmusic.net##+js(aopr, mdpDeBlocker)
 freelitecoin.vip##+js(aopr, adBlockDetected)
 freelitecoin.vip##+js(nano-sib)
 freeopenvpn.org##.ipspeed
@@ -2253,8 +2237,6 @@ globaltv.com##.footerAd-wrapper
 gloucestershirelive.co.uk##+js(set, chameleonVideo.adDisabledRequested, true)
 gmx.*,web.de##+js(aeld, timeupdate)
 gnomio.com##+js(no-xhr-if, /doubleclick|googlesyndication/)
-gnula2.co##.box-p
-go.adslinkfly.online##.short
 go.bucketforms.com##+js(acs, $, adblocker)
 go.com#@#.has-ad
 goafricaonline.com##+js(aopr, goafricaSplashScreenAd)
@@ -2285,7 +2267,6 @@ gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(acs, decodeURI, decodeURIComponent)
 gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(aopr, exoJsPop101)
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
 googlvideo.com,serverf4.org##+js(nowoif)
-gosemut.net##+js(nowoif)
 gosexpod.com###zzz-on-video-o
 gosexpod.com##+js(aopr, document.dispatchEvent)
 gosexpod.com##.zzz-ddnotice
@@ -3578,7 +3559,12 @@ mynewsmedia.co##+js(aost, String.prototype.charCodeAt, https)
 mynewsmedia.co##+js(disable-newtab-links)
 mynewsmedia.co##+js(no-fetch-if, googlesyndication)
 mynewsmedia.co##+js(set, count, 0)
+mynewsmedia.co##.show.modal-backdrop
+mynewsmedia.co##.smart-link-banner-ad-container
 mynewsmedia.co##[href^="https://mauchopt.net"]
+mynewsmedia.co,mynewspost.in###wpsafe-generate:style(display: block !important;)
+mynewsmedia.co,mynewspost.in###wpsafe-snp:style(display: block !important;)
+mynewsmedia.co,mynewspost.in###wpsafe-wait1,#container-countdown
 mynewsmedia.co,revadvert.com###VerifyBtn, #myNextInst, #NextBtn, #NextInfo:others()
 mynewsmedia.co,revadvert.com###VerifyBtn:style(display:block !important;)
 mynewsmedia.co,revadvert.com##+js(nano-sib, timer, *)
@@ -3960,8 +3946,6 @@ pearsonclinical.com##.aligner
 peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
 peekvids.com,playvids.com,pornflip.com,pornoeggs.com##+js(aopr, open)
 pekalongan-cits.blogspot.com##+js(aeld, load, nextFunction)
-peliculaonlinehd.com##+js(ra, href, #clickfakeplayer)
-peliculaonlinehd.com##.ssocial
 peliculas1mega.com##+js(aeld, DOMContentLoaded, shortener)
 peliculas1mega.com##+js(aopr, protected_links)
 peliculas1mega.com##+js(aopw, _pop)
@@ -3975,9 +3959,8 @@ peliculasmx.net##+js(aopw, segs_pop)
 peliculasmx.net##+js(nowebrtc)
 peliculasmx.net##.selected:has-text(Ads)
 peliculaspornomega.net##.dimmed
-pelis-gratis.com##.holder > li [href*="/descargar.html"]:xpath(../..)
-pelis-gratis.com##a.align_c.button
 pelispedia24.*,streamplusvip.xyz##+js(nowoif)
+pelisplayer.xyz##+js(aopr, doSecondPop)
 pelisplus.*,clasico.tv##+js(aopw, _pop)
 pelisplus.*,pelisplushd.*,pelispop.net,streampelis.club##+js(nowoif)
 pelisplus.online###custom_html-7
@@ -4098,6 +4081,7 @@ player.theplatform.com##+js(m3u-prune, tvessaiprod.nbcuni.com, /theplatform\.com
 player.tubia.com#@#.companion-ads
 player.xxxbestsites.com##+js(aopr, BetterJsPop)
 player.zona-leros.net,zlplayer.net###dvr-vid
+playnetutem1.xyz##+js(aopr, doSecondPop)
 playok.com##.adsbygoogle:style(height: 1px !important; width: 1px !important;)
 playpaste.com##+js(acs, document.addEventListener, Popup)
 playpaste.com##+js(set, $.ajax, trueFunc)
@@ -4924,6 +4908,10 @@ socientifica.com.br##+js(nobab)
 socks24.org##+js(aeld, load, onload)
 socks24.org##[href^="http://www.linkev.com/"]
 soft112.com##+js(nano-sib)
+soft98.ir##+js(spoof-css, a[href*="s0ft98.ir" i], clip-path, none)
+soft98.ir##+js(spoof-css, a[href*="smostafa" i], clip-path, none)
+soft98.ir##+js(spoof-css, article > aside, clip-path, none)
+soft98.ir##a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
 softdescargas.com,softwaredescargas.com##+js(aeld, DOMContentLoaded, scriptwz_url)
 software-on.com##+js(aopr, decodeURIComponent)
 software-on.com##+js(nowebrtc)
@@ -5110,8 +5098,6 @@ sypl.xyz##+js(set, clientSide.adbDetect, noopFunc)
 syracusefan.com##+js(aopw, XF)
 sysnettechsolutions.com##+js(nostif, ai_adb)
 sysnettechsolutions.com##a[href^="https://bit.ly/"]
-sznlink.xyz##+js(aopr, popunder)
-sznlink.xyz##+js(nostif, jQuery)
 t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
@@ -5516,10 +5502,6 @@ upstream.to##+js(nowebrtc)
 upstream.to##+js(set, cRAds, null)
 uptobox.com,uptostream.com##+js(set, jsUnda, noopFunc)
 upzone.cc##+js(acs, document.getElementById, undefined)
-ur-files.com##+js(acs, document.createElement, 'script')
-ur-files.com##+js(nowebrtc)
-ur-files.com##[href*="/api/redirect"]
-ur-files.com##[href^="https://trkwdd.com/"]
 urbia.de##+js(aopr, _sp_.mms.startMsg)
 urlaubspartner.net##+js(set, adblock, false)
 urlaubspartner.net##.ad
