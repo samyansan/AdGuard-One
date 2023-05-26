@@ -1,6 +1,5 @@
 ###anuncio
 ###bt-ads
-###floating_ads_bottom_textcss_container
 ###invid_call
 ###invideo_2
 ###invideo_data
@@ -562,7 +561,7 @@ aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !im
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
 aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
-aternos.org##.sidebar:style(width: 1.81px !important; padding: 1px !important;)
+aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
 atozmath.com##+js(set, google.javascript, {})
@@ -1188,7 +1187,6 @@ compucalitv.com##.onp-sl-social-locker
 compucalitv.com,compupaste.com,paste3.org##+js(aopw, _pop)
 compupaste.com##+js(nowoif)
 computerbild.de##.startdownload > a[data-is-manager-usable="1"]
-computerworld.com,networkworld.com,probuildstats.com##div.ad-placement
 comunidadgzone.es##+js(nostif, nextFunction, 2000)
 configspc.com##+js(set, jsUnda, noopFunc)
 conservativebrief.com###main-box-3
@@ -1325,7 +1323,6 @@ dailymail.co.uk##.mol-ads-label-container
 dailymail.co.uk##.pufftext > .sponsored:upward(3)
 dailymail.co.uk##.pufftext:has-text(/SPONSORED/):upward(2)
 dailymaverick.co.za##+js(nostif, t(), 0)
-dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
 dailysport.*,eplsite.uk##+js(aopr, AaDetector)
 dailysport.*,eplsite.uk##+js(aopr, open)
 dailyuploads.net###dlink
@@ -1374,7 +1371,6 @@ designmodo.com##.onp-sl-social-locker
 designoptimal.com##ins.adsbygoogle
 desired.de##+js(ra, data-ivad-preroll-adtag, video, stay)
 desired.de##.sad_banner
-desired.de,kino.de##+js(no-xhr-if, svonm)
 detroitnews.com###partner-poster-0
 devast.io###advert
 devdrive.cloud##+js(acs, document.getElementById, undefined)
@@ -1516,7 +1512,6 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nostif, /ads|showPopup/)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##.container > div a[href].set-anchor:upward(.container > div)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[data-href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[href*="grammarly.com"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##[onclick*="grammarly"]
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##a[href].set-anchor
@@ -1525,6 +1520,7 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[class]:not([id]):not(.container):not(.main-content) > div[id] > ins.adsbygoogle:upward(2)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[style]:not([class]) > div[class][style] > span[class] > ._ap_apex_ad:upward(3)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##ins.adsbygoogle:style(max-height: 1px !important; visibility: collapse !important;)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com##[data-href*="grammarly.com"]
 durtypass.com##+js(aopr, _pop)
 durtypass.com##+js(nowoif)
 dutrag.com,embed.casa,embedsito.com,fembed.*,feurl.com,films5k.com,gaobook.review,javcl.me,javip.pro,javlove.club,luxubu.review,mavlecteur.com,mavplay.*,mavplayer.xyz,mrdhan.com,openplayer.net,playdoe.xyz,playfinder.xyz,playvid.host,rubicstreaming.com,smartshare.tv,ujav.me,videobb.*,videogreen.xyz,watchgayporn.online,xstreamcdn.com,youtnbe.xyz##+js(nowoif)
@@ -4038,10 +4034,11 @@ pixiv.net##iframe[name][width="184"][height="232"]:upward(1)
 pixiv.net##iframe[name][width="500"][height="520"]:upward(1)
 pixiv.net##section > div[class^="sc-"]:last-child > div[style*="width: 728px;"]:only-child > iframe[name="footer"][width="728"][height="90"]:upward(2):matches-css(margin-bottom: -16px)
 pixlr.com###workspace:style(right: 0px !important;)
-plagiarismchecker.co###top-ad:style(max-height: 1px !important;)
+plagiarismchecker.co###top-ad:style(max-height: 2px !important;)
 plagiarismchecker.co##.grmly_body
 plagiarismchecker.co##.text-center.my-1
 plagiarismchecker.co##.text-center.my-3
+plagiarismchecker.co##[href="#"][target="_blank"]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
@@ -4628,6 +4625,8 @@ searchenginereports.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 searchenginereports.net##.adsbygoogle:upward(1)
 searchenginereports.net##.advert-slot
 searchenginereports.net##.grammarly-overall
+searchenginereports.net##[href^="https://goo.gl/"]
+searchenginereports.net##div[id^="ee_"]
 seatguru.com##+js(nowoif)
 seattletimes.com##+js(nostif, apstagLOADED)
 seazon.fr##+js(no-fetch-if, url:ipapi.co)
@@ -5101,10 +5100,6 @@ tabooporns.com##+js(aopw, _pop)
 tagesspiegel.de##+js(aopr, Notification)
 tagmp3.net##+js(acs, document.getElementById, warning)
 tamin.ir#@#.ads2
-tamrieltradecentre.com##+js(nostif, , 0)
-tamrieltradecentre.com##+js(nostif, ad)
-tamrieltradecentre.com##[href*="sjv.io"]:remove()
-tamrieltradecentre.com#@#a[href*=".sjv.io"] > img:style(width: 1% !important; opacity: 0 !important;)
 tapchipi.com##+js(nostif, mdp)
 taroot-rangi.com##+js(aopw, sc_adv_out)
 tatangga.com##+js(acs, eval, AdBlock)
@@ -6007,7 +6002,6 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 ytmp3.cc##+js(nowoif, !/ytmp3|dropbox/)
 ytmp3.cc#@#+js(nowoif)
 yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
