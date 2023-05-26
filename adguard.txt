@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-26 02:15:28
-! Total count: 77700
+! Version: 2023-05-26 09:06:51
+! Total count: 77699
 
 ###anuncio
 ###bt-ads
@@ -2134,7 +2134,6 @@ compucalitv.com##.onp-sl-social-locker
 compucalitv.com,compupaste.com,paste3.org##+js(aopw, _pop)
 compupaste.com##+js(nowoif)
 computerbild.de##.startdownload > a[data-is-manager-usable="1"]
-computerbild.de,golem.de,tvnow.*##+js(no-xhr-if, damoh)
 computerworld.com,networkworld.com,probuildstats.com##div.ad-placement
 comunidadgzone.es##+js(nostif, nextFunction, 2000)
 configspc.com##+js(set, jsUnda, noopFunc)
@@ -3383,7 +3382,7 @@ gfsvideos.com##+js(nowoif)
 gfycat.com##+js(acs, Math, ='\x)
 giallozafferano.it##+js(nostif, (), 1)
 giga.de##^script:has-text(.call(null))
-giga.de,kino.de##+js(sed, script, /\"homad\"\,/)
+giga.de,kino.de##+js(rpnt, script, /\"homad\"\,/)
 gigaho.com##+js(aopr, onload)
 gigantti.fi##.mat-drawer-container:style(overflow-x: auto !important)
 gioialive.it##+js(nostif, rbm_block_active, 1000)
@@ -3446,6 +3445,7 @@ golem.de##.list-articles>li:has(.icon-addy:matches-css-before(content: "Anzeige"
 golem.de##.sp-article:has(span:matches-css-before(content:/Anzeige/i))
 golem.de##[data-article-id]:has([class]:matches-css-before(content:/ANZEIGE/))
 golem.de##[href^="https://ads.golem.de/"]
+golem.de,tvnow.*##+js(no-xhr-if, damoh)
 golfchannel.com##+js(set, adBlockEnabled, false)
 goltelevision.com##+js(set, adblock, false)
 gomiblog.com##+js(nostif, instance.check, 1)
@@ -3819,7 +3819,7 @@ igfap.com##+js(aopw, _pop)
 igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
-igg-games.com##[href="https://igg-games.com/netf2.html"]
+igg-games.com##[href*="-games.com/netf"][href$=".html"]
 igg-games.com##[href^="https://tm-offers"]
 igg-games.com##[style^="margin-top"]:has([target="_blank"])
 igg-games.com#@#.uk-panel.widget-text
@@ -4756,7 +4756,7 @@ megapastes.com##+js(aopw, _pop)
 megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
-megaup.net##+js(sed, script, /if\(\$.*return;}/)
+megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
 megaup.net##.metaRedirectWrapperBottomAds
 megaup.net##body .metaRedirectWrapperBottomAds > div > .imgAds:style(margin-top: -10000px !important; pointer-events: none !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
@@ -6754,7 +6754,7 @@ speedtest.net##+js(set, isBlocked, false)
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 spellcheck.net,spellchecker.net,spellweb.com##+js(nostif, bioEp)
 spellchecker.net##+js(aopr, gPartners)
-spiegel.de##+js(sed, script, /^\(function\(\)/, if(false))
+spiegel.de##+js(rpnt, script, /^\(function\(\)/, if(false))
 spiegel.de##^script:has-text(homad)
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
@@ -6971,7 +6971,7 @@ sysnettechsolutions.com##a[href^="https://bit.ly/"]
 t-online.de###T-Shopping
 t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
-t-online.de##+js(sed, script, /\"homad\":\{\"state\":\"enabled\"\}/, "homad":{"state":"disabled"})
+t-online.de##+js(rpnt, script, /\"homad\":\{\"state\":\"enabled\"\}/, "homad":{"state":"disabled"})
 t-online.de##+js(set, abp, false)
 t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
@@ -7680,7 +7680,7 @@ vintageporntubes.com##+js(aeld, getexoloader)
 vintageporntubes.com##+js(aopr, ExoLoader.serve)
 vintageporntubes.com##.VPT_player_ads
 vinylcollective.com##+js(acs, jQuery, dismissAdBlock)
-vip.de,rtl.de,fitforfun.de,desired.de,kino.de##+js(no-xhr-if, svonm)
+vip.de,rtl.de,fitforfun.de,desired.de,kino.de,cinema.de##+js(no-xhr-if, svonm)
 vipbox.*##+js(aopw, _pop)
 vipbox.*##.btn-lg.btn
 vipbox.*##.btn-success.btn
@@ -20982,6 +20982,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||authoritativeidiom.com^
 ||authsmtp.carte-gr.total.fr^
 ||auto-bannertausch.de^
+||auto-bild.de/_static-assets/homad/homad.js
 ||auto-ping.com^
 ||auto.ssglog.com^
 ||autoads.asia^
@@ -29777,7 +29778,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||dam.tucsun.mom^
 ||damageddistance.com^
 ||damdoor.com^
-||damoh.cinema.de/*$media,redirect=noopmp3-0.1s,domain=cinema.de
 ||damoh.gmx.*/*$media,redirect=noop-0.1s.mp3,1p
 ||damoh.kochbar.de/*$media,redirect=noopmp3-0.1s,domain=kochbar.de
 ||damoh.tvnow.de/*$media,redirect=noopmp3-0.1s,domain=tvnow.de
@@ -39476,7 +39476,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||i-trip.getui.com^
 ||i.4see.mobi^
 ||i.anime22.net^
-||i.auto-bild.de/assets/modules/homad/*$xhr,redirect=nooptext,domain=autobild.de
 ||i.bigin.io^
 ||i.bigmir.net^
 ||i.bongacash.com^
