@@ -560,9 +560,9 @@ at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
 aternos.org##.header-link-exaroton-link:style(max-height: 0.017px !important; padding: 0.017px !important;)
-aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
+aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
 atomtt.com##+js(acs, setTimeout, admc)
 atozmath.com##+js(set, google.javascript, {})
 atozmath.com##+js(set, google.javascript.ads, {})
@@ -2549,13 +2549,12 @@ igfap.com##+js(aopw, _pop)
 igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
-igg-games.com##[href*="-games.com/netf"][href$=".html"]
+igg-games.com##[href*="-games.com/"][href$=".html"]:has([src]):not(*:has(.wk-margin-right))
 igg-games.com##[href^="https://tm-offers"]
 igg-games.com##[style^="margin-top"]:has([target="_blank"])
 igg-games.com#@#.uk-panel.widget-text
 igg-games.com,igg-games.g3g.ink##+js(acs, navigator, FingerprintJS)
 igg-games.g3g.ink##[href$=".php"]
-igg-games.g3g.ink##[href="https://igg-games.g3g.ink/netf2.html"]
 ign.com###king
 ign.com##+js(acs, JSON, g02.ign)
 ign.com##.preShell:style(height: 0 !important;)
@@ -4775,6 +4774,9 @@ shortgoo.blogspot.com##+js(set, showAds, true)
 shortit.pw##+js(nowoif)
 shortit.pw##+js(set, console.clear, noopFunc)
 shortit.pw##+js(set, valid, 1)
+shortlinks.tech##+js(acs, addEventListener, tabUnder)
+shortlinks.tech##+js(nano-sib, timeLeft)
+shortlinks.tech##+js(rpnt, script, /pageWidth < screenWidth/, false)
 shortpaid.com##+js(acs, jQuery, undefined)
 shortpaid.com##+js(set, blurred, false)
 shrib.com##+js(nostif, adb, 6000)
@@ -5732,6 +5734,7 @@ watchparksandrecreation.net##+js(aopw, _pop)
 watchparksandrecreation.net##+js(nowoif)
 watchtvseries.video##+js(nosiif, visibility, 1000)
 watson.de##+js(set, _sp_.config, undefined)
+watson.de##[data-ad]
 waybig.com##.aff-list
 waybig.com##.aside-adds-col
 waybig.com##.content-aff
@@ -5741,7 +5744,7 @@ wcoforever.net###sidebar_r1
 wcoforever.net##.anti-ad
 wcostream.com,wcoanimedub.tv,wcoforever.net##+js(nostif, google_jobrunner)
 weather.us##.dkpw-abp
-web.de##.ad:style(position:absolute !important;left:-3000px !important;display:block !important)
+web.de##.ad:style(position:absolute !important; left:-10000px !important; display:block !important; pointer-events: none !important;)
 web.de##.iba-acceptable:has-text(/Anzeige|Info/)
 web.de##.main [data-ac]:empty
 web.de#@#.ad
