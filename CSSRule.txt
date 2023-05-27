@@ -4660,7 +4660,10 @@ senmanga.com##+js(aopr, AaDetector)
 senmanga.com##[class*="banner"]
 senpa.io###ad-slot-center-panel
 senpa.io###ad-slot-left-panel
+senpa.io###banner_ad_bottom
 senpa.io##+js(nobab)
+senpa.io##.adsPanel
+senpa.io##.advertisement-informer
 sensacine.com##+js(aopr, JadIds)
 sensualgirls.org##+js(aopr, document.dispatchEvent)
 sensualgirls.org##.cbox_cont > div[style="text-align: center;"]

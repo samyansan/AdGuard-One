@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-27 09:08:31
-! Total count: 77521
+! Version: 2023-05-27 14:15:25
+! Total count: 77524
 
 ###anuncio
 ###bt-ads
@@ -6401,7 +6401,10 @@ senmanga.com##+js(aopr, AaDetector)
 senmanga.com##[class*="banner"]
 senpa.io###ad-slot-center-panel
 senpa.io###ad-slot-left-panel
+senpa.io###banner_ad_bottom
 senpa.io##+js(nobab)
+senpa.io##.adsPanel
+senpa.io##.advertisement-informer
 sensacine.com##+js(aopr, JadIds)
 sensualgirls.org##+js(aopr, document.dispatchEvent)
 sensualgirls.org##.cbox_cont > div[style="text-align: center;"]
