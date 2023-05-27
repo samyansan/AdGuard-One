@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-27 14:15:25
-! Total count: 77524
+! Version: 2023-05-27 20:23:02
+! Total count: 77525
 
 ###anuncio
 ###bt-ads
@@ -7973,6 +7973,7 @@ wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscraper-container
 wordgames.com###skyscrapper-container
 work.ink##+js(nosiif, a0b)
+work.ink##+js(nostif, a0b)
 work.ink##+js(ra, href, [href*="jump"], stay)
 work.ink##.no-overlay
 work.ink##.waldo-display-unit
