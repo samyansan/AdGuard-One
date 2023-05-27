@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-27 20:23:02
-! Total count: 77525
+! Version: 2023-05-28 02:14:35
+! Total count: 77528
 
 ###anuncio
 ###bt-ads
@@ -6547,9 +6547,9 @@ shortgoo.blogspot.com##+js(set, showAds, true)
 shortit.pw##+js(nowoif)
 shortit.pw##+js(set, console.clear, noopFunc)
 shortit.pw##+js(set, valid, 1)
-shortlinks.tech##+js(acs, addEventListener, tabUnder)
+shortlinks.tech##+js(aeld, mousedown, tabUnder)
 shortlinks.tech##+js(nano-sib, timeLeft)
-shortlinks.tech##+js(rpnt, script, /pageWidth < screenWidth/, false)
+shortlinks.tech##+js(nosiif, verificarLargura)
 shortpaid.com##+js(acs, jQuery, undefined)
 shortpaid.com##+js(set, blurred, false)
 shrib.com##+js(nostif, adb, 6000)
@@ -63698,6 +63698,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||stadiumigt.actonservice.com^
 ||stadtamt.net^
 ||stadtgemeinde.org^
+||staff-start.com/js/track$badfilter
 ||staffsumptuouscovetous.com^
 ||stage-a.applovin.com^
 ||stage-assets.applovin.com^
@@ -70489,6 +70490,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||trollsvide.com^
 ||trollwarningpaws.com^
 ||trombocrack.com^
+||tronmaster.tk/anuncios/betfury300x250.gif
 ||tropateiqs.life^
 ||tropheesdiffusion.com^
 ||tropicanalv.ojrq.net^
@@ -77220,6 +77222,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||zepazupi.com^
 ||zepekw.guidetoiceland.is^
 ||zer1ads.com^
+||zerads.com^
 ||zercenius.com^
 ||zerg.pro^
 ||zergnet.com/zerg-inf-multi$3p,script
