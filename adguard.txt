@@ -3,11 +3,12 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-28 20:22:51
-! Total count: 77486
+! Version: 2023-05-29 02:14:21
+! Total count: 77489
 
 ###anuncio
 ###bt-ads
+###ez-sidebar-wall-left
 ###invid_call
 ###invideo_2
 ###invideo_data
@@ -337,7 +338,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,3p,denyallow=consensu.org|google.com|gstatic.com|recaptcha.net,domain=loan2host.com|tei.ai|tii.ai
 *$script,3p,denyallow=disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|googleusercontent.com|blogger.com|plyr.io,domain=librospreuniversitariospdf.blogspot.com
 *$script,3p,denyallow=disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=downloadhub.*
-*$script,3p,denyallow=dotblocking.dummy|google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*
+*$script,3p,denyallow=dotblocking.dummy|google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*|~mixdrop.one|mixdroop.bz
 *$script,3p,denyallow=facebook.net|google.com|gstatic.com|recaptcha.net,domain=dz4link.com
 *$script,3p,denyallow=fastly.net|google.com|googleapis.com|gstatic.com|jsdelivr.net|jwpcdn.com,domain=imgcloud.pw
 *$script,3p,denyallow=fluidplayer.com|jwpcdn.com|wp.com|cdn77.org|facebook.com|facebook.net|fbcdn.net|instagram.com|disqus.com|disquscdn.com|jwpsrv.com|jsdelivr.net|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|sharethis.com|stackpathcdn.com,domain=telepisodes.org
@@ -2164,6 +2165,9 @@ coolsoft.altervista.org###content-right-floatbox
 coolsoft.altervista.org##+js(nostif, _0x)
 coolsoft.altervista.org##ins.adsbygoogle
 couchtuner.*##+js(acs, RegExp, 0x)
+counterclockwisejacky.com##+js(acs, $, /\.fadeIn|\.show\(.?\)/)
+counterclockwisejacky.com##+js(nostif, blocked)
+counterclockwisejacky.com##+js(nowoif)
 couponscorpion.com##+js(aopr, adBlockDetected)
 cpmlink.net##+js(acs, decodeURI, decodeURIComponent)
 cpmlink.net##+js(aeld, , _blank)
@@ -4847,15 +4851,14 @@ mitly.us##[href^="http://deloplen.com/"]
 mitly.us##ins.adsbygoogle
 mitula.com.br#@#.adsList
 mivo.com##.ads
-mixdrop.*##+js(aopr, atob)
-mixdrop.*##+js(aopw, _pop)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mixdrop.*##div[onclick^="$(this).remove"]
+mixdrop.*,mixdroop.bz##+js(aopw, _pop)
 mixdrop.*,mixdrp.*##+js(acs, $, String.fromCharCode)
 mixdrop.*,mixdrp.*##+js(nano-stb, disabled)
-mixdrop.*,mixdrp.*##+js(nowoif)
+mixdrop.*,mixdrp.*,mixdroop.bz##+js(nowoif)
 mixdrp.*##+js(aeld, load, download-wrapper)
-mixdrp.*,mixdrop.*##body > div[style^="position: absolute;"][style*="z-index"]
+mixdrp.*,mixdrop.*,mixdroop.bz##body > div[style^="position: absolute;"][style*="z-index"]
 mixloads.com##+js(aeld, load, 2000)
 mixloads.com##+js(aopr, AaDetector)
 mkvcage.*,pahe.*,psarips.*##+js(aopw, _pop)

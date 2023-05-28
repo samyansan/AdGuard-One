@@ -1,5 +1,6 @@
 ###anuncio
 ###bt-ads
+###ez-sidebar-wall-left
 ###invid_call
 ###invideo_2
 ###invideo_data
@@ -1218,6 +1219,9 @@ coolsoft.altervista.org###block-block-30
 coolsoft.altervista.org###content-right-floatbox
 coolsoft.altervista.org##+js(nostif, _0x)
 coolsoft.altervista.org##ins.adsbygoogle
+counterclockwisejacky.com##+js(acs, $, /\.fadeIn|\.show\(.?\)/)
+counterclockwisejacky.com##+js(nostif, blocked)
+counterclockwisejacky.com##+js(nowoif)
 couponscorpion.com##+js(aopr, adBlockDetected)
 cpmlink.net##+js(acs, decodeURI, decodeURIComponent)
 cpmlink.net##+js(aeld, , _blank)
@@ -3418,6 +3422,9 @@ mitly.us##[href^="http://deloplen.com/"]
 mitly.us##ins.adsbygoogle
 mitula.com.br#@#.adsList
 mivo.com##.ads
+mixdrop.*,mixdroop.bz##+js(aopw, _pop)
+mixdrop.*,mixdrp.*,mixdroop.bz##+js(nowoif)
+mixdrp.*,mixdrop.*,mixdroop.bz##body > div[style^="position: absolute;"][style*="z-index"]
 mixloads.com##+js(aeld, load, 2000)
 mixloads.com##+js(aopr, AaDetector)
 mlbstream.tv,nbastream.tv,nflstream.tv,nhlstream.tv##[href*="allsports4free.online/"]
