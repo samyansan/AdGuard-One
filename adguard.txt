@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-29 20:25:10
-! Total count: 78239
+! Version: 2023-05-30 02:15:11
+! Total count: 78222
 
 ###anuncio
 ###bt-ads
@@ -547,7 +547,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *.gif$domain=oploverz.*,image
 *.gif$domain=sunporno.com,image
 *.gif$domain=www.visionias.net,image
-*.gif$image,domain=misa-anime.com
 *.gif$image,domain=stream1688.com
 *.jpg$script,domain=allthingsvegas.com|clashdaily.com|madworldnews.com|menrec.com|politicalcowboy.com|reviveusa.com|sonsoflibertymedia.com|themattwalshblog.com|videogamesblogger.com
 *.mp4$media,3p,redirect=noopmp3-0.1s,domain=ashemaletube.com
@@ -907,8 +906,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 24pornvideos.com,2japaneseporn.com,xxxvideor.com,youngleak.com,zhlednito.cz##+js(aopr, ExoLoader.serve)
 2ddl.*##+js(aopw, _pop)
 2kspecialist.net##+js(acs, addEventListener, blocker)
-2speed.net##+js(acs, document.getElementById, adblockinfo)
-2speed.net##+js(nano-stb, , 1400)
 300mbfilms.*##+js(aopr, AaDetector)
 300mbfilms.*##+js(aopw, _pop)
 300mbfilms.*##+js(popads-dummy)
@@ -2488,7 +2485,6 @@ dreamdth.com##+js(set, adBlockDetected, false)
 dreamfancy.org##+js(nostif, nextFunction, 250)
 dreamfancy.org##+js(nowoif)
 dressupgal.com,dressuppink.com,girlsocool.com##+js(aopw, adBlockDetected)
-dressupmix.com##+js(acs, fuckAdBlock, importFAB)
 drinksmixer.com,leitesculinaria.com##+js(set, Date.now, noopFunc)
 drivebox.club##+js(aeld, load, onload)
 drivefire.co##+js(aopr, AaDetector)
@@ -2522,7 +2518,7 @@ duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
 duplichecker.com##.container div > div[style]:has(.ads-pricing)
 duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com###home_after_title
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net###home_after_title
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
@@ -4440,7 +4436,6 @@ linksht.com##+js(nowoif)
 linksht.com##+js(set, counter, 0)
 linksht.com##+js(set, window_focus, true)
 linkshub.*##+js(nowoif)
-linkspaid.com##+js(aopr, app_vars.force_disable_adblock)
 linkspaid.com##+js(nostif, (), 1000)
 linkspaid.com##+js(set, jQuery.adblock, false)
 linkszia.co##.banner
@@ -4841,8 +4836,6 @@ mirrorace.*##+js(popads-dummy)
 mirrorace.*##.uk-card-secondary:has-text(VPN)
 mirrorace.*##[href*="search/"]
 mirrorace.*##[href^="https://fastspeedtest.ml/search/"]
-misa-anime.com##+js(aopw, adBlockDetected)
-misa-anime.com##.img-kosana
 mitly.us##+js(aopr, adBlockDetected)
 mitly.us##+js(aopr, open)
 mitly.us##+js(aopw, _pop)
@@ -5127,7 +5120,6 @@ nekopoi.*##+js(aeld, , adsense)
 nekopoi.*##[href^="http://bit.ly/"]
 nemenlake.*##+js(nowoif)
 nensaysubs.net###outerdiv
-neoskip.*##+js(aopr, app_vars.force_disable_adblock)
 neoteo.com##+js(set, jQuery.adblock, false)
 nesia.my.id##+js(set, tidakAdaPenghalangAds, true)
 netaffiliation.com##+js(acs, $, hide)
@@ -5323,7 +5315,6 @@ oloadporn.com##+js(aopw, _pop)
 on9.net##+js(aopr, open)
 onbatch.my.id##[id*="ScriptRoot"]
 oncehelp.com##+js(aeld, click, trigger)
-oncehelp.com##+js(aopr, app_vars.force_disable_adblock)
 oncehelp.com##+js(aopr, open)
 oncehelp.com##+js(set, blurred, false)
 oncehelp.com##.banner-inner
@@ -5669,7 +5660,6 @@ planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
 planetfools.com##+js(nowebrtc)
-planetfootball.com###abr_purchase_div
 planetsuzy.org##+js(acs, jQuery, ready)
 planetsuzy.org##+js(set, __ads, true)
 planetsuzy.org##div[style]:has(> script[src*="ads.exoclick.com/"])
@@ -6568,7 +6558,6 @@ shrink.*##+js(nowebrtc)
 shrink.*##+js(set, blurred, false)
 shrink.*##.banner
 shrink.*##center
-shrinkearn.com##+js(aopr, app_vars.force_disable_adblock)
 shrinkearn.com##+js(aopr, open)
 shrinkme.io###imgAddDirectLink
 shrinkme.io##+js(aopr, app_vars.force_disable_adblock)
@@ -6668,7 +6657,6 @@ smallseotools.com##[id$="sst"]
 smallseotools.com##article
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
-smallseotools.com#@##home_after_title
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
 smartadserver.*#@#[href*=".smartadserver.com"]
@@ -6714,7 +6702,6 @@ software-on.com##ins.adsbygoogle
 softwarecrackguru.com##+js(aopw, downloadJSAtOnload)
 softwaredescargas.com##+js(aopr, scriptwz_url)
 softwaresblue.com##+js(acs, $, setTimeout)
-softwaretestingmaterial.com##+js(acs, jQuery, ai_adb)
 softx64.com##+js(nostif, blocker, 100)
 sokobj.com,smplace.com##+js(aopw, _pop)
 solarmovie.*##+js(aopr, AaDetector)
@@ -6860,7 +6847,6 @@ steamplay.*,streamp1ay.*##+js(aopw, Fingerprint2)
 steamplay.*,streamp1ay.*##+js(aopw, adcashMacros)
 steanplay.*,streanplay.*##div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 stfly.me##+js(aeld, click, trigger)
-stfly.me##+js(aopr, app_vars.force_disable_adblock)
 stfly.me##+js(aopr, open)
 stfly.me##+js(aopw, Fingerprint2)
 stfly.me##+js(aopw, tabUnder)
@@ -8086,8 +8072,6 @@ xopenload.me##+js(aopw, open)
 xopenload.me##+js(set, jsUnda, noopFunc)
 xopenload.me##.btn-lg.btn-block.btn
 xpaja.net##+js(acs, String.fromCharCode, atob)
-xpaja.net##+js(aopr, _pop)
-xpaja.net##+js(nofab)
 xpics.me##+js(nowoif)
 xrares.com###linkedblok
 xrares.com##+js(acs, decodeURI, decodeURIComponent)
@@ -33483,7 +33467,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||esseza.com^
 ||essokosi.com^
 ||est.pornleech.ch^
-||estadao.com.br/*/estadao-prevent.js$script,domain=estadao.com.br
 ||estadisticas.lanacion.com.ar^
 ||estadisticas.neored.com^
 ||estadisticasgratis.com^
@@ -35817,6 +35800,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||fus.yad2.co.il^
 ||fuse.forbes.com^
 ||fuseplatform.net^
+||fuseplatform.net^$redirect-rule=noopjs,domain=quackr.io
 ||fusion.bonniertidskrifter.se^
 ||fusion.qq.com^
 ||fusion.va.se^
@@ -77043,7 +77027,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||xoom-ads.com^
 ||xovq5nemr.com^
 ||xox9298.com^
-||xpaja.net/*banner$image
 ||xpartners.nl^
 ||xpectthatmy.shop^
 ||xpeeps.com^

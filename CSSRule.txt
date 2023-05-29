@@ -170,8 +170,6 @@
 22pixx.xyz##^script:has-text(\'shift\')
 24pornvideos.com,2japaneseporn.com,xxxvideor.com,youngleak.com,zhlednito.cz##+js(aopr, ExoLoader.serve)
 2kspecialist.net##+js(acs, addEventListener, blocker)
-2speed.net##+js(acs, document.getElementById, adblockinfo)
-2speed.net##+js(nano-stb, , 1400)
 360haven.com###ad_global_above_footer
 360haven.com###notices
 360haven.com###pageWrapper:style(display: initial !important;)
@@ -1475,7 +1473,6 @@ dreamdth.com##+js(set, adBlockDetected, false)
 dreamfancy.org##+js(nostif, nextFunction, 250)
 dreamfancy.org##+js(nowoif)
 dressupgal.com,dressuppink.com,girlsocool.com##+js(aopw, adBlockDetected)
-dressupmix.com##+js(acs, fuckAdBlock, importFAB)
 drinksmixer.com,leitesculinaria.com##+js(set, Date.now, noopFunc)
 drivebox.club##+js(aeld, load, onload)
 drivefire.co##+js(aopr, AaDetector)
@@ -1509,7 +1506,7 @@ duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
 duplichecker.com##.container div > div[style]:has(.ads-pricing)
 duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com###home_after_title
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net###home_after_title
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(no-fetch-if, /googlesyndication|adpushup|adrecover/)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(norafif, _0x)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##+js(nosiif, ads)
@@ -3075,7 +3072,6 @@ linksht.com##+js(nostif, /text()|0x/)
 linksht.com##+js(nowoif)
 linksht.com##+js(set, counter, 0)
 linksht.com##+js(set, window_focus, true)
-linkspaid.com##+js(aopr, app_vars.force_disable_adblock)
 linkspaid.com##+js(nostif, (), 1000)
 linkspaid.com##+js(set, jQuery.adblock, false)
 linkszia.co##.banner
@@ -3410,8 +3406,6 @@ miniwebtool.com###videoad:style(position:absolute !important;left:-3000px !impor
 miniwebtool.com##.attribution:has-text(ᴬᵈ)
 miniwebtool.com##[id*="banner"]
 mio.to##+js(acs, document.getElementById, abmsg)
-misa-anime.com##+js(aopw, adBlockDetected)
-misa-anime.com##.img-kosana
 mitly.us##+js(aopr, adBlockDetected)
 mitly.us##+js(aopr, open)
 mitly.us##+js(aopw, _pop)
@@ -3793,7 +3787,6 @@ oloadporn.com##+js(aopw, _pop)
 on9.net##+js(aopr, open)
 onbatch.my.id##[id*="ScriptRoot"]
 oncehelp.com##+js(aeld, click, trigger)
-oncehelp.com##+js(aopr, app_vars.force_disable_adblock)
 oncehelp.com##+js(aopr, open)
 oncehelp.com##+js(set, blurred, false)
 oncehelp.com##.banner-inner
@@ -4052,7 +4045,6 @@ planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
 planetfools.com##+js(nowebrtc)
-planetfootball.com###abr_purchase_div
 planetsuzy.org##+js(acs, jQuery, ready)
 planetsuzy.org##+js(set, __ads, true)
 planetsuzy.org##div[style]:has(> script[src*="ads.exoclick.com/"])
@@ -4792,7 +4784,6 @@ shortpaid.com##+js(set, blurred, false)
 shrib.com##+js(nostif, adb, 6000)
 shrink-service.it##+js(aopr, open)
 shrink-service.it##+js(nano-sib)
-shrinkearn.com##+js(aopr, app_vars.force_disable_adblock)
 shrinkearn.com##+js(aopr, open)
 shrinkme.io###imgAddDirectLink
 shrinkme.io##+js(aopr, app_vars.force_disable_adblock)
@@ -4878,7 +4869,6 @@ smallseotools.com##[id$="sst"]
 smallseotools.com##article
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
-smallseotools.com#@##home_after_title
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
 smiechawatv.pl##+js(nowoif)
@@ -4921,7 +4911,6 @@ software-on.com##ins.adsbygoogle
 softwarecrackguru.com##+js(aopw, downloadJSAtOnload)
 softwaredescargas.com##+js(aopr, scriptwz_url)
 softwaresblue.com##+js(acs, $, setTimeout)
-softwaretestingmaterial.com##+js(acs, jQuery, ai_adb)
 softx64.com##+js(nostif, blocker, 100)
 sokobj.com,smplace.com##+js(aopw, _pop)
 solarmovie.id##+js(aopr, AaDetector)
@@ -5019,7 +5008,6 @@ starlive.xyz##^script:has-text(AaDetector)
 starlive.xyz##^script[data-cfasync]:has-text(h=decodeURIComponent)
 startseite.to##+js(nowebrtc)
 stfly.me##+js(aeld, click, trigger)
-stfly.me##+js(aopr, app_vars.force_disable_adblock)
 stfly.me##+js(aopr, open)
 stfly.me##+js(aopw, Fingerprint2)
 stfly.me##+js(aopw, tabUnder)
@@ -5918,8 +5906,6 @@ xopenload.me##+js(aopw, open)
 xopenload.me##+js(set, jsUnda, noopFunc)
 xopenload.me##.btn-lg.btn-block.btn
 xpaja.net##+js(acs, String.fromCharCode, atob)
-xpaja.net##+js(aopr, _pop)
-xpaja.net##+js(nofab)
 xpics.me##+js(nowoif)
 xrares.com###linkedblok
 xrares.com##+js(acs, decodeURI, decodeURIComponent)
