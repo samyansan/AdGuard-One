@@ -3650,10 +3650,10 @@ newsonthegotoday.com##.viewtable:has(> center:has-text(▼ Scroll down to Contin
 newtorrentgame.com##+js(aopw, _pop)
 newtorrentgame.com##^script:has-text('shift')
 newtorrentgame.com##^script:has-text(\'shift\')
-next-episode.net##+js(nostif, _0x)
+next-episode.net##+js(nostif, /_0x|0x0/)
 next-episode.net##.adsbygoogle
 next-episode.net##[id=""]
-next-episode.net##^script:has-text(checkAdsBlocked)
+next-episode.net##^script:has-text(/checkAdsBlocked|displayNotice/)
 nfl.com##[class$="adblock"]
 nfmovies.com##+js(aopr, Fingerprint2)
 nfmovies.com#@#+js(aopr, $myui)
