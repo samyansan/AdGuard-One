@@ -1038,9 +1038,6 @@ celebmasta.com##img.size-medium
 celebmix.com##+js(set, jQuery.adblock, false)
 celebritymovieblog.com##+js(acs, puShown, /doOpen|popundr/)
 celebritymovieblog.com##.banner_top
-cellmapper.net##.modal_dialog_base:has( > .modal_top_header:has-text(Ads))
-cellmapper.net##table:has( > thead > .collapsableSection > td:has-text(Ads))
-cellmapper.net#@#.modal_dialog_base:has-text(Ads)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -5967,7 +5964,6 @@ yeswegays.com,youramateurtube.com##+js(nowoif)
 yeutienganh.com##+js(aopw, adBlockDetected)
 yiv.com##+js(nostif, Adb)
 yiv.com#@##adsContainer
-ylilauta.org##+js(aeld, , ad-load-fail)
 ylilauta.org##+js(spoof-css, iframe.a, position, static, visibility, visible)
 ylilauta.org##iframe.a.a:style(visibility:hidden!important;position:absolute!important)
 ylilauta.org#@#iframe.a
