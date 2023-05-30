@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-30 02:15:11
-! Total count: 78222
+! Version: 2023-05-30 09:10:23
+! Total count: 78226
 
 ###anuncio
 ###bt-ads
@@ -297,7 +297,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,3p,denyallow=bootstrapcdn.com|disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=movieshub.*
 *$script,3p,denyallow=bootstrapcdn.com|disqus.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|facebook.net,domain=extramovies.*
 *$script,3p,denyallow=cdn77.org|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|google.com|googleapis.com|gstatic.com|hwcdn.net|hcaptcha.com|instagram.com|jquery.com|jsdelivr.net|jwpcdn.com|jwpsrv.com|plyr.io|twimg.com|twitter.com|recaptcha.net|wp.com,domain=japscan.*
-*$script,3p,denyallow=cdn77.org|cloudflare.net|googleapis.com|jsdelivr.net,domain=luscious.net
+*$script,3p,denyallow=cdn77.org|cloudflare.net|googleapis.com|jsdelivr.net|jsdelivr.map.fastly.net,from=luscious.net
 *$script,3p,denyallow=cdn77.org|google.com|gstatic.com|pingit.im|recaptcha.net|smartsuppcdn.com|smartsuppchat.com,domain=pingit.*|pngit.live|~pingit.com|~pingit.me
 *$script,3p,denyallow=cdnfinder.xyz,domain=cdnfinder.xyz
 *$script,3p,denyallow=chatango.com,domain=compucalitv.com
@@ -1423,7 +1423,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(max-height: 0.01px !important; padding: 0.017px !important; pointer-events: none !important;)
+aternos.org##.header-link-exaroton-link:style(max-height: 0.01cm !important; padding: 0.017px !important; pointer-events: none !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
@@ -2539,6 +2539,7 @@ dutchycorp.*###boxes
 dutchycorp.*###link-view > center > br
 dutchycorp.*###link-view [style^="width:468px"]
 dutchycorp.*##+js(acs, console.log, blockAdBlock)
+dutchycorp.*##+js(acs, eval, replace)
 dutchycorp.*##+js(aopr, NoAdBlock)
 dutchycorp.*##+js(aopr, adBlockDetected)
 dutchycorp.*##+js(aopr, app_vars.force_disable_adblock)
@@ -6689,6 +6690,9 @@ socialgirls.im##+js(nostif, aswift_)
 socientifica.com.br##+js(nobab)
 socks24.org##+js(aeld, load, onload)
 socks24.org##[href^="http://www.linkev.com/"]
+sofascore.com##.adUnitBox
+sofascore.com#@#[display^="block,none"]
+sofascore.com#@#[display^="none,none"]
 soft112.com##+js(nano-sib)
 soft98.ir##+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
 soft98.ir##a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
