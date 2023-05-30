@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-05-30 20:28:09
+! Version: 2023-05-31 02:15:31
 ! Total count: 79410
 
 ###anuncio
@@ -8134,6 +8134,7 @@ yiv.com#@##adsContainer
 ylilauta.org##+js(aeld, , ad-load-fail)
 ylilauta.org##+js(spoof-css, iframe.a, position, static, visibility, visible)
 ylilauta.org##iframe.a.a:style(visibility:hidden!important;position:absolute!important)
+ylilauta.org##iframe.a.a:style(width: 0 !important)
 ylilauta.org#@#iframe.a
 yogitimes.com##+js(aopr, fuckAdBlock)
 yomovies.*##+js(aopr, decodeURI)
@@ -38119,7 +38120,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=apk.sekilastekno.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=arlinadzgn.com|idntheme.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=atv.pw
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=babel.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=collegestash.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=felanovia.com
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs:10,domain=firm-ware27.blogspot.com|flash-reset.blogspot.com
