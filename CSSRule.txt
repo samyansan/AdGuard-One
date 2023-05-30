@@ -3648,6 +3648,7 @@ newtorrentgame.com##+js(aopw, _pop)
 newtorrentgame.com##^script:has-text('shift')
 newtorrentgame.com##^script:has-text(\'shift\')
 next-episode.net##+js(nostif, /_0x|0x0/)
+next-episode.net##+js(rmnt, script, /checkAdsBlocked|displayNotice/)
 next-episode.net##.adsbygoogle
 next-episode.net##[id=""]
 next-episode.net##^script:has-text(/checkAdsBlocked|displayNotice/)
