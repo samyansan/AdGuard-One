@@ -560,7 +560,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(max-height: 0.01cm !important; padding: 0.017px !important; pointer-events: none !important;)
+aternos.org##.header-link-exaroton-link:style(max-height: 0.14mm !important; padding: 0.017px !important; pointer-events: none !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
@@ -1355,9 +1355,9 @@ decathlon.in##body:style(opacity: 1 !important;)
 decorativemodels.com,erowall.com,freyalist.com,guruofporn.com,jesseporn.xyz,kendralist.com,vipergirls.to,lizardporn.com,wantedbabes.com,bustybloom.com,exgirlfriendmarket.com,nakedneighbour.com##+js(aopr, loadTool)
 deepbrid.com##+js(acs, document.getElementById, undefined)
 deepbrid.com##+js(set, adsenseadBlock, noopFunc)
-deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,hd-pornos.net,lesbenhd.com,milffabrik.com,porn-monkey.com,porndrake.com,pornhubdeutsch.net,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,xhamsterdeutsch.xyz,xnxx-sexfilme.com##+js(aopr, open)
-deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,hd-pornos.net,lesbenhd.com,milffabrik.com,porn-monkey.com,porndrake.com,pornhubdeutsch.net,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,xhamsterdeutsch.xyz,xnxx-sexfilme.com##+js(nostif, appendChild)
-deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,hd-pornos.net,pornohirsch.net,lesbenhd.com,milffabrik.com,porndrake.com,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornovideos-hd.com,pornotom.com,pornotommy.com,pornozebra.com,xnxx-sexfilme.com##.vjs-overlay
+deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,lesbenhd.com,milffabrik.com,porn-monkey.com,porndrake.com,pornhubdeutsch.net,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,xhamsterdeutsch.xyz,xnxx-sexfilme.com##+js(aopr, open)
+deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,lesbenhd.com,milffabrik.com,porn-monkey.com,porndrake.com,pornhubdeutsch.net,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com,xhamsterdeutsch.xyz,xnxx-sexfilme.com##+js(nostif, appendChild)
+deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,pornohirsch.net,lesbenhd.com,milffabrik.com,porndrake.com,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornovideos-hd.com,pornotom.com,pornotommy.com,pornozebra.com,xnxx-sexfilme.com##.vjs-overlay
 deinesexfilme.com,herzporno.com,lesbenhd.com,milffabrik.com,pornoaffe.com,pornoente.tv,pornohelm.com,pornoklinge.com,xnxx-sexfilme.com###wa_join_btn
 delta.com#@#.adv-container
 deltabit.co##+js(aopr, popjs)
@@ -1518,9 +1518,9 @@ duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div:not([id]) > div[class] > ._ap_apex_ad:upward(2)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[class]:not([id]):not(.container):not(.main-content) > div[id] > ins.adsbygoogle:upward(2)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##div[style]:not([class]) > div[class][style] > span[class] > ._ap_apex_ad:upward(3)
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##ins.adsbygoogle:style(max-height: 1px !important; visibility: collapse !important;)
+duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##ins.adsbygoogle:style(max-height: 1.1px !important; visibility: collapse !important;)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com##[data-href*="grammarly.com"]
-duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com##[href*="grammarly.com"]
+duplichecker.com,plagiarismdetector.net,smallseotools.com##[href*="grammarly.com"]
 durtypass.com##+js(aopr, _pop)
 durtypass.com##+js(nowoif)
 dutrag.com,embed.casa,embedsito.com,fembed.*,feurl.com,films5k.com,gaobook.review,javcl.me,javip.pro,javlove.club,luxubu.review,mavlecteur.com,mavplay.*,mavplayer.xyz,mrdhan.com,openplayer.net,playdoe.xyz,playfinder.xyz,playvid.host,rubicstreaming.com,smartshare.tv,ujav.me,videobb.*,videogreen.xyz,watchgayporn.online,xstreamcdn.com,youtnbe.xyz##+js(nowoif)
@@ -1585,7 +1585,7 @@ efukt.com##[href^="https://efukt.com/videos/naughty/"]
 efukt.com##div.tile:has(a[href^="https://efukt.com/out.php"])
 egy.best,egybest.*,vidstream.*,~vidstream.pro##+js(nowoif, !api?call=, 10, obj)
 ehftv.com##.blackPlayer
-einfachtitten.com,halloporno.com,hd-pornos.net,pornodavid.com,pornofisch.com,pornofelix.com,pornohammer.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com##.send_event.widget_btn.cf
+einfachtitten.com,halloporno.com,pornodavid.com,pornofisch.com,pornofelix.com,pornohammer.com,pornotom.com,pornotommy.com,pornovideos-hd.com,pornozebra.com##.send_event.widget_btn.cf
 eio.io,exee.io,exe.app##+js(aopr, adBlockDetected)
 ekstrabladet.dk##.eb-placement
 elamigosedition.com##+js(aost, document.addEventListener, blocker)
@@ -2273,7 +2273,6 @@ gotporn.com##+js(aeld, , open)
 gotporn.com##+js(aopr, ExoLoader)
 gottanut.com##+js(aopr, document.dispatchEvent)
 gounlimited.to##+js(acs, $, adb)
-gounlimited.to##+js(aopw, Fingerprint2)
 gounlimited.to##+js(nowebrtc)
 gounlimited.to##+js(nowoif)
 govid.me##+js(aopr, open)
@@ -2549,7 +2548,6 @@ igfap.com##+js(aopw, _pop)
 igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
-igg-games.com##[href*="-games.com/"][href$=".html"]:has([src]):not(*:has(.wk-margin-right))
 igg-games.com##[href^="https://tm-offers"]
 igg-games.com##[style^="margin-top"]:has([target="_blank"])
 igg-games.com#@#.uk-panel.widget-text
@@ -2715,6 +2713,7 @@ intoupload.net##+js(aopw, Fingerprint2)
 intoupload.net##.checkbox
 intoupload.net##.downppi
 intoupload.net##a[href*="/go.php?a_aid="]
+investing.com###__next > .fixed
 investing.com##+js(no-fetch-if, ads)
 investing.com##+js(set, google_ad_status, 1)
 investing.com##.outbrain_outbrain-wrapper__3mDpk
@@ -4036,9 +4035,7 @@ pixiv.net##section > div[class^="sc-"]:last-child > div[style*="width: 728px;"]:
 pixlr.com###workspace:style(right: 0px !important;)
 plagiarismchecker.co###top-ad:style(max-height: 2px !important;)
 plagiarismchecker.co##.grmly_body
-plagiarismchecker.co##.text-center.my-1
-plagiarismchecker.co##.text-center.my-3
-plagiarismchecker.co##[href="#"][target="_blank"]
+plagiarismchecker.co##a[href="#"][rel*="nofollow"]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
@@ -4620,12 +4617,12 @@ scubidu.eu###custom_html-16
 scubidu.eu##+js(aost, String.prototype.charCodeAt, ai_)
 scubidu.eu##ins.adsbygoogle
 search.crowdsearch.net#@##adslot1
-searchenginereports.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 searchenginereports.net##.adsbygoogle:upward(1)
 searchenginereports.net##.advert-slot
 searchenginereports.net##.grammarly-overall
 searchenginereports.net##[href^="https://goo.gl/"]
 searchenginereports.net##div[id^="me_"]
+searchenginereports.net,plagiarismdetector.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 seatguru.com##+js(nowoif)
 seattletimes.com##+js(nostif, apstagLOADED)
 seazon.fr##+js(no-fetch-if, url:ipapi.co)
@@ -4865,13 +4862,13 @@ smallseotools.com##.show.fade.modal-backdrop
 smallseotools.com##.show.g_popup.fade.modal
 smallseotools.com##.sticky_ssb.my-2
 smallseotools.com##[class*="garammarly_"]
-smallseotools.com##[data-link*="grammarly.com"]
 smallseotools.com##[id$="sst"]
 smallseotools.com##article
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
+smallseotools.com,plagiarismdetector.net##[data-link*="grammarly.com"]
 smiechawatv.pl##+js(nowoif)
 smiechawatv.pl##[href^="http://smiechawatv.cupsell.pl/"]
 smiechawatv.pl##[href^="https://www.cda.pl/smiechawaTV/"]
