@@ -2715,10 +2715,11 @@ intoupload.net##.downppi
 intoupload.net##a[href*="/go.php?a_aid="]
 investing.com###__next > .fixed
 investing.com##+js(no-fetch-if, ads)
+investing.com##+js(set, Object.prototype.adBlockDetected, false)
 investing.com##+js(set, google_ad_status, 1)
-investing.com##.outbrain_outbrain-wrapper__3mDpk
 investing.com##[class*="adBlock"]
 investing.com##[class*="overlay_overlay"]
+investing.com##[class^="outbrain_outbrain-wrapper"]
 investing.com##body:style(overflow: auto !important)
 investmentwatchblog.com##+js(acs, Math, '0x)
 investmentwatchblog.com##+js(aopw, ABD)
