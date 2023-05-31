@@ -560,7 +560,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(max-height: 0.14mm !important; padding: 0.017px !important; pointer-events: none !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; opacity: 0 !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
@@ -1410,6 +1410,7 @@ dirpy.com##a[href*="out.dirpy.com"]
 dirtyship.com##+js(aopr, dataPopUnder)
 dirtytubemix.com##.on-video-dark
 discordfastfood.com##+js(nostif, clientHeight)
+djxmaza.in###featuredimage
 djxmaza.in###wait1button:upward(center) ~ *:not(center)
 djxmaza.in,proviralhost.com###wait1
 djxmaza.in,proviralhost.com###wait1button.disabled, #wait2button.disabled:remove-class(disabled)
@@ -2602,12 +2603,6 @@ imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > div:first-of-typ
 imgadult.com,imgdrive.net,imgtaxi.com,imgwallet.com##.sidebar > h3:first-child
 imgadult.com,imgdrive.net,imgwallet.com##.bottom_abs
 imgadult.com,imgdrive.net,imgwallet.com##.centered
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##+js(aopr, console.clear)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##+js(nano-sib, timer)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##div[class][style="display: block;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgbaex.store,imgbah.online,imgbaie.online,imgbango.store,imgbier.store,imgbimn.store,imgbqw.store,imgbuba.online,imgbwe.store,imgbxs.online,imgcao.store,imgnwe.online,imgqge.store,imgqxb.online,imgteq.online,imgtex.online,imgtuta.online,imgwqr.online,imgwww.store,imgxza.store,imgezx.sbs,imgbcxsb.store,imgbcxs.store,imgbake.cfd##div[style="width:100%;height:110px"]
 imgbaron.com###fadeinbox
 imgbaron.com##+js(aopr, loadTool)
 imgbaron.com##[src="https://imgbaron.com/chrome.ads.png"]
@@ -2632,6 +2627,12 @@ imgkings.com##+js(acs, __htapop)
 imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
+imgmffg.sbs##+js(aopr, console.clear)
+imgmffg.sbs##+js(nano-sib, timer)
+imgmffg.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs##div[class][style="display: block;"]
+imgmffg.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgsen.*,imgsto.*,pics4you.net##+js(aopw, _pop)
@@ -3770,9 +3771,11 @@ ojogos.com.br##+js(set, sp_ad, true)
 oke.io##+js(aopr, open)
 oke.io##+js(aopw, Fingerprint2)
 oke.io##+js(set, blurred, false)
+oko.sh##+js(acs, XMLHttpRequest, adb)
 oko.sh##+js(aopr, AaDetector)
 oko.sh##+js(aopr, open)
 oko.sh##+js(aopw, Fingerprint2)
+oko.sh##+js(no-fetch-if, googlesyndication)
 oko.sh##+js(nostif, Adblock)
 oko.sh##+js(nowebrtc)
 oko.sh##+js(set, blurred, false)
