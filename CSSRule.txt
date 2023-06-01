@@ -3148,6 +3148,7 @@ luscious.net##+js(aeld, popstate)
 luscious.net##+js(aopr, console.clear)
 luscious.net##+js(nowoif)
 luscious.net##.ad_lead
+luscious.net##.ad_section
 luscious.net##a[rel$="sponsored"]
 luscious.net##div[class^="adDisplay-module"]
 lusthero.com##+js(nostif, (), 50)
@@ -3364,6 +3365,8 @@ met.bz##+js(noeval)
 meta-calculator.com,meta-chart.com##+js(acs, Promise)
 metacritic.com##.ad_unit:not(.text-ad)
 metager.org##.result:has(.partnershop-info)
+metastats.net###page-wrapper > div.row:nth-of-type(1)
+metastats.net##.col-md-6:style(height: 150px !important;)
 meteocloud.it##ins.adsbygoogle
 meteoetradar.com##+js(no-xhr-if, doubleclick)
 meteologix.com##.md-billboard-sp

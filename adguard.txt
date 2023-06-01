@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-01 20:26:34
-! Total count: 78309
+! Version: 2023-06-02 02:16:30
+! Total count: 78315
 
 ###anuncio
 ###bt-ads
@@ -781,6 +781,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /watchbutton11.png$image
 /webTracking.$domain=~webtracking.girard-agediss.com,badfilter
 /webroot/modern_theme/img/dwndbnr*$image,1p
+/webtracking.min.js
 /werbebanner-$badfilter
 /wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
 /yep.gif$domain=abellalist.com|doseofporn.com|freyalist.com|lizardporn.com|moozporn.com|zehnporn.com
@@ -4531,6 +4532,7 @@ luscious.net##+js(aeld, popstate)
 luscious.net##+js(aopr, console.clear)
 luscious.net##+js(nowoif)
 luscious.net##.ad_lead
+luscious.net##.ad_section
 luscious.net##a[rel$="sponsored"]
 luscious.net##div[class^="adDisplay-module"]
 lusthero.com##+js(nostif, (), 50)
@@ -4782,6 +4784,8 @@ met.bz##+js(noeval)
 meta-calculator.com,meta-chart.com##+js(acs, Promise)
 metacritic.com##.ad_unit:not(.text-ad)
 metager.org##.result:has(.partnershop-info)
+metastats.net###page-wrapper > div.row:nth-of-type(1)
+metastats.net##.col-md-6:style(height: 150px !important;)
 meteocloud.it##ins.adsbygoogle
 meteoetradar.com##+js(no-xhr-if, doubleclick)
 meteologix.com##.md-billboard-sp
@@ -57120,6 +57124,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||qualigo.net^
 ||qualitiesyoung.com^
 ||qualitydating.top^
+||qualzz.com/assets/trackingScript/webtracking.js
 ||quancuncq.xyz^
 ||quangcao-thanhnien.epicdn.me^
 ||quangcao.24h.com.vn^
@@ -74422,6 +74427,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||webtracking.aucmed.edu^
 ||webtracking.chamberlain.edu^
 ||webtracking.cuwebinars.com^
+||webtracking.fe.union-investment.de^
 ||webtracking.medical.rossu.edu^
 ||webtrackingservices.com^
 ||webtradehub.com^
