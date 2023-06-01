@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-01 14:16:48
-! Total count: 78308
+! Version: 2023-06-01 20:26:34
+! Total count: 78309
 
 ###anuncio
 ###bt-ads
@@ -779,6 +779,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /universal_1.html?language=$frame,3p
 /vast4.js$domain=hpav.tv|hpjav.tv
 /watchbutton11.png$image
+/webTracking.$domain=~webtracking.girard-agediss.com,badfilter
 /webroot/modern_theme/img/dwndbnr*$image,1p
 /werbebanner-$badfilter
 /wp-content/client-mu-plugins/src/Paywall/static/js/connext-paywall-analytics.min.js
@@ -1424,7 +1425,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.04px !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.07px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
