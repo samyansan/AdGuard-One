@@ -3071,6 +3071,7 @@ linksht.com##+js(set, window_focus, true)
 linkspaid.com##+js(nostif, (), 1000)
 linkspaid.com##+js(set, jQuery.adblock, false)
 linkszia.co##.banner
+linktr.ee##+js(set, DD_LOGS, noopFunc)
 linkvertise.com##+js(acs, addEventListener, DOMNodeRemoved)
 linkvertise.com##+js(acs, document.dispatchEvent, CustomEvent)
 linkvertise.com##+js(acs, onload, adsbygoogle)
