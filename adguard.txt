@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-02 14:16:26
-! Total count: 78232
+! Version: 2023-06-02 20:27:09
+! Total count: 78233
 
 ###anuncio
 ###bt-ads
@@ -407,6 +407,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,3p,redirect-rule=noopjs,domain=freecourseweb.com
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com
 *$script,3p,redirect-rule=noopjs,domain=sbs.com.au
+*$script,domain=amgreatness.com,3p,denyallow=onesignal.com
 *$script,domain=aranzulla.it,redirect-rule=noopjs
 *$script,domain=babesxworld.com,badfilter
 *$script,domain=btgyama.blogspot.com,redirect-rule=noopjs
@@ -647,6 +648,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$frame,xhr,popup,3p,match-case
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$frame,xhr,popup,3p,match-case
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
+/^https?:\/\/.*\/easylist\/[0-9]{5}/
 /^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case
 /^https?:\/\/[-a-z]{6,}\.info\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case
 /^https?:\/\/[-a-z]{6,}\.pro\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,xhr,3p,match-case
@@ -1461,8 +1463,8 @@ audioz.cc,audioz.es##+js(set, detectAdBlock, noopFunc)
 audioz.download,peeplink.in##+js(acs, String.fromCharCode, 'shift')
 audioztools.com##+js(nostif, nextFunction)
 audycje.tokfm.pl##+js(set, adsOk, true)
-aupetitparieur.com,allthingsvegas.com,100percentfedup.com,aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com,theblacksphere.net,shark-tank.com,naturalblaze.com,greatamericanrepublic.com,dailysurge.com,truthlion.com,flagandcross.com,westword.com,republicbrief.com,freedomfirstnetwork.com,phoenixnewtimes.com,clashdaily.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,videogamesblogger.com,topminceur.fr,lovezin.fr,protrumpnews.com,thepalmierireport.com,kresy.pl,thepatriotjournal.com,gellerreport.com,thegatewaypundit.com,wltreport.com,miaminewtimes.com,politicalsignal.com##+js(aost, Math.random, injectedScript)
-aupetitparieur.com,allthingsvegas.com,100percentfedup.com,aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com,theblacksphere.net,shark-tank.com,naturalblaze.com,greatamericanrepublic.com,dailysurge.com,truthlion.com,flagandcross.com,westword.com,republicbrief.com,freedomfirstnetwork.com,phoenixnewtimes.com,designbump.com,clashdaily.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,thedesigninspiration.com,videogamesblogger.com,protrumpnews.com,thepalmierireport.com,kresy.pl,thepatriotjournal.com,gellerreport.com,thegatewaypundit.com,wltreport.com,miaminewtimes.com,politicalsignal.com##^script:has-text(/==undefined.*body/)
+aupetitparieur.com,allthingsvegas.com,100percentfedup.com,aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com,theblacksphere.net,shark-tank.com,naturalblaze.com,greatamericanrepublic.com,dailysurge.com,truthlion.com,flagandcross.com,westword.com,republicbrief.com,freedomfirstnetwork.com,phoenixnewtimes.com,clashdaily.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,videogamesblogger.com,topminceur.fr,lovezin.fr,protrumpnews.com,thepalmierireport.com,kresy.pl,thepatriotjournal.com,gellerreport.com,thegatewaypundit.com,wltreport.com,miaminewtimes.com,politicalsignal.com,rightwingnews.com,bigleaguepolitics.com,comicallyincorrect.com##+js(aost, Math.random, injectedScript)
+aupetitparieur.com,allthingsvegas.com,100percentfedup.com,aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com,theblacksphere.net,shark-tank.com,naturalblaze.com,greatamericanrepublic.com,dailysurge.com,truthlion.com,flagandcross.com,westword.com,republicbrief.com,freedomfirstnetwork.com,phoenixnewtimes.com,designbump.com,clashdaily.com,madworldnews.com,reviveusa.com,sonsoflibertymedia.com,thedesigninspiration.com,videogamesblogger.com,protrumpnews.com,thepalmierireport.com,kresy.pl,thepatriotjournal.com,gellerreport.com,thegatewaypundit.com,wltreport.com,miaminewtimes.com,politicalsignal.com,rightwingnews.com,bigleaguepolitics.com,comicallyincorrect.com##^script:has-text(/==undefined.*body/)
 ausfile.com##+js(aopw, Fingerprint2)
 ausfile.com##+js(aopw, SubmitDownload1)
 ausfile.com##+js(nano-stb)
@@ -2400,7 +2402,6 @@ discordfastfood.com##+js(nostif, clientHeight)
 divxtotal.*,divxtotal1.*###banner_publi
 divxtotal.*,divxtotal1.*##+js(acs, jQuery, btoa)
 divxtotal.*,divxtotal1.*##+js(aopw, _pop)
-djxmaza.in###featuredimage
 djxmaza.in###wait1button:upward(center) ~ *:not(center)
 djxmaza.in,proviralhost.com###wait1
 djxmaza.in,proviralhost.com###wait1button.disabled, #wait2button.disabled:remove-class(disabled)
@@ -3903,12 +3904,12 @@ imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
 imgmaze.*,imgtown.*##+js(aopr, popjs.init)
-imgmffg.sbs##+js(aopr, console.clear)
-imgmffg.sbs##+js(nano-sib, timer)
-imgmffg.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs##div[class][style="display: block;"]
-imgmffg.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgrock.*##+js(aopr, CustomEvent)
