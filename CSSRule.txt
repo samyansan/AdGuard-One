@@ -1035,7 +1035,6 @@ celebritymovieblog.com##.banner_top
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
-channel24.co.za,dailysun.co.za,fin24.com,health24.com,parent24.com,son.co.za,traveller24.com,wheels24.co.za,w24.co.za##+js(aopr, googletag)
 channel4.com##+js(no-xhr-if, /\/ad\/g\/1/)
 channel4.com##.advertsMpu
 channel4.com##.block--mpu
@@ -1424,7 +1423,7 @@ dogemate.com##+js(nowoif)
 dogemate.com##div[class][style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 dogemate.com##img[id^="ads-"]:style(visibility: hidden !important;)
 dokumen.tips##+js(nano-stb, , , 0.02)
-donk69.com,gfjizz.com,hotdreamsxxx.com,pornxt.com##+js(aopw, phtData)
+donk69.com,hotdreamsxxx.com,pornxt.com##+js(aopw, phtData)
 donkparty.com##+js(aopr, phantomPopunders)
 donkparty.com##+js(nowoif)
 donnaglamour.it##+js(aopw, adBlockRunning)
@@ -3861,6 +3860,7 @@ osxinfo.net##+js(acs, $, btoa)
 otakukan.com##+js(aeld, load, appendChild)
 otakukan.com##ins.adsbygoogle
 otakuworldsite.blogspot.com##+js(aeld, load, onload)
+ouo.press##.skip-container > .text-center > span[style="display: block;color: #aaa;font-size: 13px;padding-bottom: 2px;"]
 ovagames.com###adter:upward(3)
 ovagames.com##+js(acs, JSON, _0x)
 ovagames.com##+js(aopw, _pop)
@@ -4912,6 +4912,7 @@ solarmovie.id##+js(aopr, AaDetector)
 solarmovie.to##+js(aopw, Fingerprint2)
 solidfiles.com##.remove
 sombex.com##+js(nosiif, visibility, 1000)
+son.co.za##+js(aopr, googletag)
 sonyliv.com##+js(json-prune, adProvider)
 sosyalbilgiler.net##+js(aopr, adBlockDetected)
 sotemnovinhas.com##+js(nofab)
