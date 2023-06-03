@@ -127,9 +127,6 @@
 1004lucifer.blogspot.com##+js(aopw, adBlockDetected)
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 10fastfingers.com##+js(acs, document.createElement, decodeURIComponent)
-10news.dk##.onp-sl-content:style(display: block !important;)
-10news.dk##.onp-sl-social-locker
-10news.dk##.textwidget
 123movierulz.*,4movierulz.*,4movierulz1.*,7movierulzfree.*,7moviesrulz.*,movieruls.*,movierulz4k.*,movierulzfree.*,movierulzs.*,movierulzwatch.*,movierulzz.*,moviesrulz.*,moviesrulzfree.*,watchmovierulz.*,watchmoviesrulz.com##.ad_watch_now
 123movierulz.*,7movierulz1.*,7moviesrulz.*,movieruls.*,movierulz.*,movierulzfree.*,movierulzs.*,movierulzwatch.*,movierulzz.*,moviesrulz.*,moviesrulzfree.*,watchmoviesrulz.com##+js(nowoif)
 123moviesd.com,1-23movies.cc,123moviesjr.cc,123moviess.se##+js(aopr, mm)
@@ -722,7 +719,6 @@ biblestudytools.com##+js(aopr, googletag)
 bibliotechsuper.com##[href="https://bibliotechsuper.com/"]
 bibme.org,citationmachine.net##+js(aeld, load, (!o))
 bibme.org,citationmachine.net##+js(aopr, SBMGlobal.run.pcCallback)
-bibme.org,citationmachine.net,easybib.com##+js(aopr, canRunAds)
 bidouillesikea.com##+js(aopr, adbackDebug)
 bigbrothercanada.ca##.adWrapper
 bigbrothercanada.ca##.video-adTile
@@ -982,7 +978,6 @@ camwhoresbay.com##div.opt
 camwhorescloud.com##+js(aost, Math.round, inlineScript)
 camwhoreshd.com##+js(aopr, loadTool)
 camwhoreshd.com,cwtvembeds.com##.hola_top_element
-canadafreepress.com##+js(aost, document.body.appendChild)
 canadianunderwriter.ca##+js(aopw, mockingbird)
 canalporno.com,dreamamateurs.com,eroxia.com,porndoe.com,pornozot.com##+js(aopr, ExoLoader)
 canaltdt.es##+js(aeld, load, showModal)
@@ -1751,7 +1746,6 @@ fapxl.com##+js(acs, document.querySelectorAll, popMagic)
 faresgame.com##+js(aopr, adBlockDetected)
 farmeramania.de##+js(acs, $, show)
 farsondigitalwatercams.com##.advert
-fas.li##+js(aopr, blockAdBlock)
 fatgirlskinny.net##+js(aeld, load, isBlanketFound)
 fatgirlskinny.net##[href^="https://www.topcashback.co.uk/"]
 fatwhitebutt.com##+js(aeld, , _blank)
@@ -3404,7 +3398,6 @@ miniwebtool.com###onetrust-consent-sdk
 miniwebtool.com###videoad:style(position:absolute !important;left:-3000px !important)
 miniwebtool.com##.attribution:has-text(ᴬᵈ)
 miniwebtool.com##[id*="banner"]
-mio.to##+js(acs, document.getElementById, abmsg)
 mitly.us##+js(aopr, adBlockDetected)
 mitly.us##+js(aopr, open)
 mitly.us##+js(aopw, _pop)
@@ -3825,6 +3818,8 @@ onlystream.tv##+js(aopw, _pop)
 onlystream.tv##+js(nowebrtc)
 onmsft.com##+js(acs, document.createElement, googletag)
 onnime.net##+js(aopr, AaDetector)
+onrpg.com###onrpg-hotbox-widget
+onrpg.com##[href^="http://server.cpmstar.com/click.aspx"]
 onrpg.com##a[href*="mmo-it.com/"]
 onworks.net##+js(set, adBlockDetected, null)
 op.gg##+js(aopw, lifeOnwer)
@@ -4042,6 +4037,7 @@ plagiarismchecker.co##a[href="#"][rel*="nofollow"]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
+plagiarismdetector.net##aside:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
@@ -4356,9 +4352,6 @@ pussyspot.net,wildpictures.net##[href^="https://easygamepromo.com/"]
 pussystate.com##li[style="clear:both;float:none;width:600px;margin:0;overflow:hidden;margin-left:-5px;"]
 pussytorrents.org##+js(aopr, loadTool)
 pussytubeebony.com##div.banner-area
-putlockers.cr##+js(nowoif, stream-4k)
-putlockers.cr##a[href^="/download-4k/"]
-putlockers.cr##a[href^="/stream-4k/"]
 puzzlefry.com##+js(aopw, killAdBlock)
 puzzles.msn.com##+js(nano-sib)
 puzzles.msn.com##+js(set, Adv_ab, false)

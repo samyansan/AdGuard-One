@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-03 14:15:40
-! Total count: 77396
+! Version: 2023-06-03 20:23:06
+! Total count: 77375
 
 ###anuncio
 ###bt-ads
@@ -816,9 +816,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 1004lucifer.blogspot.com##+js(aopw, adBlockDetected)
 100bucksbabes.com,babesandgirls.com,morazzia.com##.vda
 10fastfingers.com##+js(acs, document.createElement, decodeURIComponent)
-10news.dk##.onp-sl-content:style(display: block !important;)
-10news.dk##.onp-sl-social-locker
-10news.dk##.textwidget
 123anime.*##+js(acs, setTimeout, popi)
 123anime.*##+js(nowoif)
 123anime.*,123animes.*##+js(aopr, glxopen)
@@ -1613,7 +1610,6 @@ biblestudytools.com##+js(aopr, googletag)
 bibliotechsuper.com##[href="https://bibliotechsuper.com/"]
 bibme.org,citationmachine.net##+js(aeld, load, (!o))
 bibme.org,citationmachine.net##+js(aopr, SBMGlobal.run.pcCallback)
-bibme.org,citationmachine.net,easybib.com##+js(aopr, canRunAds)
 bidouillesikea.com##+js(aopr, adbackDebug)
 bigbrothercanada.ca##.adWrapper
 bigbrothercanada.ca##.video-adTile
@@ -1913,7 +1909,6 @@ camwhoresbay.com##div.opt
 camwhorescloud.com##+js(aost, Math.round, inlineScript)
 camwhoreshd.com##+js(aopr, loadTool)
 camwhoreshd.com,cwtvembeds.com##.hola_top_element
-canadafreepress.com##+js(aost, document.body.appendChild)
 canadianunderwriter.ca##+js(aopw, mockingbird)
 canalesportivo.*##+js(aopw, _pop)
 canalporno.com,dreamamateurs.com,eroxia.com,porndoe.com,pornozot.com##+js(aopr, ExoLoader)
@@ -2859,7 +2854,6 @@ fapxl.com##+js(acs, document.querySelectorAll, popMagic)
 faresgame.com##+js(aopr, adBlockDetected)
 farmeramania.de##+js(acs, $, show)
 farsondigitalwatercams.com##.advert
-fas.li##+js(aopr, blockAdBlock)
 fatgirlskinny.net##+js(aeld, load, isBlanketFound)
 fatgirlskinny.net##[href^="https://www.topcashback.co.uk/"]
 fatwhitebutt.com##+js(aeld, , _blank)
@@ -4834,7 +4828,6 @@ miniwebtool.com###onetrust-consent-sdk
 miniwebtool.com###videoad:style(position:absolute !important;left:-3000px !important)
 miniwebtool.com##.attribution:has-text(ᴬᵈ)
 miniwebtool.com##[id*="banner"]
-mio.to##+js(acs, document.getElementById, abmsg)
 mirrorace.*##+js(aeld, click, _0x)
 mirrorace.*##+js(aopr, AaDetector)
 mirrorace.*##+js(aopw, _pop)
@@ -5363,6 +5356,8 @@ onlystream.tv##+js(aopw, _pop)
 onlystream.tv##+js(nowebrtc)
 onmsft.com##+js(acs, document.createElement, googletag)
 onnime.net##+js(aopr, AaDetector)
+onrpg.com###onrpg-hotbox-widget
+onrpg.com##[href^="http://server.cpmstar.com/click.aspx"]
 onrpg.com##a[href*="mmo-it.com/"]
 onworks.net##+js(set, adBlockDetected, null)
 op.gg##+js(aopw, lifeOnwer)
@@ -5664,6 +5659,7 @@ plagiarismchecker.co##a[href="#"][rel*="nofollow"]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
+plagiarismdetector.net##aside:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
@@ -5898,16 +5894,6 @@ pornrabbit.com##+js(nowoif)
 pornrabbit.com##.footer-margin
 pornrabbit.com##.stage-promo
 pornrabbit.com##.table
-pornsexer.*###pre-1adv
-pornsexer.*##+js(aopr, open)
-pornsexer.*##+js(aopw, document.dispatchEvent)
-pornsexer.*##+js(nostif, offsetWidth)
-pornsexer.*##+js(set, flashvars.mlogo, '')
-pornsexer.*##+js(set, flashvars.protect_block, '')
-pornsexer.*##+js(set, flashvars.related_src, '')
-pornsexer.*##.bottom-adv1
-pornsexer.*##.sponsor
-pornsexer.*##.table
 pornsocket.com##+js(set, _site_ads_ns, true)
 pornstarsadvice.com##.banners
 porntop.com###inv_pause
@@ -6064,9 +6050,6 @@ putlocker.*##[id*="ScriptRoot"]
 putlocker9.*##+js(aopw, Fingerprint2)
 putlocker9.*##.pframe:has([href^="javascript: void(0);"])
 putlockerc.*##+js(nowoif)
-putlockers.cr##+js(nowoif, stream-4k)
-putlockers.cr##a[href^="/download-4k/"]
-putlockers.cr##a[href^="/stream-4k/"]
 puzzlefry.com##+js(aopw, killAdBlock)
 puzzles.msn.com##+js(nano-sib)
 puzzles.msn.com##+js(set, Adv_ab, false)
@@ -26466,7 +26449,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||cloudembed.net^
 ||clouderrorreporting.googleapis.com^
 ||cloudfastads.ru^
-||cloudflare.com/*/blockadblock$script,important,domain=fas.li
 ||cloudflare.com/cdn-cgi/trace$xhr,3p,redirect-rule=noop.txt,domain=~funimation.com|~1bit.space|~1bitspace.com
 ||cloudflareinsights.com^
 ||cloudfrale.com^
@@ -43871,8 +43853,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||lifvfr.xyz^
 ||lifx.7eer.net^
 ||lig.liberation.fr^
-||ligatus.com/*/angular-tag-https.js$script,redirect=ligatus.com/*/angular-tag.js
-||ligatus.com/*/angular-tag.js$script,redirect=ligatus.com/*/angular-tag.js
 ||ligatus.com^
 ||ligatus.de^
 ||lightcast.leadscoringcenter.com^
@@ -70823,7 +70803,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||u25022.com^
 ||u299.libelle-lekker.be^
 ||u2bmco.com^
-||u2bmco.com^$3p
 ||u33011.com^
 ||u33022.com^
 ||u3s.mathtag.com^
