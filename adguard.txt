@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-04 02:14:31
-! Total count: 77376
+! Version: 2023-06-04 09:38:46
+! Total count: 77377
 
 ###anuncio
 ###bt-ads
@@ -5828,6 +5828,7 @@ pornhost.com##+js(aopw, encodeURIComponent)
 pornhub.*###pb_block
 pornhub.*###relatedVideosCenter > .wrapVideoBlock
 pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
+pornhub.*##+js(nostif, adsbytrafficjunkycontext)
 pornhub.*##+js(nowoif)
 pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
 pornhub.*##+js(set, abp1, 1)
