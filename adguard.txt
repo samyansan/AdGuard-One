@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-04 20:23:55
-! Total count: 77290
+! Version: 2023-06-05 02:14:40
+! Total count: 77277
 
 ###anuncio
 ###bt-ads
@@ -2162,9 +2162,6 @@ coolsoft.altervista.org###content-right-floatbox
 coolsoft.altervista.org##+js(nostif, _0x)
 coolsoft.altervista.org##ins.adsbygoogle
 couchtuner.*##+js(acs, RegExp, 0x)
-counterclockwisejacky.com##+js(acs, $, /\.fadeIn|\.show\(.?\)/)
-counterclockwisejacky.com##+js(nostif, blocked)
-counterclockwisejacky.com##+js(nowoif)
 cpmlink.net##+js(acs, decodeURI, decodeURIComponent)
 cpmlink.net##+js(aeld, , _blank)
 cpmlink.net##+js(aopw, _pop)
@@ -6535,9 +6532,6 @@ shortgoo.blogspot.com##+js(set, showAds, true)
 shortit.pw##+js(nowoif)
 shortit.pw##+js(set, console.clear, noopFunc)
 shortit.pw##+js(set, valid, 1)
-shortlinks.tech##+js(aeld, mousedown, tabUnder)
-shortlinks.tech##+js(nano-sib, timeLeft)
-shortlinks.tech##+js(nosiif, verificarLargura)
 shortpaid.com##+js(acs, jQuery, undefined)
 shortpaid.com##+js(set, blurred, false)
 shrib.com##+js(nostif, adb, 6000)
@@ -17155,7 +17149,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||akamaihd.net/*&affid
 ||akamaihd.net/vod/*$media,redirect=noopmp3-0.1s,domain=7tv.de
 ||akamaitechcloudservices.com^
-||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
 ||akanoo.com^
 ||akavita.com^
 ||akdbr.com^
@@ -23920,8 +23913,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||c-on-text.com^
 ||c-points.de^
 ||c-rings.net^
-||c-rings.net^$3p,badfilter
-||c-rings.net^$script,3p
 ||c-stat.eu^
 ||c-statcounter-com.cdn.ampproject.org^
 ||c-uid.getui.com^
@@ -29368,7 +29359,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||d3fkv551xkjrmm.cloudfront.net^
 ||d3flai6f7brtcx.cloudfront.net^
 ||d3frqqoat98cng.cloudfront.net^
-||d3fw5vlhllyvee.cloudfront.net^$badfilter
 ||d3g.qq.com^
 ||d3g4s1p0bmuj5f.cloudfront.net^
 ||d3g5ovfngjw9bw.cloudfront.net^
@@ -45521,6 +45511,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||ma3ryh8l6v.de^
 ||maaiuh.tomorrowland.co.jp^
 ||mab.chartbeat.com^
+||mab.mediaset.es^$xhr,badfilter
 ||mabamsamxfp.com^
 ||mabaya.com^
 ||mabipa.com^
@@ -59428,7 +59419,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||scatteredheat.com^
 ||scatteredstream.com^
 ||sccdn.f2zd.com^
-||scdn.co/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||scene.vip.xunlei.com^
 ||scenespathreconciliation.com^
 ||scentbird.7eer.net^
@@ -61221,6 +61211,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||siteimproveanalytics.io^
 ||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^
+||siteintercept.qualtrics.com^$badfilter
 ||sitelabweb.com^
 ||sitelife.ehow.com^
 ||sitemaji.com^
@@ -63542,7 +63533,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||stadiumigt.actonservice.com^
 ||stadtamt.net^
 ||stadtgemeinde.org^
-||staff-start.com/js/track$badfilter
 ||staffsumptuouscovetous.com^
 ||stage-a.applovin.com^
 ||stage-assets.applovin.com^
@@ -70189,8 +70179,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||trk.lcn.com^
 ||trk.lightdatahouse.com^
 ||trk.logistics.coyote.com^
-||trk.mail.ru^$badfilter
-||trk.mail.ru^$image,script
 ||trk.mailtoward.com^
 ||trk.mddionline.com^
 ||trk.metronet.com^
@@ -70273,7 +70261,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||trollsvide.com^
 ||trollwarningpaws.com^
 ||trombocrack.com^
-||tronmaster.tk/anuncios/betfury300x250.gif
 ||tropateiqs.life^
 ||tropheesdiffusion.com^
 ||tropicanalv.ojrq.net^
