@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-04 14:15:22
+! Version: 2023-06-04 20:23:55
 ! Total count: 77290
 
 ###anuncio
@@ -1425,7 +1425,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.07px !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.007cm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
@@ -3898,12 +3898,12 @@ imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
 imgmaze.*,imgtown.*##+js(aopr, popjs.init)
-imgmffg.sbs,imgmffgtr.sbs##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgrock.*##+js(aopr, CustomEvent)
