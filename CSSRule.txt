@@ -2500,6 +2500,7 @@ hpav.tv,hpjav.tv##body > div:has-text(Close AD)
 hqcelebcorner.net##+js(aopw, _pop)
 hqtv.biz##+js(set, google_tag_data, noopFunc)
 html5.gamedistribution.com##+js(no-fetch-if, api)
+htmlgames.com##+js(no-fetch-if, openx)
 hubblespacetelescope.blogspot.com#@#.vertical-ads
 hubfiles.ws##+js(nano-stb)
 hubfiles.ws##+js(nowoif)
@@ -4070,6 +4071,8 @@ playnetutem1.xyz##+js(aopr, doSecondPop)
 playok.com##.adsbygoogle:style(height: 1px !important; width: 1px !important;)
 playpaste.com##+js(acs, document.addEventListener, Popup)
 playpaste.com##+js(set, $.ajax, trueFunc)
+playretrogames.com##+js(nano-stb, ez, *, 0.02)
+playretrogames.com##.adblock
 playrust.io##+js(aeld, , Date)
 playstationlifestyle.net##+js(aopr, __cmpGdprAppliesGlobally)
 playview.io##.ads_player
