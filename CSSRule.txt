@@ -4492,7 +4492,8 @@ reportscam.com##[href^="https://click.reportscam.com/"]
 reqlinks.net##+js(set, blurred, false)
 researchgate.net##.lite-page__header-navigation--with-ad:style(top: 0 !important;)
 researchgate.net##.research-resources-summary__inner.is-sticky:style(top: 0 !important;)
-reuters.com###spacerElement
+reuters.com##[class^="leaderboard-space"]
+reuters.com##[class^="workspace-article-banner"]
 reuters.com##div[class^="regular-article-layout__inner_"]:has(> div[data-testid="StickyRail"])
 revealname.com##+js(set, $.fx.off, true)
 revenact.io##+js(acs, $, AdBlock)
