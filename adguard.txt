@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-05 02:14:40
+! Version: 2023-06-05 09:17:58
 ! Total count: 77277
 
 ###anuncio
@@ -1425,7 +1425,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0031px !important; height: 0.0031px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.007cm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.08mm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.71px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 aternos.org#@#.header-link-exaroton:style(filter: opacity(0) !important;)
