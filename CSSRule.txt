@@ -2253,8 +2253,8 @@ gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(acs, decodeURI, decodeURIComponent)
 gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(aopr, exoJsPop101)
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
 googlvideo.com,serverf4.org##+js(nowoif)
-gosexpod.com###zzz-on-video-o
 gosexpod.com##+js(aopr, document.dispatchEvent)
+gosexpod.com##.content__block[style^="direction"]
 gosexpod.com##.zzz-ddnotice
 gotgayporn.com##+js(aopr, decodeURI)
 goto.com.np##+js(aopr, open)
