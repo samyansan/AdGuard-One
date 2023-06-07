@@ -386,6 +386,9 @@ anallievent.com,au-di-tions.com,badgehungry.com,beingmelody.com,bloggingawaydebt
 ancensored.com##+js(aopr, AaDetector)
 andiim3.com##+js(acs, jQuery, AdBlock)
 androgamer.org##+js(acs, jQuery, ai_adb)
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com###article-body > ul:has(a[rel="sponsored noopener"])
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.related-articles-block
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.van_taboola
 androidcure.com,bodytr.com,kasvekuvvet.net##+js(aopr, googletag)
 androidonepro.com##+js(aopr, downloadJSAtOnload)
 androidrepublic.org##+js(acs, $, samInitDetection)
@@ -555,7 +558,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.09mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.014px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
@@ -1147,6 +1150,8 @@ coaptoov.net##+js(adfly-defuser)
 cockmeter.com###alfa_promo_parent
 codeproject.com##+js(aopr, retrievalService)
 codeproject.com#@#[style*="base64"]
+codesnse.com###paras-devgenerate ~ *
+codesnse.com##[href^="https://play.google.com/"]
 coindice.win##+js(aopr, adBlockDetected)
 coindice.win##+js(set, CaptchmeState.adb, undefined)
 coinfaucet.io##+js(acs, atob, tabunder)
@@ -1278,6 +1283,8 @@ cwtvembeds.com##+js(set, flashvars.protect_block, '')
 cwtvembeds.com##+js(set, flashvars.video_click_url, undefined)
 cyberstumble.com##+js(aopr, b2a)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
+cybertechng.com##+js(set, blurred, false)
+cybertechng.com##+js(set, go_popup, {})
 cyclingnews.com##+js(aopr, MONETIZER101.init)
 cyclingnews.com##+js(nano-stb, /outboundLink/)
 cyclingnews.com##.global-banner
@@ -1854,7 +1861,6 @@ findandfound.ga,png.is##+js(aopr, adb_checker)
 findwords.info##.ads-block-horizontal
 findwords.info##div[itemtype="http://schema.org/WPAdBlock"]
 finevids.xxx##.spot3-holder
-fingerprint.com,~dev.fingerprint.com##+js(no-xhr-if, method:POST)
 finofilipino.org##+js(set, caca, noopFunc)
 fir3.net###link-view > [href][target="_blank"]
 fir3.net##+js(aopr, app_vars.force_disable_adblock)
@@ -2126,8 +2132,6 @@ games4king.com##+js(ra, target)
 games4king.com##[class^="ads"]
 games4king.com##[id^="leaderboard"]
 gamespot.com##+js(acs, $, sp.blocking)
-gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.related-articles-block
-gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.van_taboola
 gamesradar.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com##.mobile-leaderboard-320-50:upward([style])
 gamestorrents.*,gogoanimes.*,limetorrents.*,piratebayz.*,proxyrarbg.*,rarbg.*,rarbgget.org,rarbgenter.org,rarbgprx.org,rarbgp2p.org,rarbgto.org,rarbgtorrents.org,rarbg2018.org,rarbg2019.org,rarbg2020.org,rarbg2021.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbggo.org,rarbgmirror.*,rarbgproxied.*,rarbgproxy.*,rarbgtor.org,rarbgunblock.*,rarbgunblocked.org,rarbgweb.org,unblockedrarbg.org##+js(aopr, LieDetector)
 gametop.com##+js(aost, document.getElementById, onLoadEvent)

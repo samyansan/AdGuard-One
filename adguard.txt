@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-07 14:16:29
-! Total count: 78264
+! Version: 2023-06-07 20:26:26
+! Total count: 78267
 
 ###anuncio
 ###bt-ads
@@ -495,7 +495,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,xhr,3p,denyallow=arc.io|disqus.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|googleapis.com|googleusercontent.com|gstatic.com|jwpcdn.com|jwplatform.com|disquscdn.com,domain=dilo.nu|doramasmp4.com
 *$script,xhr,3p,domain=lovelynudez.com
 *$script,xhr,redirect-rule=noopjs,domain=1001tracklists.com
-*$xhr,3p,denyallow=github.com|stripe.com|fpjs.pro,domain=fingerprint.com|~dev.fingerprint.com
 *$xhr,3p,domain=hd-easyporn.com
 *$xhr,3p,domain=promo-visits.site,redirect-rule=nooptext
 *$xhr,3p,domain=teleriumtv.net,badfilter
@@ -708,7 +707,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /drh.hh?$frame
 /ea/fl.js
 /ea2/fl.js
-/fingerprint\.com/[a-zA-Z0-9]{7}$/$xhr,1p,domain=dashboard.fingerprint.com
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
 /frame.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /frtd_ldr_$script,1p
@@ -1210,6 +1208,9 @@ ancensored.com,ganool.*##+js(aeld, /^(?:click|mousedown)$/, _0x)
 andiim3.com##+js(acs, jQuery, AdBlock)
 androgamer.org##+js(acs, jQuery, ai_adb)
 androidaba.*##+js(aopw, adBlockDetected)
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com###article-body > ul:has(a[rel="sponsored noopener"])
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.related-articles-block
+androidcentral.com,gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.van_taboola
 androidcure.com,bodytr.com,kasvekuvvet.net##+js(aopr, googletag)
 androidonepro.com##+js(aopr, downloadJSAtOnload)
 androidrepublic.org##+js(acs, $, samInitDetection)
@@ -1420,7 +1421,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.09mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.014px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -2095,6 +2096,8 @@ coaptoov.net##+js(adfly-defuser)
 cockmeter.com###alfa_promo_parent
 codeproject.com##+js(aopr, retrievalService)
 codeproject.com#@#[style*="base64"]
+codesnse.com###paras-devgenerate ~ *
+codesnse.com##[href^="https://play.google.com/"]
 coindice.win##+js(aopr, adBlockDetected)
 coindice.win##+js(set, CaptchmeState.adb, undefined)
 coinfaucet.io##+js(acs, atob, tabunder)
@@ -2233,6 +2236,8 @@ cwtvembeds.com##+js(set, flashvars.protect_block, '')
 cwtvembeds.com##+js(set, flashvars.video_click_url, undefined)
 cyberstumble.com##+js(aopr, b2a)
 cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
+cybertechng.com##+js(set, blurred, false)
+cybertechng.com##+js(set, go_popup, {})
 cyclingnews.com##+js(aopr, MONETIZER101.init)
 cyclingnews.com##+js(nano-stb, /outboundLink/)
 cyclingnews.com##.global-banner
@@ -2996,7 +3001,6 @@ findandfound.ga,png.is##+js(aopr, adb_checker)
 findwords.info##.ads-block-horizontal
 findwords.info##div[itemtype="http://schema.org/WPAdBlock"]
 finevids.xxx##.spot3-holder
-fingerprint.com,~dev.fingerprint.com##+js(no-xhr-if, method:POST)
 finofilipino.org##+js(set, caca, noopFunc)
 fir3.net###link-view > [href][target="_blank"]
 fir3.net##+js(aopr, app_vars.force_disable_adblock)
@@ -3299,8 +3303,6 @@ games4king.com##+js(ra, target)
 games4king.com##[class^="ads"]
 games4king.com##[id^="leaderboard"]
 gamespot.com##+js(acs, $, sp.blocking)
-gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.related-articles-block
-gamesradar.com,livescience.com,pcgamer.com,space.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.van_taboola
 gamesradar.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com##.mobile-leaderboard-320-50:upward([style])
 gamestorrents.*,gogoanimes.*,limetorrents.*,piratebayz.*,proxyrarbg.*,rarbg.*,rarbgget.org,rarbgenter.org,rarbgprx.org,rarbgp2p.org,rarbgto.org,rarbgtorrents.org,rarbg2018.org,rarbg2019.org,rarbg2020.org,rarbg2021.org,rarbgaccess.org,rarbgcore.org,rarbgdata.org,rarbggo.org,rarbgmirror.*,rarbgproxied.*,rarbgproxy.*,rarbgtor.org,rarbgunblock.*,rarbgunblocked.org,rarbgweb.org,unblockedrarbg.org##+js(aopr, LieDetector)
 gamestorrents.*,gogoanimes.*,limetorrents.*,piratebayz.*,rarbg.*##^script:has-text(AaDetector)
@@ -7364,6 +7366,7 @@ txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
 txxx.*##.video-videos-slider
 txxx.*##.videos-tube-friends
 txxx.*##div[style="display:flex !important"] > div
+txxx.*##span:has-text(AD):upward(2)
 txxxporn.tube##.video-content > div:not(:has(.pplayer))
 txxxporn.tube##.video-content > div[class]:first-child > div[class]:has(> div > a[href="#"])
 txxxporn.tube##.video-videos-slider + div[class] + div[class]
@@ -15733,6 +15736,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||adservice.google.com/adsid/integrator.js$script,redirect=noopjs,domain=espn1420.com
 ||adservice.google.com/adsid/integrator.js$xhr,redirect=noopjs,domain=maxedtech.com
 ||adservice.google.com^
+||adservice.google.com^$script,domain=client.falixnodes.net,important
 ||adservice.google.cv^
 ||adservice.google.de^
 ||adservice.google.dj^
@@ -29895,7 +29899,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||dashbo15myapp.com^
 ||dashboard.aimtell.com^
 ||dashboard.evolveplatform.net^
-||dashboard.fingerprint.com^$strict3p,xhr,domain=dashboard.fingerprint.com
 ||dashboard.hiido.com^
 ||dashboard.io^
 ||dashboard.tinypass.com^
@@ -34972,7 +34975,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||finema.net^
 ||fineoffer.net^
 ||finestationery.evyy.net^
-||fingerprint.com^$strict3p,domain=fingerprint.com|~dev.fingerprint.com|~dashboard.fingerprint.com
 ||fingerprinter-production.herokuapp.com^
 ||finisheddaysflamboyant.com^
 ||finishingtwentiesimmoderate.com^
@@ -60843,6 +60845,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||securepaths.com^
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,important,domain=spiegel.de
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
+||securepubads.g.doubleclick.net^$script,domain=client.falixnodes.net,important
 ||securerunner.com^
 ||securestate.evergage.com^
 ||securestats.cafepress.com^
