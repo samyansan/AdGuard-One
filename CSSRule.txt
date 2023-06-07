@@ -2250,9 +2250,16 @@ gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(acs, decodeURI, decodeURIComponent)
 gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(aopr, exoJsPop101)
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
 googlvideo.com,serverf4.org##+js(nowoif)
+gosexpod.com##+js(aeld, click, my_inter_listen)
 gosexpod.com##+js(aopr, document.dispatchEvent)
+gosexpod.com##+js(rmnt, script, /myreadCookie|my_inter/)
 gosexpod.com##.content__block[style^="direction"]
+gosexpod.com##.im_outer_x:upward(2)
+gosexpod.com##.natsc
+gosexpod.com##.video-headline
 gosexpod.com##.zzz-ddnotice
+gosexpod.com##^script:has-text(/myreadCookie|my_inter/)
+gosexpod.com##center
 gotgayporn.com##+js(aopr, decodeURI)
 goto.com.np##+js(aopr, open)
 goto.com.np##+js(nano-sib, timeLeft)
@@ -4033,7 +4040,7 @@ plagiarismchecker.co##form + section#after-ad + div[class][style]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
-plagiarismdetector.net##aside:has([onclick*="open"])
+plagiarismdetector.net##[style]:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
 planetf1.com##+js(aopr, CatapultTools)
@@ -5141,7 +5148,6 @@ televisionlibre.net##+js(nowoif)
 televisionlibre.net##[class^="fkdaop"]
 telexplorer.com.ar##+js(aost, Math.random, /injectedScript.*inlineScript/)
 telolet.in##+js(acs, addEventListener, DivTopAd)
-telsu.fi###pb_top, #fake:style(position: absolute !important; left: -4000px !important;)
 telsu.fi##+js(aost, $, /(?=.*_)/)
 telsu.fi##+js(nostif, google)
 telsu.fi##a[href^="/"]:matches-css(font-size: /^[2-9][\d][\.\d]*px$/):upward(div[class])
