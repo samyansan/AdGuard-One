@@ -1103,7 +1103,6 @@ classicreload.com##.content-top-wrapper
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
 click.allkeyshop.com##+js(refresh-defuser)
-client.falixnodes.net##+js(aost, Math, /(?=^(?!.*(cloudflare|antifraud|facebook)))/)
 client.falixnodes.net##[id^="adngin"]
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
