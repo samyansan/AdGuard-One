@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-08 20:24:51
-! Total count: 78279
+! Version: 2023-06-09 02:15:29
+! Total count: 78280
 
 ###anuncio
 ###bt-ads
@@ -407,7 +407,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com
 *$script,3p,redirect-rule=noopjs,domain=sbs.com.au
 *$script,domain=abcya.com,redirect-rule=noopjs
-*$script,domain=amgreatness.com,3p,denyallow=onesignal.com
+*$script,domain=amgreatness.com,3p,denyallow=spreaker.com|starfield.ai
 *$script,domain=aranzulla.it,redirect-rule=noopjs
 *$script,domain=babesxworld.com,badfilter
 *$script,domain=btgyama.blogspot.com,redirect-rule=noopjs
@@ -4318,6 +4318,7 @@ leechpremium.link##.row > .col-md-2:first-child > .pricingTable
 leechpremium.link##[id*="ScriptRoot"]
 leechpremium.link##body:style(overflow: auto !important;)
 leechpremium.link##ins.adsbygoogle
+leechpremium.net##.adsbygoogle
 legendas.dev##+js(aopw, _pop)
 legendas.dev##+js(refresh-defuser)
 legia.net##+js(nostif, timeoutChecker)

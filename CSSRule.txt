@@ -2970,6 +2970,7 @@ leechpremium.link##.row > .col-md-2:first-child > .pricingTable
 leechpremium.link##[id*="ScriptRoot"]
 leechpremium.link##body:style(overflow: auto !important;)
 leechpremium.link##ins.adsbygoogle
+leechpremium.net##.adsbygoogle
 legendas.dev##+js(aopw, _pop)
 legendas.dev##+js(refresh-defuser)
 legia.net##+js(nostif, timeoutChecker)
