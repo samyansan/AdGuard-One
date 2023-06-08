@@ -1106,7 +1106,7 @@ classicreload.com##.content-top-wrapper
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
 click.allkeyshop.com##+js(refresh-defuser)
-client.falixnodes.net##[id^="adngin"]
+client.falixnodes.net##[id^="adngin"]:style(max-height:20px)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
 clik.pw##a[href^="https://href.li/"]
@@ -2615,12 +2615,12 @@ imgkings.com##+js(acs, __htapop)
 imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgsen.*,imgsto.*,pics4you.net##+js(aopw, _pop)
@@ -3017,7 +3017,7 @@ library.avsim.net##^script:has-text(replace)
 libreriamo.it##+js(nostif, ai_adb)
 librospreuniversitariospdf.blogspot.com##+js(aopr, checkDevTools)
 librospreuniversitariospdf.blogspot.com##+js(nostif, getComputedStyle)
-lifesurance.info##+js(aopr, showAds)
+lifesurance.info##+js(set, showAdss, true)
 ligainsider.de##+js(acs, $, MutationObserver)
 lightnovelpub.*,lightnovelspot.com,lightnovelworld.com,novelpub.com,webnovelpub.com##+js(nostif, =>)
 lightnovelworld.com##+js(set, importFAB, undefined)
