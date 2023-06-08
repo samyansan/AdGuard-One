@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-08 09:18:07
-! Total count: 78276
+! Version: 2023-06-08 14:16:40
+! Total count: 78277
 
 ###anuncio
 ###bt-ads
@@ -20262,7 +20262,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||arizonapuzzle.com^
 ||ark.cp21.ott.cibntv.net^
 ||ark.letv.com^
-||arkadiumhosted.com/*/adsBlob/$xhr,domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk
+||arkadiumhosted.com/*/adsBlob/$xhr,domain=bestforpuzzles.com|charlotteobserver.com|independent.co.uk|standard.co.uk
 ||arkbox.evyy.net^
 ||arkinhechershedt.xyz^
 ||arkosicginkgo.digital^
@@ -31180,6 +31180,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||dl-dev.tablelist.com^
 ||dl-dev.tytocare.com^
 ||dl-protect.net^
+||dl-protect.net^$3p
 ||dl-protect.net^$badfilter
 ||dl-qa.nonton.99array.com^
 ||dl-stage.6tst.com^
