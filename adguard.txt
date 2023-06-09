@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-09 02:15:29
-! Total count: 78280
+! Version: 2023-06-09 09:20:01
+! Total count: 78281
 
 ###anuncio
 ###bt-ads
@@ -6342,10 +6342,10 @@ scubidu.eu###custom_html-16
 scubidu.eu##+js(aost, String.prototype.charCodeAt, ai_)
 search.crowdsearch.net#@##adslot1
 searchenginereports.net##.adsbygoogle:upward(1)
-searchenginereports.net##.advert-slot
+searchenginereports.net##.clearfix + div[id][style*="width:"]
 searchenginereports.net##.grammarly-overall
-searchenginereports.net##[href^="https://goo.gl/"]
-searchenginereports.net##div[id^="me_"]
+searchenginereports.net##a[href="https://searchenginereports.net/grammarly-url"]
+searchenginereports.net##div[id^="mnm_s_"]
 searchenginereports.net,plagiarismdetector.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 seatguru.com##+js(nowoif)
 seattletimes.com##+js(nostif, apstagLOADED)
@@ -54640,8 +54640,8 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||placeofres.com^
 ||placidperson.com^
 ||plagiarismdetector.net/js/*bioep
-||plagiarismdetector.net/pd-imgs/Grammarly_Square$image
-||plagiarismdetector.net/pd-imgs/Top_Grammarly_banner$image
+||plagiarismdetector.net/pd-imgs/Grammarly_Square$image,1p
+||plagiarismdetector.net/pd-imgs/Top_Grammarly_banner$image,1p
 ||plaguealacritytwitter.com^
 ||plaguemanipulatedrag.com^
 ||plaicestems.com^
@@ -60507,7 +60507,8 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||searchdatestoday.com^
 ||searchdimension.com^
 ||searchenginegenie.com^
-||searchenginereports.net/grammarly_images/
+||searchenginereports.net/grammarly$image,1p
+||searchenginereports.net/newassets/images/semrush-banner$image,1p
 ||searchenhancements.com^
 ||searchfeed.com^
 ||searchignite.com^

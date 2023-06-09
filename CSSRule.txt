@@ -4618,10 +4618,10 @@ scubidu.eu###custom_html-16
 scubidu.eu##+js(aost, String.prototype.charCodeAt, ai_)
 search.crowdsearch.net#@##adslot1
 searchenginereports.net##.adsbygoogle:upward(1)
-searchenginereports.net##.advert-slot
+searchenginereports.net##.clearfix + div[id][style*="width:"]
 searchenginereports.net##.grammarly-overall
-searchenginereports.net##[href^="https://goo.gl/"]
-searchenginereports.net##div[id^="me_"]
+searchenginereports.net##a[href="https://searchenginereports.net/grammarly-url"]
+searchenginereports.net##div[id^="mnm_s_"]
 searchenginereports.net,plagiarismdetector.net##+js(no-xhr-if, /googlesyndication|adpushup|adrecover/)
 seatguru.com##+js(nowoif)
 seattletimes.com##+js(nostif, apstagLOADED)
