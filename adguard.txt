@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-09 20:26:02
-! Total count: 78281
+! Version: 2023-06-10 02:15:39
+! Total count: 78249
 
 ###anuncio
 ###bt-ads
@@ -15,7 +15,6 @@
 ###invideo_new
 ###placeAds
 ###sidearm-adblock-modal
-##.__nat_link
 ##.aan_fake
 ##.aan_fake__video-units
 ##.ads_container:not(.text-ad)
@@ -1421,7 +1420,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.027mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0154cm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -2047,7 +2046,6 @@ cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
 click.allkeyshop.com##+js(refresh-defuser)
 clicknupload.*##+js(aopw, _pop)
-client.falixnodes.net##[id^="adngin"]:style(max-height:20px)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
 clik.pw##a[href^="https://href.li/"]
@@ -3554,17 +3552,12 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 hawtcelebs.com##+js(aopw, close_screen)
 haxmaps.com##+js(acs, ab1, ab2)
 hclips.com##+js(acs, adver)
-hclips.com##+js(acs, document.getElementById, popunder)
-hclips.com##+js(aopr, ExoLoader)
-hclips.com##.adv-box-holder
 hclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
 hclips.com##.underplayer > div[class]:not([class*="_"]) > div[class]
 hclips.com##.video-page__content > .right
 hclips.com##.video-page__item
 hclips.com##.wrapper + .partners-wrap + div[class]
-hclips.com##[class^="pl_"]
 hclips.com##div[style="display:flex !important"] > div
-hclips.com##iframe[src="javascript:false"]
 hd-easyporn.com##[rel*="sponsored"]
 hd-easyporn.com,pornblade.com,pornfelix.com###wrapper_content > aside[id]
 hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
@@ -3615,8 +3608,6 @@ hdzog.*##.video-page__content > div:not([class*="video"])
 hdzog.*##.video-page__left > div[class]:last-of-type
 hdzog.*##.video-page__row > div:not([class*="video"])
 hdzog.*##div[style="display:flex !important"] > div
-hdzog.com###under-pl-ad
-hdzog.com##+js(aeld, , pop)
 heavy-r.com##.mob-ban
 heavy-r.com##.nopop.hd-bar
 hegreartnudes.com##+js(acs, loadTool, popping)
@@ -3717,6 +3708,7 @@ hotcopper.com.au##+js(acs, $, blockAds)
 hotgameplus.com##+js(aopw, downloadJSAtOnload)
 hotgirlclub.com##+js(aopr, document.dispatchEvent)
 hotgirlclub.com##.spnsrd-block-full-width
+hotmovs.*##+js(acs, adver)
 hotmovs.*##.block_label--last + div[class]
 hotmovs.*##.pagination + div.block_label--last
 hotmovs.*##.underplayer__info > div[class]:first-child
@@ -3724,10 +3716,6 @@ hotmovs.*##.video-page > div.block_label.mt-15 + div[class]
 hotmovs.*##.video-page__content > div.left + div[class]:last-child
 hotmovs.*##.videos-tube-friends
 hotmovs.*##div[style="display:flex !important"] > div
-hotmovs.com##+js(acs, adver)
-hotmovs.com##+js(aeld, , pop)
-hotmovs.com##+js(aopr, ExoLoader)
-hotmovs.com##+js(aopw, ads_priv)
 hotmovs.com##.partners-wrap
 hotpornfile.org##+js(aeld, getexoloader)
 hotpornfile.org##+js(aopw, getIfc)
@@ -5746,7 +5734,6 @@ porn.com##+js(set, String.prototype.charAt, trueFunc)
 porn00.org##+js(nowoif)
 porn00.org##.table
 porn00.org##div.headline[style]
-porn555.com##+js(aeld, , window.open)
 porn555.com##.vda-x2
 porn613.net##[src="about:blank"]
 pornbimbo.com##+js(acs, document.querySelectorAll, popMagic)
@@ -5852,10 +5839,9 @@ pornj.com##.vda-item
 pornjapanese.me##.bottom-spot-area
 pornjapanese.me##[class$="spots-area"]
 pornktube.*##+js(acs, document.querySelectorAll, popMagic)
-pornl.com##+js(aeld, , pop)
 pornl.com##+js(aopr, open)
 pornl.com##.adv-list--footer
-pornl.com##div.vda-item.thumbnail-next.thumbnail-x2
+pornl.com##.vda-item
 pornleech.io##+js(acs, document.querySelectorAll, popMagic)
 pornleech.io##+js(aeld, , _0x)
 pornleech.io##+js(aopr, AaDetector)
@@ -5888,7 +5874,6 @@ pornovore.fr##+js(aopw, popUrl)
 pornoxo.com##+js(popads-dummy)
 pornpaw.com##.ipprtcnt
 pornpaw.com##div[style="height:250px;display:block;"]
-pornq.com##+js(aeld, , window.open)
 pornrabbit.com##+js(acs, document.querySelectorAll, popMagic)
 pornrabbit.com##+js(nowoif)
 pornrabbit.com##.footer-margin
@@ -5975,7 +5960,6 @@ primewire.*##.ico.close
 primewire.*##:xpath('//*[contains(text(),"Sponsored")]'):upward(2)
 primewire.*##[href="/user/profile/premium-membership"][target="_blank"]
 privatehomeclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
-privatehomeclips.com##.footer-banners
 privatehomeclips.com##.partners-wrap
 privatehomeclips.com##.partners-wrap + div[class]
 privatehomeclips.com##.underplayer > div[class]:not([class*="_"]) > div[class]
@@ -6356,8 +6340,7 @@ securitypcsoluciones.blogspot.com##+js(acs, addEventListener, ADBLOCK)
 securitypcsoluciones.blogspot.com##+js(aopr, document.oncontextmenu)
 securityweek.com###simplemodal-container
 securityweek.com###simplemodal-overlay
-see.xxx##+js(aeld, , pop)
-see.xxx##div.vda-x2.vda-item
+see.xxx##.vda-item
 seehd.*##+js(acs, String.fromCharCode, 'shift')
 seeitworks.com##+js(acs, document.getElementById, adblock)
 seekingalpha.com##[id^="ad-slot-"]
@@ -7299,7 +7282,7 @@ tubepornclassic.com##+js(nosiif, complete, 50)
 tubepornclassic.com##+js(nosiif, document.readyState)
 tubepornclassic.com##.video-page__adv
 tubepornclassic.com##a[href^="http://www.theclassicporn.com/"]:upward(1)
-tuberel.com##+js(aeld, , open)
+tuberel.com##+js(acs, adver)
 tubesex.me##.adban1
 tubev.sex##+js(aopw, displayCache)
 tubev.sex##[class^="sp_block"]
@@ -7364,7 +7347,6 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[dat
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet|Tweet promovat)$/):upward(3)
 twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 txxx.*##+js(acs, setTimeout, hommy.mutation.mutation)
-txxx.*##+js(aeld, click, pop.beforeOpen)
 txxx.*##+js(aopr, jwplayer.utils.Timer)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
@@ -7373,13 +7355,14 @@ txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
 txxx.*##.video-videos-slider
 txxx.*##.videos-tube-friends
 txxx.*##div[style="display:flex !important"] > div
-txxx.*##span:has-text(AD):upward(2)
+txxx.*##span:only-child:has-text(/^AD$/):upward(2)
+txxxporn.tube##+js(acs, adver)
 txxxporn.tube##.video-content > div:not(:has(.pplayer))
 txxxporn.tube##.video-content > div[class]:first-child > div[class]:has(> div > a[href="#"])
 txxxporn.tube##.video-videos-slider + div[class] + div[class]
 txxxporn.tube##div.text:upward(1)
 txxxporn.tube##div[style="display:flex !important"] > div
-txxxporn.tube##img[src^="https://tn.txxx.tube/contents/cst/"]:upward(.video-content > div > div)
+txxxporn.tube##span:only-child:has-text(/^AD$/):upward(2)
 typinggames.zone##+js(acs, document.getElementById, alert)
 u-s-news.com##+js(set, ulp_noadb, true)
 u.gg###af-all:style(margin-top: 4em;)
@@ -7469,8 +7452,6 @@ upornia.*##.video-videos-slider + .aa_label
 upornia.*##.videoplayer-wrapper + div > div[class]:only-child
 upornia.*##div[class$="related"] + div.aa_label
 upornia.*##div[style="display:flex !important"] > div
-upornia.com##+js(nosiif, undefined)
-upornia.com##+js(nowoif)
 uporno.xxx##+js(aopr, document.dispatchEvent)
 uporno.xxx##.banner
 upstream.to##+js(acs, $, .css)
@@ -7710,9 +7691,6 @@ vjav.*##.suggestions
 vjav.*##.video-page__content > div.left + div[class]:last-child
 vjav.*##.video-page__player + div[class] > div[class]
 vjav.*##div[style="display:flex !important"] > div
-vjav.com##+js(acs, document.getElementById, pop)
-vjav.com##+js(aeld, , window.open)
-vjav.com##+js(nosiif, document.readyState)
 vladan.fr###text-414857080 > .widget-wrap > .widgettitle.widget-title
 vladan.fr##+js(nostif, adb, 0)
 vladan.fr##+js(nowoif)
@@ -7736,9 +7714,8 @@ voyeurhit.*##.content > div > .container + div
 voyeurhit.*##.video-page__content > div.left + div[class]:last-child
 voyeurhit.*##.video-page__underplayer > div[class]:first-child > div[class]
 voyeurhit.*##.video-related + div[class] > div[class]:only-child
+voyeurhit.*##.video-tube-friends + div[class]
 voyeurhit.*##div[style="display:flex !important"] > div
-voyeurhit.com##+js(aeld, , window.open)
-voyeurhit.com##+js(nosiif, document.readyState)
 vr.pornhat.*#@#+js(aopr, document.dispatchEvent)
 vsco.co##.page-wrap > section:has-text(Download the free)
 vttpi.com##+js(acs, document.createElement, adblock)
@@ -37754,8 +37731,8 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlesyndication.com^$script,redirect=noopjs,important,domain=sc2casts.com
 ||googlesyndication.com^$xhr,redirect=noopjs,domain=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co|marketrealist.com
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:10,domain=satoshi-win.xyz
+||googletagmanager.com/gtag/js$script,redirect-rule=noop.js:10,domain=scobel.pasaz24.pl
 ||googletagmanager.com/gtag/js$script,redirect=noop.js,domain=video.isilive.ca
-||googletagmanager.com/gtm.js$important,badfilter
 ||googletagmanager.com/gtm.js$script,redirect-rule=noopjs,domain=hudsonvalleypost.com|seacoastcurrent.com|popcrush.com,important
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=homes.co.nz
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kinoheld.de
@@ -39344,7 +39321,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hotfootpriers.com^
 ||hothomefuck.com^
 ||hotlog.ru^
-||hotmovs.com/sw.js$script,1p
 ||hotngay.vn^
 ||hotplay-games.life^
 ||hotpot.360in.com^
@@ -50056,7 +50032,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||myshinyinc.com^
 ||mysite.com^
 ||mysleepds.com^
-||mysmokingmistress.com^$3p
 ||mysocialpixel.com^
 ||mystaffingpro.com^
 ||mystartab.com^
@@ -55255,12 +55230,10 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||pornokartel.nl^
 ||pornomasse.com^
 ||pornpaw.com/never.js
-||pornq.com/sw.js$script,1p
 ||pornrabbit.com/sw.js$script,1p
 ||pornsensei.com^
 ||pornsite123.com^
 ||pornstars-home.com^
-||porntop.com/magic/$script,1p
 ||porntube.com/external/
 ||porntube.com/nativeexternal/
 ||porntubemate.com^
@@ -56433,7 +56406,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||punosy.top^
 ||punyplant.com^
 ||pupilorgansmad.com^
-||puporn.com/sw.js$script,1p
 ||pupspu.com^
 ||purch-match.dotomi.com^
 ||purch-sync.go.sonobi.com^
@@ -60889,7 +60861,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||see-what-is-trending.com^
 ||see.wasteorshare.com^
 ||see.xxx/nr.js
-||see.xxx/sw.js$script,1p
 ||seeawhale.com^
 ||seebait.com^
 ||seed.bitcoin.sipa.be^
@@ -64190,7 +64161,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||sspservice.ad-survey.com^
 ||ssqyuvavse.com^
 ||ssrlot.lotoquebec.com^
-||sss.xxx/sw.js$script,1p
 ||ssso.ru^
 ||sssvd.china.com^
 ||sstat.abix.fr^
@@ -71349,7 +71319,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||tubeoffer.com^
 ||tubepure.com^
 ||tubepush.eu^
-||tuberel.com/*.php
 ||tuberewards.com^
 ||tuberis.com^
 ||tubescms.phncdn.com^
@@ -73375,7 +73344,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||vizagtobfx.com^
 ||vizury.com^
 ||vizzit.se^
-||vjav.com/sw.js$script,1p
 ||vjdciu.com^
 ||vjhjxh.xyz^
 ||vjzlgtnaov.com^

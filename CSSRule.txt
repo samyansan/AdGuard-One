@@ -7,7 +7,6 @@
 ###invideo_new
 ###placeAds
 ###sidearm-adblock-modal
-##.__nat_link
 ##.aan_fake
 ##.aan_fake__video-units
 ##.ads_container:not(.text-ad)
@@ -558,7 +557,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.027mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0154cm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
@@ -1106,7 +1105,6 @@ classicreload.com##.content-top-wrapper
 cle0desktop.blogspot.com##+js(aeld, , pop)
 cle0desktop.blogspot.com##+js(nostif, nextFunction, 2000)
 click.allkeyshop.com##+js(refresh-defuser)
-client.falixnodes.net##[id^="adngin"]:style(max-height:20px)
 clik.pw##+js(aopr, open)
 clik.pw##+js(aopw, _pop)
 clik.pw##a[href^="https://href.li/"]
@@ -2342,17 +2340,12 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 hawtcelebs.com##+js(aopw, close_screen)
 haxmaps.com##+js(acs, ab1, ab2)
 hclips.com##+js(acs, adver)
-hclips.com##+js(acs, document.getElementById, popunder)
-hclips.com##+js(aopr, ExoLoader)
-hclips.com##.adv-box-holder
 hclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
 hclips.com##.underplayer > div[class]:not([class*="_"]) > div[class]
 hclips.com##.video-page__content > .right
 hclips.com##.video-page__item
 hclips.com##.wrapper + .partners-wrap + div[class]
-hclips.com##[class^="pl_"]
 hclips.com##div[style="display:flex !important"] > div
-hclips.com##iframe[src="javascript:false"]
 hd-easyporn.com##[rel*="sponsored"]
 hd-easyporn.com,pornblade.com,pornfelix.com###wrapper_content > aside[id]
 hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
@@ -2376,8 +2369,6 @@ hdpornt.com##+js(aopw, __NA)
 hdtube.porn##.banners
 hdtube.porn##.cards__item--adv.cards__item--big.cards__item.item
 hdtube.porn##.page__main > .container
-hdzog.com###under-pl-ad
-hdzog.com##+js(aeld, , pop)
 heavy-r.com##.mob-ban
 heavy-r.com##.nopop.hd-bar
 hegreartnudes.com##+js(acs, loadTool, popping)
@@ -2472,10 +2463,6 @@ hotcopper.com.au##+js(acs, $, blockAds)
 hotgameplus.com##+js(aopw, downloadJSAtOnload)
 hotgirlclub.com##+js(aopr, document.dispatchEvent)
 hotgirlclub.com##.spnsrd-block-full-width
-hotmovs.com##+js(acs, adver)
-hotmovs.com##+js(aeld, , pop)
-hotmovs.com##+js(aopr, ExoLoader)
-hotmovs.com##+js(aopw, ads_priv)
 hotmovs.com##.partners-wrap
 hotpornfile.org##+js(aeld, getexoloader)
 hotpornfile.org##+js(aopw, getIfc)
@@ -4118,7 +4105,6 @@ porn.com##+js(set, String.prototype.charAt, trueFunc)
 porn00.org##+js(nowoif)
 porn00.org##.table
 porn00.org##div.headline[style]
-porn555.com##+js(aeld, , window.open)
 porn555.com##.vda-x2
 porn613.net##[src="about:blank"]
 pornbimbo.com##+js(acs, document.querySelectorAll, popMagic)
@@ -4191,10 +4177,9 @@ pornj.com##+js(aopr, open)
 pornj.com##.vda-item
 pornjapanese.me##.bottom-spot-area
 pornjapanese.me##[class$="spots-area"]
-pornl.com##+js(aeld, , pop)
 pornl.com##+js(aopr, open)
 pornl.com##.adv-list--footer
-pornl.com##div.vda-item.thumbnail-next.thumbnail-x2
+pornl.com##.vda-item
 pornleech.io##+js(acs, document.querySelectorAll, popMagic)
 pornleech.io##+js(aeld, , _0x)
 pornleech.io##+js(aopr, AaDetector)
@@ -4225,7 +4210,6 @@ pornovore.fr##+js(aopw, popUrl)
 pornoxo.com##+js(popads-dummy)
 pornpaw.com##.ipprtcnt
 pornpaw.com##div[style="height:250px;display:block;"]
-pornq.com##+js(aeld, , window.open)
 pornrabbit.com##+js(acs, document.querySelectorAll, popMagic)
 pornrabbit.com##+js(nowoif)
 pornrabbit.com##.footer-margin
@@ -4296,7 +4280,6 @@ premiumstream.live##+js(ra, href, .link)
 presentation-ppt.com##+js(aeld, load, nextFunction)
 primedeportes.es##+js(aeld, load, onload)
 privatehomeclips.com##.content > div > .wrapper + div[class]:not(.wrapper)
-privatehomeclips.com##.footer-banners
 privatehomeclips.com##.partners-wrap
 privatehomeclips.com##.partners-wrap + div[class]
 privatehomeclips.com##.underplayer > div[class]:not([class*="_"]) > div[class]
@@ -4632,8 +4615,7 @@ securitypcsoluciones.blogspot.com##+js(acs, addEventListener, ADBLOCK)
 securitypcsoluciones.blogspot.com##+js(aopr, document.oncontextmenu)
 securityweek.com###simplemodal-container
 securityweek.com###simplemodal-overlay
-see.xxx##+js(aeld, , pop)
-see.xxx##div.vda-x2.vda-item
+see.xxx##.vda-item
 seeitworks.com##+js(acs, document.getElementById, adblock)
 seekingalpha.com##[id^="ad-slot-"]
 seireshd.com##+js(acs, btoa, href)
@@ -5336,7 +5318,7 @@ tubepornclassic.com##+js(nosiif, complete, 50)
 tubepornclassic.com##+js(nosiif, document.readyState)
 tubepornclassic.com##.video-page__adv
 tubepornclassic.com##a[href^="http://www.theclassicporn.com/"]:upward(1)
-tuberel.com##+js(aeld, , open)
+tuberel.com##+js(acs, adver)
 tubesex.me##.adban1
 tubev.sex##+js(aopw, displayCache)
 tubev.sex##[class^="sp_block"]
@@ -5388,12 +5370,13 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##nav + section > div[aria-label] > div > div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Tweet|プロモツイート|Promowany Tweet|Tweet promovat)$/):upward(3)
 twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
+txxxporn.tube##+js(acs, adver)
 txxxporn.tube##.video-content > div:not(:has(.pplayer))
 txxxporn.tube##.video-content > div[class]:first-child > div[class]:has(> div > a[href="#"])
 txxxporn.tube##.video-videos-slider + div[class] + div[class]
 txxxporn.tube##div.text:upward(1)
 txxxporn.tube##div[style="display:flex !important"] > div
-txxxporn.tube##img[src^="https://tn.txxx.tube/contents/cst/"]:upward(.video-content > div > div)
+txxxporn.tube##span:only-child:has-text(/^AD$/):upward(2)
 typinggames.zone##+js(acs, document.getElementById, alert)
 u-s-news.com##+js(set, ulp_noadb, true)
 u.gg###af-all:style(margin-top: 4em;)
@@ -5467,8 +5450,6 @@ uploadbox.cc##.soundy
 uploadbox.io##+js(nosiif, (), 5000)
 uploadever.com##+js(nano-stb)
 uploadfree.info###at-btn-download
-upornia.com##+js(nosiif, undefined)
-upornia.com##+js(nowoif)
 uporno.xxx##+js(aopr, document.dispatchEvent)
 uporno.xxx##.banner
 upstream.to##+js(acs, $, .css)
@@ -5620,9 +5601,6 @@ viz.com###overlay
 viz.com##+js(nano-sib, , ,0)
 viz.com##+js(set, show_dfp_preroll, false)
 viz.com##+js(set, show_youtube_preroll, false)
-vjav.com##+js(acs, document.getElementById, pop)
-vjav.com##+js(aeld, , window.open)
-vjav.com##+js(nosiif, document.readyState)
 vladan.fr###text-414857080 > .widget-wrap > .widgettitle.widget-title
 vladan.fr##+js(nostif, adb, 0)
 vladan.fr##+js(nowoif)
@@ -5637,8 +5615,6 @@ vortez.net##+js(acs, $, Adblock)
 vortez.net##+js(nowoif)
 vox.de##+js(no-xhr-if, svonm)
 voyageforum.com##+js(nostif, AdBlock)
-voyeurhit.com##+js(aeld, , window.open)
-voyeurhit.com##+js(nosiif, document.readyState)
 vsco.co##.page-wrap > section:has-text(Download the free)
 vttpi.com##+js(acs, document.createElement, adblock)
 vupload.com##+js(nowebrtc)
