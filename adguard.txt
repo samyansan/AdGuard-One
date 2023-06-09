@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-09 09:20:01
+! Version: 2023-06-09 14:17:17
 ! Total count: 78281
 
 ###anuncio
@@ -4369,7 +4369,6 @@ librospreuniversitariospdf.blogspot.com##+js(aopr, checkDevTools)
 librospreuniversitariospdf.blogspot.com##+js(nostif, getComputedStyle)
 liferayiseasy.*##+js(aeld, load, adsense)
 liferayiseasy.*##+js(aeld, load, getComputedStyle)
-lifesurance.info##+js(set, showAdss, true)
 ligainsider.de##+js(acs, $, MutationObserver)
 lightnovelpub.*,lightnovelspot.com,lightnovelworld.com,novelpub.com,webnovelpub.com##+js(nostif, =>)
 lightnovelworld.com##+js(set, importFAB, undefined)
@@ -73877,6 +73876,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||warmlyusher.com^
 ||warmquiver.com^
 ||warnermediacdn.com/csm/*&caid=$xhr,removeparam=caid,domain=cnn.com
+||warnermediacdn.com/csm/*afid=$xhr,removeparam=afid,domain=cnn.com
 ||warnwing.com^
 ||warp.ly^
 ||warp.media.net^
