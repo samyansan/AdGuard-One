@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-10 20:22:22
-! Total count: 78234
+! Version: 2023-06-11 02:14:41
+! Total count: 78225
 
 ###anuncio
 ###bt-ads
@@ -3279,8 +3279,6 @@ games.dailymail.co.uk##+js(nano-sib)
 games.dailymail.co.uk##.GameTemplate__displayAdTop___3kN-G-hd
 games.dailymail.co.uk##display-ad-component, [class^="DisplayAd"], .ark-ad-message:style(visibility: collapse !important)
 games.dailymail.co.uk##div.RightRail__displayAdRight___1U1Q7llw
-games.usatoday.com##+js(acs, ark_jQuery, Adblock)
-games.usatoday.com##+js(set, arkPage.arena.disableGameWithAdblock, false)
 games.wkb.jp##+js(set, gWkbAdVert, true)
 games.wkb.jp##+js(set, noblock, true)
 games2rule.com##+js(ra, target)
@@ -3936,7 +3934,6 @@ indiatoday.in,intoday.in###zedoads1:style(height: 1px !important)
 indiatoday.in,intoday.in###zedoads2:style(height: 1px !important)
 indiatoday.in,intoday.in##.adblockcontainer:style(display: block !important)
 indoxx1.center#@#.lazy
-information-portal.net##+js(nostif, nextFunction, 2000)
 informazionefiscale.it##+js(acs, document.createElement, admiral)
 informer.com##+js(aopr, adblock_added)
 informer.com##.screen_ad
@@ -4799,7 +4796,6 @@ miniurl.*##+js(aopw, _pop)
 miniurl.*##+js(set, blurred, false)
 miniurl.*##.banner
 miniurl.*##div[style="width:970px;height:90px;display: inline-block;margin: 0 auto"]
-miniurl.com.br##+js(nano-sib)
 miniwebtool.com###adsbottom
 miniwebtool.com###btop
 miniwebtool.com###contain300-1
@@ -5801,8 +5797,6 @@ pornhits.com##.ft
 pornhits.com##.index-ntv
 pornhits.com##.jwplayer > span
 pornhits.com##.sponsor
-pornhive.tv##+js(aopr, q7x69)
-pornhive.tv##+js(aopw, __htapop)
 pornhost.com##+js(aopr, raConf)
 pornhost.com##+js(aopw, encodeURIComponent)
 pornhub.*###pb_block
@@ -5933,7 +5927,6 @@ powforums.com##+js(set, adsBlocked, false)
 practicequiz.com,reportscam.com,wapkiz.com##+js(aopw, adBlockDetected)
 prad.de##+js(aopr, googletag)
 prad.de##+js(nostif, stop-scrolling)
-pradjadj.com##+js(set, google_jobrunner, true)
 pradjadj.com##.ABD_display
 pradjadj.com##[href="/advertise"]
 praxis-jugendarbeit.de##+js(nostif, nextFunction, 2000)
@@ -37691,7 +37684,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noopjs,domain=gazetadopovo.com.br
 ||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noopjs,domain=rollingstone.it
 ||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noopjs,domain=teemo.gg
-||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noopjs,domain=unlockapk.com
 ||googlesyndication.com/pagead/show_ads.js$script,redirect-rule=noopjs,domain=iblogbox.com
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=24sms.net
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=agame.com|giochi.it|jeu.fr|plinga.com|spel.nl|spielen.com
@@ -53169,7 +53161,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||panda.network^
 ||panda.teraskolmio.fi^
 ||pandalboranes.tech^
-||pandamovies.pw/sw.js$script,1p
 ||pandanetwork.club^
 ||pandanetwork.club^$3p,script
 ||pandasloveforlife.com^

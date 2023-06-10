@@ -2107,8 +2107,6 @@ games.dailymail.co.uk##+js(nano-sib)
 games.dailymail.co.uk##.GameTemplate__displayAdTop___3kN-G-hd
 games.dailymail.co.uk##display-ad-component, [class^="DisplayAd"], .ark-ad-message:style(visibility: collapse !important)
 games.dailymail.co.uk##div.RightRail__displayAdRight___1U1Q7llw
-games.usatoday.com##+js(acs, ark_jQuery, Adblock)
-games.usatoday.com##+js(set, arkPage.arena.disableGameWithAdblock, false)
 games.wkb.jp##+js(set, gWkbAdVert, true)
 games.wkb.jp##+js(set, noblock, true)
 games2rule.com##+js(ra, target)
@@ -2651,7 +2649,6 @@ indiatoday.in,intoday.in###zedoads1:style(height: 1px !important)
 indiatoday.in,intoday.in###zedoads2:style(height: 1px !important)
 indiatoday.in,intoday.in##.adblockcontainer:style(display: block !important)
 indoxx1.center#@#.lazy
-information-portal.net##+js(nostif, nextFunction, 2000)
 informazionefiscale.it##+js(acs, document.createElement, admiral)
 informer.com##+js(aopr, adblock_added)
 informer.com##.screen_ad
@@ -3373,7 +3370,6 @@ mimaletamusical.blogspot.com##+js(nowebrtc)
 mind42.com###content.sidebar2:style(margin-right: 0 !important;)
 mind42.com###sidebar
 minecraftraffle.com##+js(acs, awm, location)
-miniurl.com.br##+js(nano-sib)
 miniwebtool.com###adsbottom
 miniwebtool.com###btop
 miniwebtool.com###contain300-1
@@ -4160,8 +4156,6 @@ pornhits.com##.ft
 pornhits.com##.index-ntv
 pornhits.com##.jwplayer > span
 pornhits.com##.sponsor
-pornhive.tv##+js(aopr, q7x69)
-pornhive.tv##+js(aopw, __htapop)
 pornhost.com##+js(aopr, raConf)
 pornhost.com##+js(aopw, encodeURIComponent)
 pornhub.com#@#a[href^="https://www.moscarossa.biz/"]
@@ -4256,7 +4250,6 @@ powforums.com##+js(set, adsBlocked, false)
 practicequiz.com,reportscam.com,wapkiz.com##+js(aopw, adBlockDetected)
 prad.de##+js(aopr, googletag)
 prad.de##+js(nostif, stop-scrolling)
-pradjadj.com##+js(set, google_jobrunner, true)
 pradjadj.com##.ABD_display
 pradjadj.com##[href="/advertise"]
 praxis-jugendarbeit.de##+js(nostif, nextFunction, 2000)
