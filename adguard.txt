@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-10 14:15:22
-! Total count: 78249
+! Version: 2023-06-10 20:22:22
+! Total count: 78234
 
 ###anuncio
 ###bt-ads
@@ -773,6 +773,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /transparent.gif?ray=$badfilter
 /universal_1.html?language=$frame,3p
 /vast4.js$domain=hpav.tv|hpjav.tv
+/video-ads/tracking/*$domain=yallo.tv,important
 /watchbutton11.png$image
 /webTracking.$domain=~webtracking.girard-agediss.com,badfilter
 /webroot/modern_theme/img/dwndbnr*$image,1p
@@ -1371,8 +1372,6 @@ arcadepunks.com##.spMessageFailure
 arcadepunks.com##[class*="ads"]
 arcadepunks.com##[href^="https://gameroomsolutions.com/"]
 arcadepunks.com##[href^="https://www.arcadepunks.com/go/"]
-archaeologynewsnetwork.blogspot.com##+js(acs, addEventListener, blocker)
-archaeologynewsnetwork.blogspot.com##[href^="https://bit.ly/"]
 architetturaecosostenibile.it##ins.adsbygoogle
 area51.porn##+js(aopr, document.dispatchEvent)
 area51.porn##.under-video-banner
@@ -1767,12 +1766,6 @@ brainly.*##[class^="BrainlyAdsPlaceholder"]
 brainly.*,eodev.com##+js(nostif, trigger, 0)
 brainly.*,eodev.com##.js-scroll-to-unlock-section.brn-kodiak-answer-redesigned__unlock
 brandstofprijzen.info##+js(aeld, load, antiblock)
-branitube.net##+js(acs, decodeURIComponent, console)
-branitube.net##+js(acs, document.querySelectorAll, popMagic)
-branitube.net##+js(aopw, _pop)
-branitube.net##+js(aost, atob, inlineScript)
-branitube.net##^script:has-text('shift')
-branitube.net##^script:has-text(\'shift\')
 brasilescola.uol.com.br#@#.banner
 bravoerotica.com##+js(aopr, ExoLoader.serve)
 bravoerotica.net##+js(set, flashvars.adv_pause_html, '')
@@ -2321,7 +2314,7 @@ deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,lesbenhd.com,mi
 deinesexfilme.com,einfachtitten.com,halloporno.com,herzporno.com,pornohirsch.net,lesbenhd.com,milffabrik.com,porndrake.com,pornoaffe.com,pornodavid.com,pornoente.tv,pornofisch.com,pornofelix.com,pornohammer.com,pornohelm.com,pornoklinge.com,pornovideos-hd.com,pornotom.com,pornotommy.com,pornozebra.com,xnxx-sexfilme.com##.vjs-overlay
 deinesexfilme.com,herzporno.com,lesbenhd.com,milffabrik.com,pornoaffe.com,pornoente.tv,pornohelm.com,pornoklinge.com,xnxx-sexfilme.com###wa_join_btn
 delta.com#@#.adv-container
-deltabit.co##+js(aopr, popjs)
+deltabit.co##+js(aopw, _pop)
 deltabit.co##+js(nano-sib)
 demae-can.com##+js(ra, data-trm-action|data-trm-category|data-trm-label, .trm_event, stay)
 depedlps.*##+js(aeld, load, onload)
@@ -2509,6 +2502,7 @@ dump.xxx##+js(popads-dummy)
 duplichecker.com###home_before_buton > .adsbygoogle:upward(.data_inbox > div)
 duplichecker.com##+js(no-fetch-if, /google|\/ad.+\.js/)
 duplichecker.com##+js(no-xhr-if, ads)
+duplichecker.com##.adsbygoogle:upward([style]):upward([style])
 duplichecker.com##.container div > div[style]:has(.ads-pricing)
 duplichecker.com##div > span[id^="side_bar"] > .adsbygoogle:upward(div)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net###home_after_title
@@ -5842,11 +5836,6 @@ pornktube.*##+js(acs, document.querySelectorAll, popMagic)
 pornl.com##+js(aopr, open)
 pornl.com##.adv-list--footer
 pornl.com##.vda-item
-pornleech.io##+js(acs, document.querySelectorAll, popMagic)
-pornleech.io##+js(aeld, , _0x)
-pornleech.io##+js(aopr, AaDetector)
-pornleech.io##+js(aopr, document.write)
-pornleech.io##+js(aopw, _pop)
 porno-tour.*##+js(aopr, document.dispatchEvent)
 porno-tour.*##+js(nostif, innerText, 2000)
 porno5k.com##+js(aopr, document.dispatchEvent)
@@ -6149,9 +6138,6 @@ realgfporn.com##+js(popads-dummy)
 realgfporn.com##.banner-video-right
 realgfporn.com##.overlay-banner
 realgfporn.com##.video-overlay
-reallifecam.vip##+js(acs, String.fromCharCode, 'shift')
-reallifecam.vip##+js(aopr, decodeURI)
-reallifecam.vip##.pm-ads-banner
 reallifecamsex.xyz##.pm-ads-banner
 receive-sms-online.info##+js(aopr, ga.length)
 recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
@@ -6276,9 +6262,6 @@ sankakucomplex.com##+js(acs, document.querySelectorAll, popMagic)
 sankakucomplex.com##+js(aeld, DOMContentLoaded, prestitialData)
 sankakucomplex.com##+js(aopr, sankAdCurrentScript)
 sankakucomplex.com##.vce-ad-container
-saruch.co##+js(aopr, AaDetector)
-saruch.co##+js(aopw, _pop)
-saruch.co##+js(nowebrtc)
 sarugbymag.co.za##+js(aopr, showAds)
 sataniabatch.blogspot.com##+js(nofab)
 satcesc.com##+js(nostif, css_class)
@@ -40508,11 +40491,13 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yiv.com,redirect-rule=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zee5.com,redirect-rule=google-ima.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=canvids.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=discoveryplus.in
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=fupa.net
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=hungama.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=news8000.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=nrl.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=uptostream.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=yallo.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js:5,domain=atozmath.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=noopjs,domain=881903.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=noopjs,domain=8world.com
