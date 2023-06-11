@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-11 02:14:41
-! Total count: 78225
+! Version: 2023-06-11 09:25:35
+! Total count: 78226
 
 ###anuncio
 ###bt-ads
@@ -5628,6 +5628,7 @@ pixiv.net##section > div[class^="sc-"]:last-child > div[style*="width: 728px;"]:
 pixlr.com###right-space
 pixlr.com###workspace:style(right: 0px !important;)
 plagiarismchecker.co###top-ad:style(max-height: 2.1px !important;)
+plagiarismchecker.co##+js(rpnt, script, show(), empty(), condition, adsbygoogle)
 plagiarismchecker.co##.small_heading + section#top-ad + div[class][style]
 plagiarismchecker.co##div[class][style] > a[rel*="nofollow"]
 plagiarismchecker.co##form + section#after-ad + div[class][style]
