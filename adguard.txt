@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-11 20:23:43
-! Total count: 78229
+! Version: 2023-06-12 02:14:52
+! Total count: 78225
 
 ###anuncio
 ###bt-ads
@@ -239,7 +239,6 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 *$media,domain=series-d.com,redirect=noopmp3-0.1s
 *$media,domain=stream1688.com,redirect=noopmp3-0.1s
 *$media,redirect-rule=noop-0.1s.mp3,3p,domain=gmx.*|web.de
-*$media,redirect-rule=noopmp4-1s,domain=spiegel.de|t-online.de|giga.de
 *$media,redirect=noopmp3-0.1s,domain=canalplus.com
 *$media,redirect=noopmp3-0.1s,domain=funimation.com
 *$media,redirect=noopmp3-0.1s,domain=imdb.com,3p
@@ -1419,7 +1418,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0164cm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.152mm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -3437,6 +3436,7 @@ gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(acs, decodeURI, decodeURIComponent)
 gonzoporn.cc,onlinexxx.cc,tvporn.cc##+js(aopr, exoJsPop101)
 gooals.*###mo-ads-close
 goodtoknow.co.uk,marieclaire.co.uk,womanandhome.com##.header-advert-wrapper
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#@?#.main > [class] > div:-abp-has([href$="&adurl="])
 googlvideo.com,serverf4.org##+js(nowoif)
 gosexpod.com##+js(aeld, click, my_inter_listen)
 gosexpod.com##+js(aopr, document.dispatchEvent)
@@ -6703,7 +6703,7 @@ speedtest.net##+js(set, isBlocked, false)
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 spellcheck.net,spellchecker.net,spellweb.com##+js(nostif, bioEp)
 spellchecker.net##+js(aopr, gPartners)
-spiegel.de##+js(rpnt, script, /^\(function\(\)/, if(false))
+spiegel.de##+js(rmnt, script, homad)
 spiegel.de##^script:has-text(homad)
 spiegel.de#@#.asset-affiliatebox
 spiegel.de#@#.nativead
@@ -6921,7 +6921,6 @@ t-online.de###Tasfeed1
 t-online.de##+js(nostif, .call(null), 10)
 t-online.de##+js(rpnt, script, /\"homad\":\{\"state\":\"enabled\"\}/, "homad":{"state":"disabled"})
 t-online.de##+js(set, abp, false)
-t-online.de##.ima-ad-container
 t-online.de##[href^="http://pubads.g.doubleclick.net"]
 t-online.de##[href^="https://ad1.adfarm1.adition.com"]
 t-online.de##^script:has-text(,window\);)
@@ -31527,7 +31526,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||doubleclick.net^$important,script,domain=wired.com
 ||doubleclick.net^$script,important,domain=auto-motor-und-sport.de
 ||doubleclick.net^$script,important,domain=spiegel.de
-||doubleclick.net^$script,important,domain=spiegel.de,badfilter
 ||doubleclick.shockwave.com^
 ||doubleclickbygoogle.com^
 ||doubleclicks.co.kr^
@@ -37722,7 +37720,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||googlevideo.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?expire$media,domain=lifehacker.com,redirect=noopmp3-0.1s
 ||googlevideo.com^$media,redirect=noopmp4-1s,domain=mlb.com
-||googlevideo.com^$media,redirect=noopmp4-1s,domain=t-online.de|giga.de
 ||goomaphy.com^
 ||goon.ru^
 ||gooods4you.com^
@@ -60808,7 +60805,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||securemvt.apple.com^
 ||secureoutreach.unisys.com^
 ||securepaths.com^
-||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,important,domain=spiegel.de
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,important,redirect=noop.js,domain=indy100.com
 ||securepubads.g.doubleclick.net^$script,domain=client.falixnodes.net,important
 ||securerunner.com^
