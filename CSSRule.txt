@@ -555,7 +555,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0154cm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0164cm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
@@ -2490,9 +2490,11 @@ huim.com##+js(aopr, isAdEnabled)
 hulkshare.com##+js(nosiif, adblockerModal, 1000)
 hulu.com###banner-ad-container
 hulu.com##+js(json-prune, breaks pause_ads)
+hulu.com##+js(json-prune, video_metadata.end_credits_time)
 hulu.com##+js(set, Object.prototype._parseVAST, noopFunc)
 hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
+hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
 hulu.com##.ad-choices
 humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 hungama.com##+js(set, showAds, true)
@@ -2518,6 +2520,7 @@ igfap.com##+js(aopw, _pop)
 igg-games.com##+js(aopw, btoa)
 igg-games.com##+js(ra, srcdoc, iframe)
 igg-games.com##.uk-panel.widget-text:style(height: 0px !important; visibility: collapse;)
+igg-games.com##[href^="https://igg-games.com/fli"]
 igg-games.com##[href^="https://tm-offers"]
 igg-games.com##[style^="margin-top"]:has([target="_blank"])
 igg-games.com#@#.uk-panel.widget-text
@@ -2593,12 +2596,12 @@ imgkings.com##+js(acs, __htapop)
 imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgsen.*,imgsto.*,pics4you.net##+js(aopw, _pop)
