@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-12 02:14:52
-! Total count: 78225
+! Version: 2023-06-12 09:20:03
+! Total count: 78228
 
 ###anuncio
 ###bt-ads
@@ -3753,13 +3753,14 @@ hubzter.com##+js(aopr, adsanity_ad_block_vars)
 huim.com##+js(aopr, isAdEnabled)
 hulkshare.com##+js(nosiif, adblockerModal, 1000)
 hulu.com###banner-ad-container
+hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time)
 hulu.com##+js(json-prune, breaks pause_ads)
-hulu.com##+js(json-prune, video_metadata.end_credits_time)
 hulu.com##+js(set, Object.prototype._parseVAST, noopFunc)
 hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
 hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
 hulu.com##.ad-choices
+hulu.com#@#+js(json-prune, breaks pause_ads)
 humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 hungama.com##+js(set, showAds, true)
 hunstulovers.net##[id*="ScriptRoot"]
@@ -5277,8 +5278,10 @@ oko.sh##+js(aopw, Fingerprint2)
 oko.sh##+js(no-fetch-if, googlesyndication)
 oko.sh##+js(nostif, Adblock)
 oko.sh##+js(nowebrtc)
+oko.sh##+js(rmnt, script, document.createElement)
 oko.sh##+js(set, blurred, false)
 oko.sh##[href="https://tipsalert.xyz"]
+oko.sh##[href^="https://monetag.com/"]
 oko.sh##[src^="https://i.imgur.com/"]
 oko.sh##^script:has-text(adb_detected)
 oko.sh##a[href^="https://href.li/"]
