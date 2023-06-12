@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-12 09:20:03
-! Total count: 78228
+! Version: 2023-06-12 14:17:10
+! Total count: 78230
 
 ###anuncio
 ###bt-ads
@@ -7075,6 +7075,7 @@ thesimsresource.com##.crtv-bottom-wrapper
 thesimsresource.com##.pleasewaitad
 thespruceeats.com##.mntl-leaderboard-spacer
 thespruceeats.com#@#[data-ad-width]
+thestate.com##^html > head > script:has-text(connatix.id):upward(html) script:has-text(window.cnx)
 thesukan.net##+js(aost, String.prototype.charCodeAt, ai_)
 thevidhd.*##+js(aopw, smrtSB)
 thevidhd.*##+js(nowebrtc)
@@ -7964,6 +7965,7 @@ wu8.in##+js(set, blurred, false)
 wunderground.com##+js(aopw, _sp_)
 wunderground.com##[class*="-ad-box-"]
 wupfile.com##[id*=ScriptRoot]
+www.nj.com##^html > head > :is(meta[name="subscriber_only"][content="false"], meta[property="og:url"]:not([content*=".html"])):upward(html) script:has-text(/googletagmanager|window\.sophi/)
 www.uol##.content-lightbox
 www.uol##.overlay-lightbox
 x1337x.*##+js(acs, setTimeout, admc)
