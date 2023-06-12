@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-12 14:17:10
+! Version: 2023-06-12 20:24:59
 ! Total count: 78230
 
 ###anuncio
@@ -4731,7 +4731,7 @@ megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
 megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
 megaup.net##.metaRedirectWrapperBottomAds
-megaup.net##body .metaRedirectWrapperBottomAds:style(width: 10000px !important;)
+megaup.net##body .metaRedirectWrapperBottomAds:style(width: 11000px !important;)
 megaup.net##body:style(overflow-x: hidden !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
 megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
@@ -7075,7 +7075,7 @@ thesimsresource.com##.crtv-bottom-wrapper
 thesimsresource.com##.pleasewaitad
 thespruceeats.com##.mntl-leaderboard-spacer
 thespruceeats.com#@#[data-ad-width]
-thestate.com##^html > head > script:has-text(connatix.id):upward(html) script:has-text(window.cnx)
+thestate.com##^html > head > script:has-text(connatix.id):upward(1) > script:has-text(window.cnx)
 thesukan.net##+js(aost, String.prototype.charCodeAt, ai_)
 thevidhd.*##+js(aopw, smrtSB)
 thevidhd.*##+js(nowebrtc)
