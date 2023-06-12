@@ -2217,6 +2217,9 @@ godmods.com##+js(aopw, mdp_deblocker)
 godtube.com##+js(aopr, googletag)
 gogaytube.tv,shemaleporntube.tv##.videojs-hero
 gogodl.com##+js(acs, document.getElementById, adblock)
+goku.sx##.st-btn > img:style(margin: auto !important; display: block !important;)
+goku.sx##.st-btn:not(.st-first):style(display: inline-block !important; min-width: 50px !important; width: 50px !important;)
+goku.sx##.st-hidden:remove-class(st-hidden)
 golem.de##+js(acs, showAds)
 golem.de##+js(nostif, adBlockerDetected)
 golem.de##+js(nostif, show)
@@ -4024,6 +4027,7 @@ plagiarismchecker.co##form + section#after-ad + div[class][style]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
+plagiarismdetector.net##[data-link*="grammarly.com"]
 plagiarismdetector.net##[style]:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
@@ -4816,6 +4820,7 @@ slink.bid##.banner
 slink.bid##^script:has-text('shift')
 slink.bid##^script:has-text(\'shift\')
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
+smallseotools.com##.d-block.my-2.text-center
 smallseotools.com##.mb-2.justify-content-center
 smallseotools.com##.mxauto.my-2
 smallseotools.com##.mxautoo.px267
@@ -4824,12 +4829,12 @@ smallseotools.com##.show.g_popup.fade.modal
 smallseotools.com##.sticky_ssb.my-2
 smallseotools.com##[class*="garammarly_"]
 smallseotools.com##[id$="sst"]
+smallseotools.com##[onclick*="open"]
 smallseotools.com##article
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
-smallseotools.com,plagiarismdetector.net##[data-link*="grammarly.com"]
 smiechawatv.pl##+js(nowoif)
 smiechawatv.pl##[href^="http://smiechawatv.cupsell.pl/"]
 smiechawatv.pl##[href^="https://www.cda.pl/smiechawaTV/"]
@@ -5453,6 +5458,9 @@ urlpay.net##+js(acs, String.fromCharCode, 'shift')
 urlpay.net##+js(nano-sib)
 urlpay.net##^script:has-text('shift')
 urlpay.net##^script:has-text(\'shift\')
+urochsunloath.com##+js(acs, $, /\.fadeIn|\.show\(.?\)/)
+urochsunloath.com##+js(nostif, blocked)
+urochsunloath.com##+js(nowoif)
 usatoday.com##+js(aopr, _sp_._networkListenerData)
 usatoday.com##.gnt_n:style(top: 0 !important; margin-top: 0 !important;)
 usatoday.com##[aria-label="advertisement"]
