@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-13 14:16:29
-! Total count: 78243
+! Version: 2023-06-13 20:26:17
+! Total count: 78245
 
 ###anuncio
 ###bt-ads
@@ -1418,7 +1418,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.152mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0152px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -3879,12 +3879,12 @@ imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
 imgmaze.*,imgtown.*##+js(aopr, popjs.init)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgrock.*##+js(aopr, CustomEvent)
@@ -5647,7 +5647,7 @@ plagiarismchecker.co##form + section#after-ad + div[class][style]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
-plagiarismdetector.net##[data-link*="grammarly.com"]
+plagiarismdetector.net##[data-hlink*="grammarly.com"]
 plagiarismdetector.net##[style]:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
@@ -6604,21 +6604,19 @@ slreamplay.*##+js(nano-stb, grecaptcha.ready, *)
 slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streampiay.*,streanplay.*###uverlay
 slreamplay.*,steamplay.*,steanplay.*,stemplay.*,streamp1ay.*,streanplay.*,streampiay.*##+js(nowoif)
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
-smallseotools.com##.d-block.my-2.text-center
-smallseotools.com##.mb-2.justify-content-center
-smallseotools.com##.mxauto.my-2
-smallseotools.com##.mxautoo.px267
+smallseotools.com##.d-block.text-center
+smallseotools.com##.new___s_
 smallseotools.com##.show.fade.modal-backdrop
 smallseotools.com##.show.g_popup.fade.modal
-smallseotools.com##.sticky_ssb.my-2
-smallseotools.com##[class*="garammarly_"]
-smallseotools.com##[id$="sst"]
+smallseotools.com##[class*="arammarly"]
+smallseotools.com##[class][onclick]:matches-attr(/^/=/grammarly.com/)
 smallseotools.com##[onclick*="open"]
-smallseotools.com##article
+smallseotools.com##abc
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
+smallseotools.com#@#[class*="gram"]
 smartadserver.*#@#[href*=".smartadserver.com"]
 smartadserver.*#@#a[href*=".smartadserver.com"]
 smiechawatv.pl##+js(nowoif)
@@ -38980,6 +38978,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||hit-counts.com^
 ||hit-now.com^
 ||hit.123c.vn^
+||hit.api.useinsider.com^$domain=akbank.com,important
 ||hit.bg^
 ||hit.c97.org^
 ||hit.demirorenteknoloji.com^
@@ -40913,6 +40912,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||infectedrepentearl.com^
 ||infectiepreventie.inthere.link^
 ||infeed.tv^
+||inference.api.useinsider.com^$domain=akbank.com,important
 ||inferiorface.com^
 ||inferiorfreedom.com^
 ||infernotions.com^
@@ -45017,6 +45017,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||log.anninhthudo.vn^
 ||log.api.drift.com^
 ||log.api.useinsider.com^
+||log.api.useinsider.com^$domain=akbank.com,important
 ||log.api.zaloapp.com^
 ||log.apk.v-mate.mobi^
 ||log.apkomega.com^
@@ -72352,6 +72353,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||usefulpush.com^
 ||usegzydswt.com^
 ||useinsider.com^
+||useinsider.com^$image,redirect-rule=2x2.png,domain=akbank.com
 ||useitbetter.com^
 ||usejj.makepolo.cn^
 ||usejj.wangkl.com^

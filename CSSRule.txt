@@ -555,7 +555,7 @@ asus-zenfone.com##+js(nowoif)
 at.wetter.com##+js(aopw, openLity)
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.152mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0152px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomtt.com##+js(acs, setTimeout, admc)
@@ -2601,12 +2601,12 @@ imgkings.com##+js(acs, __htapop)
 imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgsen.*,imgsto.*,pics4you.net##+js(aopw, _pop)
@@ -4028,7 +4028,7 @@ plagiarismchecker.co##form + section#after-ad + div[class][style]
 plagiarismdetector.net###first_slot
 plagiarismdetector.net###second_slot
 plagiarismdetector.net##+js(aost, adblock)
-plagiarismdetector.net##[data-link*="grammarly.com"]
+plagiarismdetector.net##[data-hlink*="grammarly.com"]
 plagiarismdetector.net##[style]:has([onclick*="open"])
 planet-explorers-isos.com##+js(set, adblock, false)
 planetaminecraft.com##+js(set, ab, false)
@@ -4821,21 +4821,19 @@ slink.bid##.banner
 slink.bid##^script:has-text('shift')
 slink.bid##^script:has-text(\'shift\')
 smallseotools.com##+js(aeld, mouseleave, clientWidth)
-smallseotools.com##.d-block.my-2.text-center
-smallseotools.com##.mb-2.justify-content-center
-smallseotools.com##.mxauto.my-2
-smallseotools.com##.mxautoo.px267
+smallseotools.com##.d-block.text-center
+smallseotools.com##.new___s_
 smallseotools.com##.show.fade.modal-backdrop
 smallseotools.com##.show.g_popup.fade.modal
-smallseotools.com##.sticky_ssb.my-2
-smallseotools.com##[class*="garammarly_"]
-smallseotools.com##[id$="sst"]
+smallseotools.com##[class*="arammarly"]
+smallseotools.com##[class][onclick]:matches-attr(/^/=/grammarly.com/)
 smallseotools.com##[onclick*="open"]
-smallseotools.com##article
+smallseotools.com##abc
 smallseotools.com##body:style(overflow: auto !important;)
 smallseotools.com##roksakotoroklo
 smallseotools.com#@#.b
 smallseotools.com#@#.px304
+smallseotools.com#@#[class*="gram"]
 smiechawatv.pl##+js(nowoif)
 smiechawatv.pl##[href^="http://smiechawatv.cupsell.pl/"]
 smiechawatv.pl##[href^="https://www.cda.pl/smiechawaTV/"]
