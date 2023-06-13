@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-13 09:15:58
-! Total count: 78241
+! Version: 2023-06-13 14:16:29
+! Total count: 78243
 
 ###anuncio
 ###bt-ads
@@ -4277,6 +4277,7 @@ lanjutkeun.*##+js(aeld, load, 2000)
 lapresse.ca##+js(aopw, _sp_)
 lapresse.ca##+js(set, noBlocker, true)
 laprovence.com,viedemerde.fr##+js(acs, document.createElement, __esModule)
+laptopsdirect.co.uk##^html > head > meta[property="og:type"]:not([content="product"]):upward(1) > script:has-text(googletagmanager)
 laradiobbs.net##+js(set, adblock, false)
 larena.it#@#.v3_horz-banner
 latinomegahd.net##+js(aopw, _pop)
@@ -5278,7 +5279,7 @@ oko.sh##+js(acs, XMLHttpRequest, adb)
 oko.sh##+js(aopr, AaDetector)
 oko.sh##+js(aopr, open)
 oko.sh##+js(aopw, Fingerprint2)
-oko.sh##+js(no-fetch-if, googlesyndication)
+oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor/)
 oko.sh##+js(nostif, Adblock)
 oko.sh##+js(nowebrtc)
 oko.sh##+js(rmnt, script, document.createElement)
@@ -40500,6 +40501,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=canvids.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=discoveryplus.in
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=fupa.net
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=gamezhero.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=hungama.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=news8000.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=nrl.com
