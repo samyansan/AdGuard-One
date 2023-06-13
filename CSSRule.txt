@@ -4865,8 +4865,8 @@ sofascore.com##.adUnitBox
 sofascore.com#@#[display^="block,none"]
 sofascore.com#@#[display^="none,none"]
 soft112.com##+js(nano-sib)
-soft98.ir##+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
-soft98.ir##a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
+soft98.ir#@#+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
+soft98.ir#@#a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
 softdescargas.com,softwaredescargas.com##+js(aeld, DOMContentLoaded, scriptwz_url)
 software-on.com##+js(aopr, decodeURIComponent)
 software-on.com##+js(nowebrtc)

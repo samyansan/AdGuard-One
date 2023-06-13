@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-13 20:26:17
-! Total count: 78245
+! Version: 2023-06-14 02:15:41
+! Total count: 78246
 
 ###anuncio
 ###bt-ads
@@ -751,6 +751,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /related_1.html?language=$frame,3p
 /script/bootstrap.js$script,3p,domain=torlock.*|torlock2.*
 /script/su.js$script,3p
+/sdk/push_web/?zid=
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
 /siropu/am/core.min.js$script,important,domain=~hifiwigwam.com
 /skipad.png$image
@@ -6651,8 +6652,8 @@ sofascore.com##.adUnitBox
 sofascore.com#@#[display^="block,none"]
 sofascore.com#@#[display^="none,none"]
 soft112.com##+js(nano-sib)
-soft98.ir##+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
-soft98.ir##a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
+soft98.ir#@#+js(spoof-css, a[href*="s0ft98.ir"]\, article > aside\, a[href*="smostafa" i], clip-path, none)
+soft98.ir#@#a[href*="s0ft98.ir" i], article > aside, a[href*="smostafa" i]:style(clip-path: circle(0) !important;)
 softdescargas.com,softwaredescargas.com##+js(aeld, DOMContentLoaded, scriptwz_url)
 software-on.com##+js(aopr, decodeURIComponent)
 software-on.com##+js(nowebrtc)
