@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-14 14:16:30
-! Total count: 78244
+! Version: 2023-06-14 20:26:25
+! Total count: 78240
 
 ###anuncio
 ###bt-ads
@@ -1419,7 +1419,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0152px !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0152mm !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -4733,8 +4733,6 @@ megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
 megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
 megaup.net##.metaRedirectWrapperBottomAds
-megaup.net##body .metaRedirectWrapperBottomAds:style(width: 11000px !important;)
-megaup.net##body:style(overflow-x: hidden !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
 megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
 megavideo.*##+js(nowoif)
@@ -8084,8 +8082,7 @@ yiv.com##+js(nostif, Adb)
 yiv.com#@##adsContainer
 ylilauta.org##+js(aeld, , ad-load-fail)
 ylilauta.org##+js(spoof-css, iframe.a, position, static, visibility, visible)
-ylilauta.org##iframe.a.a:style(visibility:hidden!important;position:absolute!important)
-ylilauta.org##iframe.a.a:style(width: initial !important)
+ylilauta.org##iframe.a.a:style(visibility:hidden!important;position:absolute!important;width:initial!important)
 ylilauta.org#@#iframe.a
 yogitimes.com##+js(aopr, fuckAdBlock)
 yomovies.*##+js(aopr, decodeURI)
@@ -33437,7 +33434,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||es.optimost.com^
 ||es.themoneytizer.com^
 ||es.ylilauta.org/t/$xhr,1p
-||es.ylilauta.org^$css,ping,popup,frame
 ||es.ylilauta.org^$image,redirect=1x1.gif
 ||es.ylilauta.org^$media,css,ping,popup,frame
 ||esa-reg-eup.myoppo.com^
