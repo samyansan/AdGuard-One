@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-14 09:14:27
-! Total count: 78246
+! Version: 2023-06-14 14:16:30
+! Total count: 78244
 
 ###anuncio
 ###bt-ads
@@ -3758,13 +3758,11 @@ huim.com##+js(aopr, isAdEnabled)
 hulkshare.com##+js(nosiif, adblockerModal, 1000)
 hulu.com###banner-ad-container
 hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time)
-hulu.com##+js(json-prune, breaks pause_ads)
 hulu.com##+js(set, Object.prototype._parseVAST, noopFunc)
 hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
 hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
 hulu.com##.ad-choices
-hulu.com#@#+js(json-prune, breaks pause_ads)
 humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 hungama.com##+js(set, showAds, true)
 hunstulovers.net##[id*="ScriptRoot"]
@@ -4688,7 +4686,6 @@ mcloud.to,vidstream.pro##+js(nowoif)
 mcloud.to,vizcloud.*##+js(ra, data-ad-img|data-ad-target, , stay)
 mcloud.to,vizcloud.*,vizcloud2.*##.xad-wrapper
 mcoc-guide.com#@#ins.adsbygoogle
-meaww.com##+js(json-prune, country region ip)
 mediafire.com##+js(aeld, click, ClickHandler)
 mediafire.com##+js(aeld, load, IsAdblockRequest)
 mediafire.com##+js(nostif, InfMediafireMobileFunc, 1000)
@@ -40503,6 +40500,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=fupa.net
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=gamezhero.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=hungama.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=neongames.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=news8000.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=nrl.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=uptostream.com

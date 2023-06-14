@@ -2494,13 +2494,11 @@ huim.com##+js(aopr, isAdEnabled)
 hulkshare.com##+js(nosiif, adblockerModal, 1000)
 hulu.com###banner-ad-container
 hulu.com##+js(json-prune, breaks pause_ads video_metadata.end_credits_time)
-hulu.com##+js(json-prune, breaks pause_ads)
 hulu.com##+js(set, Object.prototype._parseVAST, noopFunc)
 hulu.com##+js(set, Object.prototype.createAdBlocker, noopFunc)
 hulu.com##+js(set, Object.prototype.isAdPeriod, falseFunc)
 hulu.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"][starts-with(@id\, "Ad")] | //*[name()="Period"]/@start), , .mpd)
 hulu.com##.ad-choices
-hulu.com#@#+js(json-prune, breaks pause_ads)
 humanbenchmark.com##+js(set, pubg.unload, noopFunc)
 hungama.com##+js(set, showAds, true)
 hunstulovers.net##[id*="ScriptRoot"]
@@ -3285,7 +3283,6 @@ mcloud.to##+js(nosiif, break)
 mcloud.to##[target="_blank"][style]:upward([style])
 mcloud.to,vidstream.pro##+js(nowoif)
 mcoc-guide.com#@#ins.adsbygoogle
-meaww.com##+js(json-prune, country region ip)
 mediafire.com##+js(aeld, click, ClickHandler)
 mediafire.com##+js(aeld, load, IsAdblockRequest)
 mediafire.com##+js(nostif, InfMediafireMobileFunc, 1000)
