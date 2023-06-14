@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-14 20:26:25
-! Total count: 78240
+! Version: 2023-06-15 02:15:49
+! Total count: 78246
 
 ###anuncio
 ###bt-ads
@@ -661,7 +661,10 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.json$/$xhr,3p,match-case
 /^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$image,3p,match-case
 /^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
+/_adslot/*
+/_xa/ads_
 /ad-m.js$script,1p
+/ad-provider.
 /ad.xml$xhr,badfilter
 /adblock.php$script,domain=daddyhd.com
 /adblockpopup.$badfilter
@@ -721,6 +724,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /grgfbigo.js
 /huyass7.$script,1p
 /iframe.php?spotID=
+/image/affiliate/*
 /images/*/b/*$image,redirect=2x2.png,domain=babesandbitches.net|babesaround.com|babesbang.com|babeuniversum.com|grabpussy.com|join2babes.com|nightdreambabe.com|novojoy.com|novoporn.com|novostrong.com|pbabes.com|pussystate.com|redpornblog.com|rossoporn.com|sexynakeds.com
 /images/*/banners/*$image,redirect=2x2.png,domain=100bucksbabes.com|8boobs.com|babeimpact.com|babesandgirls.com|babesaround.com|babesinporn.com|babesmachine.com|bustybloom.com|chickteases.com|decorativemodels.com|dirtyyoungbitches.com|exgirlfriendmarket.com|fooxybabes.com|girlsofdesire.org|glam0ur.com|hotstunners.com|livejasminbabes.net|morazzia.com|nakedneighbour.com|novoglam.com|pleasuregirl.net|rabbitsfun.com|sexyaporno.com|sexykittenporn.com|silkengirl.*|slutsandangels.com|theomegaproject.org|thousandbabes.com|vibraporn.com|wantedbabes.com|wildfanny.com
 /images/ad/*$badfilter
@@ -730,6 +734,7 @@ $xhr,redirect-rule=noopjs,domain=player.pl
 /jquery.notify.js$script,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|povwideo.*|powv1deo.*|powvibeo.*|powvideo.*|powvldeo.*
 /jquery.watch.js|$script,1p,important,domain=~dekrantvantoen.nl
 /js/fpu3/pu4.min.js
+/js/re-ads-
 /jsa.hh?$script
 /klesd7.$script,1p
 /kzdh7.$script,1p
@@ -1419,7 +1424,7 @@ atdhe.*##+js(popads-dummy)
 atdhe.*##[href^="https://horti.brovada.eu/"]
 aternos.org##.ad-dfp:style(min-height: 0.0037px !important; height: 0.0037px !important;)
 aternos.org##.header-ad
-aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.0152mm !important; padding: 0px !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important; max-height: 0.01246px !important; padding: 0px !important;)
 aternos.org##.sidebar:style(width: 1.74px !important; padding: 0px !important;)
 aternos.org##[style*="opacity:  0"]
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, _pop)
@@ -4732,7 +4737,8 @@ megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
 megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
-megaup.net##.metaRedirectWrapperBottomAds
+megaup.net##body .metaRedirectWrapperBottomAds:style(width: 12000px !important;)
+megaup.net##body:style(overflow-x: hidden !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
 megaurl.in,megafly.in##+js(ra, onclick, [onclick^="pop"])
 megavideo.*##+js(nowoif)
