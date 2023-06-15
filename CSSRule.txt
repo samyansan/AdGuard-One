@@ -3318,7 +3318,7 @@ megapastes.com##+js(aopw, _pop)
 megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
-megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
+megaup.net##+js(rpnt, script, /;\$\S+:\(/, ;()
 megaup.net##body .metaRedirectWrapperBottomAds:style(width: 12000px !important;)
 megaup.net##body:style(overflow-x: hidden !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]

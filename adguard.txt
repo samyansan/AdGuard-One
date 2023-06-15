@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-15 02:15:49
+! Version: 2023-06-15 09:13:57
 ! Total count: 78246
 
 ###anuncio
@@ -4736,7 +4736,7 @@ megapastes.com##+js(aopw, _pop)
 megapastes.com##.content > center
 megapornfreehd.com##+js(aopr, V4ss)
 megatube.xxx##+js(aopr, BetterJsPop)
-megaup.net##+js(rpnt, script, /if\(\$.*return;}/)
+megaup.net##+js(rpnt, script, /;\$\S+:\(/, ;()
 megaup.net##body .metaRedirectWrapperBottomAds:style(width: 12000px !important;)
 megaup.net##body:style(overflow-x: hidden !important;)
 megaup.net#@#a[href^="https://tm-offers.gamingadult.com/"]
