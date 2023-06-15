@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-15 14:16:51
-! Total count: 78246
+! Version: 2023-06-15 20:26:19
+! Total count: 78248
 
 ###anuncio
 ###bt-ads
@@ -1315,13 +1315,11 @@ apk.sekilastekno.com##[href="https://www.tautan.pro/"]
 apk.sekilastekno.com##[href^="https://www.poptival.com/direct"]
 apk.sekilastekno.com##[width="200"][height="60"]
 apk4all.com##.control.field > .is-danger.button
-apkmirror.com###ezmobfooter
-apkmirror.com##+js(aopr, ezAnalyticsDefine)
 apkmirror.com##+js(aost, document.querySelectorAll, /onload inlineScript|onload https/)
+apkmirror.com##+js(rmnt, script, secondsLeft)
 apkmirror.com##.OUTBRAIN
 apkmirror.com##.advertisement-text
 apkmirror.com##.ains
-apkmirror.com##.ains:style(height: 1px !important; min-height: 1px !important; padding: 0px !important;)
 apkmirror.com##.downloadCountdown
 apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !important;)
 apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
@@ -1779,6 +1777,7 @@ bravoerotica.net##.place
 bravoerotica.net##.table
 breedingmoms.com##.embaners
 breedingmoms.com##.h-bn
+brightygames.com##^html > head > meta[property="og:url"]:not([content*="/games/"]):upward(1) > script:has-text(wgplayer)
 brigitte.de,stern.de##+js(set, Object.prototype.disableAds, true)
 britannica.com###md-media-overlay-ad
 british-birdsongs.uk##ins.adsbygoogle
@@ -3883,12 +3882,12 @@ imgkings.com##+js(aopr, ExoLoader)
 imgkings.com##+js(aopw, _pop)
 imgkings.com##+js(nostif, location.href)
 imgmaze.*,imgtown.*##+js(aopr, popjs.init)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(aopr, console.clear)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nano-sib, timer)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[class][style="display: block;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[id][style^="position: fixed; display: block; width: 100%;"]
-imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs##div[style="width:100%;height:110px"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##+js(aopr, console.clear)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##+js(nano-sib, timer)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##div[class][style="display: block;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgmffg.sbs,imgmffgtr.sbs,imgnbg.sbs,imgngc.sbs,imgnmh.cfd,imgqte.sbs,imguthes.sbs,imgwag.cfd##div[style="width:100%;height:110px"]
 imgprime.com##+js(ra, href|target, a[href="https://imgprime.com/view.php"][target="_blank"], complete)
 imgprime.com##.overlayBg
 imgrock.*##+js(aopr, CustomEvent)
@@ -4783,6 +4782,7 @@ mexa.sh##+js(aopr, eddOptions)
 mexa.sh##+js(aopw, afScript)
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 mi-globe.com##.td-is-sticky
+miamiherald.com##^html:not(:has(video)) > head > script:has-text(connatix.com)
 micloudfiles.com##+js(acs, atob, tabunder)
 micloudfiles.com##+js(aeld, load, 2000)
 micloudfiles.com##+js(nowoif)
@@ -5714,6 +5714,8 @@ poedb.tw##[target="_blank"]:has([src*="webp"])
 pogo.com###leaderboard-ad
 pogo.com##+js(set, pogo.intermission.staticAdIntermissionPeriod, 0)
 pogo.com##.hideableAd
+pogo.com##[class*="gameSkyscraperAd"]
+pogo.com##[class*="gameTopAd"]
 politicalcowboy.com##.dsk-box-ad-a
 politicalcowboy.com##.dsk-box-ad-e
 politico.com##+js(set, generateGalleryAd, noopFunc)
@@ -34194,7 +34196,6 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||ezmob.xml-v4.ak-is2.net^
 ||ezmob.xs.ak-is2.net^
 ||ezodn.com^
-||ezodn.com^$important,domain=apkmirror.com
 ||ezofferz.com^
 ||ezojs.com^
 ||ezsbhlpchu.com^
@@ -40505,6 +40506,7 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=neongames.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=news8000.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=nrl.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=polsatnews.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=uptostream.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js,domain=yallo.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect-rule=google-ima.js:5,domain=atozmath.com
@@ -54608,11 +54610,11 @@ zwergenstadt.com##+js(aeld, load, onload)
 ||placemypixel.com^
 ||placeofres.com^
 ||placidperson.com^
+||plagiarismdetector.net/img-pop/popup2.png$image,1p
 ||plagiarismdetector.net/js/*bioep
+||plagiarismdetector.net/pd-imgs/*.png$image,1p
 ||plagiarismdetector.net/pd-imgs/Grammarly_Square$image,1p
 ||plagiarismdetector.net/pd-imgs/Top_Grammarly_banner$image,1p
-||plagiarismdetector.net/pd-imgs/gram.png$image,1p
-||plagiarismdetector.net/pd-imgs/tgram.png$image,1p
 ||plaguealacritytwitter.com^
 ||plaguemanipulatedrag.com^
 ||plaicestems.com^
