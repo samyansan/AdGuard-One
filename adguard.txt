@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-20 20:27:04
-! Total count: 95677
+! Version: 2023-06-21 02:14:50
+! Total count: 95678
 
 ###ACClayerBackground
 ###AF_GDPR
@@ -12946,7 +12946,6 @@
 ##.zuzcookieouter:not(body):not(html)
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##[id$="-ad"]
-##[id|=ad]
 ##a#cookies[href*="zamknij"]
 ##a.optanon-show-settings
 ##accept-cookie-box
@@ -24591,6 +24590,7 @@ wypad.com.pl###cookie
 wyrobieniepaszportu.pl##body > div:not([id]):not([class])
 wzorniki.eu###cookie
 x.jd.com
+x.qcheng.cc##+js(set,killAdKiller,noopFunc)
 xalingo.com.br###wrng-agrmnt
 xapes.net###as-uc-wrapper
 xe.gr##.google_diaclaimer
@@ -95672,6 +95672,7 @@ zyro.com##.zyro-cookies
 ~wirtualnemedia.pl,~footroll.pl,~shinden.pl##body > div[class^="app_gdpr"]
 ~withings.com##.cookie_modal:not(body):not(html)
 ~wwz.ch##.cookie__footer:not(body):not(html)
+~x.qcheng.cc##[id|=ad]
 ~xs4all.nl,~constantcontact.com,~saxion.edu,~xmradio.nl,~pieseauto.ro##.cookie-wall:not(body):not(html):not(.cw-modal)
 ~xsports.lv##.notice-cookie:not(body):not(html)
 ~yourstorebox.com##.react-cookie-law-dialog
