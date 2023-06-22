@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-22 14:16:52
+! Version: 2023-06-22 20:27:17
 ! Total count: 96115
 
 ###ACClayerBackground
