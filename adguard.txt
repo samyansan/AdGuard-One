@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-24 14:18:33
-! Total count: 96211
+! Version: 2023-06-24 20:27:25
+! Total count: 96228
 
 ###ACClayerBackground
 ###AF_GDPR
@@ -1292,6 +1292,7 @@
 ###box-adblocker-wrap
 ###box-alert-cookie
 ###box-cookie
+###box-cookie-notice
 ###box-cookie-overlay
 ###box-cookies
 ###box-gdpr
@@ -1706,6 +1707,7 @@
 ###containerCookieWet
 ###containerCookies
 ###container_cookie
+###container_cookieConsent
 ###container_cookies
 ###container_info_cnil
 ###contenedor-politica-cookies
@@ -7057,6 +7059,7 @@
 ###webi-cookie-footer-wrap
 ###website-cookies-prompt
 ###websiteIsUsingCookie
+###website_cookies_bar
 ###weby_cookie_consent
 ###wehavecookies
 ###welcomebar-wrapper > #welcomebar-container
@@ -8011,7 +8014,7 @@
 ##.box-cookie-disclamer
 ##.box-cookie-eu-law:not(body):not(html)
 ##.box-cookie-info--overlay
-##.box-cookie-notice:not(body):not(html)
+##.box-cookie-notice
 ##.box-cookie:not(body):not(html)
 ##.box-info-cookie-agreement
 ##.box-info-cookie:not(body):not(html)
@@ -8383,6 +8386,7 @@
 ##.component-cookies-banner
 ##.component-cookies-message
 ##.component-cookies-popup
+##.component\:cookie-consent-dialog
 ##.component_eu_eprivacy_option
 ##.component_gdprMessage__container
 ##.components-cookie-law-basic
@@ -10456,6 +10460,7 @@
 ##.eu-compliance-mobile
 ##.eu-container[ng-show*="isgdprCookieSet"]
 ##.eu-cookie-banner:not(body):not(html)
+##.eu-cookie-compliance-popup-open > #sliding-popup
 ##.eu-cookie-compliance-popup-open::before
 ##.eu-cookie-info:not(body):not(html)
 ##.eu-cookie-law-wrapper
@@ -11157,7 +11162,7 @@
 ##.js-cookie-notice:not(body):not(html)
 ##.js-cookie-notification-banner
 ##.js-cookie-notify:not(body):not(html)
-##.js-cookie-overlay:not(body):not(html)
+##.js-cookie-overlay
 ##.js-cookie-panel:not(body):not(html)
 ##.js-cookie-policy-banner
 ##.js-cookie-policy:not(body):not(html)
@@ -11879,6 +11884,7 @@
 ##.org-cookie-mini.fixed
 ##.organism-cookie-notice
 ##.ort-cookie-banner:not(body):not(html)
+##.osf-cookies-consent
 ##.osw-privacy
 ##.ot-sdk-show-settings
 ##.ot_cookie_settings_btn
@@ -12492,6 +12498,7 @@
 ##.sulco-cookies:not(body):not(html)
 ##.sutiwarning:not(body):not(html)
 ##.sv-cookie-consent-banner
+##.sv-cookie-management
 ##.sv-cookie-notification
 ##.sv-layout .cookie-consent
 ##.sv-text-portlet.cookie
@@ -14362,6 +14369,7 @@
 /cookieconsent.min.js$domain=~sonnenverlauf.de|~mondverlauf.de|~leanlibrary.com|~retrogames.cc|~exagon.de|~sozialversicherung-kompetent.de|~varcevanje-energije.si|~khl.ru|~bauen-und-heimwerken.de|~carport-diagnose.de|~tricount.com
 /cookieconsent/*$domain=stema.de|expert.es
 /cookieconsentpopup.js
+/cookiecontrol.js$domain=rembutiken.se
 /cookiecsnt2/js/cookie.min.js
 /cookiecuttr-eu-cookie-law-compliance/*
 /cookiedialog/cookieutility.js
@@ -14399,6 +14407,7 @@
 /cookies.min.js$domain=ellisphere.fr|konsultacjejst.pl
 /cookies/*$domain=liberbank.es|stickypassword.com
 /cookies/bundle$domain=lucozadeenergy.com
+/cookies/manage-cookies-runtime
 /cookiesDirective.min.js
 /cookiesPolicy/static/lib.js
 /cookiesPopUp/*
@@ -14842,6 +14851,7 @@
 /typo3conf/ext/kmacookies
 /typo3conf/ext/lin_gdpr/*
 /typo3conf/ext/ne_cookies/*
+/typo3conf/ext/ppw_cookie/*
 /typo3conf/ext/supi/*
 /typo3conf/ext/we_cookie_consent
 /uc-cmp/*$domain=santander.de
@@ -16775,7 +16785,7 @@ consent.$domain=seeandso.com
 consent.23g.io
 consent.autopflege24.net$domain=autopflege24.net
 consent.comply-app.com
-consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~jyllands-posten.dk|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~spiele-kostenlos-online.de|~ekstrabladet.dk|~epochtimes.de
+consent.cookiebot.com$domain=~deutschesapothekenportal.de|~storyhouseegmont.dk|~storyhouseegmont.no|~storyhouseegmont.se|~egmont.com|~plaion.com|~jyllands-posten.dk|~tme.eu|~stadtmobil.de|~wwf.fi|~login.nos.pt|~asambeauty.com|~cineplex.de|~berlingske.dk|~digimon.kochfilms.de|~kino.dk|~hoyavision.com|~koeln.de|~cliente.nos.pt|~parkerlebnis.de|~deadwalk.io|~linak.es|~linak.de|~cajamar.es|~digitaltrends.com|~mein-grundeinkommen.de|~werder.de|~finanzmarktwelt.de|~danbolig.dk|~bt.dk|~scubadiving.com|~biomarkt.de|~harzwasserwerke.de|~stern.de|~dasinvestment.com|~derivate.bnpparibas.com|~werkenbijlidl.nl|~swspremberg.de|~nngroup.com|~bankia.es|~bergbauernmilch.de|~ekstrabladet.dk|~epochtimes.de
 consent.cookiefirst.com$domain=~parken-in-mainz.de
 consent.js^$domain=zitatezumnachdenken.com
 consent.maerkischekiste.de$domain=maerkischekiste.de
@@ -18237,6 +18247,7 @@ frei-wild.net###privacyAnnouncement
 freiewaehler.eu###myCookie
 freiewelt.net###cmmodal
 frenchentree.com##.dpl-cookie-banner
+fresha.com##div[class*="Toast"] ~ div[class*="Wrapper"] ~ div
 fressnapf.hu##.grey-popup-layer
 fretlink.com###cookies
 freudtools.com##.x-consent
@@ -20301,6 +20312,7 @@ mediaexpert.pl###fastcookie
 mediafire.com###abnotify
 mediafour.com###wpnb-bar
 mediaklikk.hu##.resultCookie
+mediamarkt.es###gdpr-cookie-layer
 mediamarkt.pl##.cookie-box
 mediametrie.fr###cooks
 medianauka.pl##.cookie
@@ -21924,6 +21936,7 @@ ptc-auto.hu###hCookiePanel
 pttavm.com##.cookie-box
 pub.funshion.com
 pubgesports.com##body > div > div > div > [class^="view__ModalWindowContainer"]
+public.gr##section[class*="CookiesConsent"]
 pubpub.org##.legal-banner-component
 punpro.com##div[class*="CookieSession"]
 puppet.com##.pm-gdpr, .puppet-cookie-banner
@@ -21987,7 +22000,7 @@ quag.com###gpdr, #GPDR, #gdpr, #GDPR
 quake.com##.notification
 qualenergia.it###cookies-win
 quandangdang.net
-quantcast.mgr.consensu.org$domain=~sourceforge.net|~tumblr.com|~wpolityce.pl|~player.livespotting.com|~indy100.com|~vi.nl|~independent.co.uk|~express.co.uk|~joe.ie|~joe.co.uk|~avsforum.com|~nfl.com|~filmvandaag.nl|~gamesradar.com|~iol.pt
+quantcast.mgr.consensu.org$domain=~sourceforge.net|~tumblr.com|~wpolityce.pl|~player.livespotting.com|~indy100.com|~vi.nl|~independent.co.uk|~express.co.uk|~joe.ie|~joe.co.uk|~avsforum.com|~nfl.com|~filmvandaag.nl|~gamesradar.com|~iol.pt|~spiele-kostenlos-online.de
 quantum-inspire.com##.cookie
 quazer.com##.fullscreen-notification
 quectel.com##.cookies
@@ -22733,6 +22746,7 @@ simsdom.com###policies
 sinalco.de###bccs-modal ~ .modal-backdrop
 singaporeair.com##sia-cookie
 singellooputrecht.nl##.cc-wrapper
+singlebox.app##footer ~ .fixed
 singlereisen.de##.cp-dialog
 singles-in-stuttgart.de###DC
 singulart.com##.cookies
@@ -23381,7 +23395,9 @@ teleauskunft.de##.cookie-container
 telefonoassistenza.net###window
 telegram.hr##.disclaimer
 telehit.com##.Privacy.Telehit
-telekom.de###cookies.bounceInDown, .pi-notification
+telekom.de###main ~ #cookies
+telekom.mk###cookiesModal
+telekom.sk##.con-ban-wrapper
 telemarket24.ru##.disklay-box
 telering.at##.uc-fab.uc-fab-open
 telesputnik.ru##.adbPopup
@@ -24698,6 +24714,7 @@ yourbaroness.com###important-notice
 yourkit.com###terms-wrapper-id
 youronlinechoices.com##.fl-page.dnone, .mainContentInside .info
 yourweather.co.uk###gpdr, #GPDR, #gdpr, #GDPR
+yourwineonline.be##.cookies
 yousee.dk##.app > div[data-radium] > div[data-radium][style*="fixed"]
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
@@ -51462,7 +51479,7 @@ zyro.com##.zyro-cookies
 ||fastcdn.info^
 ||fastclick.com^
 ||fastclick.net^
-||fastcmp.com/fast-cmp.js$script
+||fastcmp.com/fast-cmp$script
 ||fastcounter.com^
 ||fastcounter.de^
 ||fastenfather.com^

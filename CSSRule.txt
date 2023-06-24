@@ -1284,6 +1284,7 @@
 ###box-adblocker-wrap
 ###box-alert-cookie
 ###box-cookie
+###box-cookie-notice
 ###box-cookie-overlay
 ###box-cookies
 ###box-gdpr
@@ -1698,6 +1699,7 @@
 ###containerCookieWet
 ###containerCookies
 ###container_cookie
+###container_cookieConsent
 ###container_cookies
 ###container_info_cnil
 ###contenedor-politica-cookies
@@ -7049,6 +7051,7 @@
 ###webi-cookie-footer-wrap
 ###website-cookies-prompt
 ###websiteIsUsingCookie
+###website_cookies_bar
 ###weby_cookie_consent
 ###wehavecookies
 ###welcomebar-wrapper > #welcomebar-container
@@ -8003,7 +8006,7 @@
 ##.box-cookie-disclamer
 ##.box-cookie-eu-law:not(body):not(html)
 ##.box-cookie-info--overlay
-##.box-cookie-notice:not(body):not(html)
+##.box-cookie-notice
 ##.box-cookie:not(body):not(html)
 ##.box-info-cookie-agreement
 ##.box-info-cookie:not(body):not(html)
@@ -8375,6 +8378,7 @@
 ##.component-cookies-banner
 ##.component-cookies-message
 ##.component-cookies-popup
+##.component\:cookie-consent-dialog
 ##.component_eu_eprivacy_option
 ##.component_gdprMessage__container
 ##.components-cookie-law-basic
@@ -10448,6 +10452,7 @@
 ##.eu-compliance-mobile
 ##.eu-container[ng-show*="isgdprCookieSet"]
 ##.eu-cookie-banner:not(body):not(html)
+##.eu-cookie-compliance-popup-open > #sliding-popup
 ##.eu-cookie-compliance-popup-open::before
 ##.eu-cookie-info:not(body):not(html)
 ##.eu-cookie-law-wrapper
@@ -11149,7 +11154,7 @@
 ##.js-cookie-notice:not(body):not(html)
 ##.js-cookie-notification-banner
 ##.js-cookie-notify:not(body):not(html)
-##.js-cookie-overlay:not(body):not(html)
+##.js-cookie-overlay
 ##.js-cookie-panel:not(body):not(html)
 ##.js-cookie-policy-banner
 ##.js-cookie-policy:not(body):not(html)
@@ -11871,6 +11876,7 @@
 ##.org-cookie-mini.fixed
 ##.organism-cookie-notice
 ##.ort-cookie-banner:not(body):not(html)
+##.osf-cookies-consent
 ##.osw-privacy
 ##.ot-sdk-show-settings
 ##.ot_cookie_settings_btn
@@ -12484,6 +12490,7 @@
 ##.sulco-cookies:not(body):not(html)
 ##.sutiwarning:not(body):not(html)
 ##.sv-cookie-consent-banner
+##.sv-cookie-management
 ##.sv-cookie-notification
 ##.sv-layout .cookie-consent
 ##.sv-text-portlet.cookie
@@ -16453,6 +16460,7 @@ frei-wild.net###privacyAnnouncement
 freiewaehler.eu###myCookie
 freiewelt.net###cmmodal
 frenchentree.com##.dpl-cookie-banner
+fresha.com##div[class*="Toast"] ~ div[class*="Wrapper"] ~ div
 fressnapf.hu##.grey-popup-layer
 fretlink.com###cookies
 freudtools.com##.x-consent
@@ -18472,6 +18480,7 @@ mediaexpert.pl###fastcookie
 mediafire.com###abnotify
 mediafour.com###wpnb-bar
 mediaklikk.hu##.resultCookie
+mediamarkt.es###gdpr-cookie-layer
 mediamarkt.pl##.cookie-box
 mediametrie.fr###cooks
 medianauka.pl##.cookie
@@ -20066,6 +20075,7 @@ psycom.net###vhn
 ptc-auto.hu###hCookiePanel
 pttavm.com##.cookie-box
 pubgesports.com##body > div > div > div > [class^="view__ModalWindowContainer"]
+public.gr##section[class*="CookiesConsent"]
 pubpub.org##.legal-banner-component
 punpro.com##div[class*="CookieSession"]
 puppet.com##.pm-gdpr, .puppet-cookie-banner
@@ -20863,6 +20873,7 @@ simsdom.com###policies
 sinalco.de###bccs-modal ~ .modal-backdrop
 singaporeair.com##sia-cookie
 singellooputrecht.nl##.cc-wrapper
+singlebox.app##footer ~ .fixed
 singlereisen.de##.cp-dialog
 singles-in-stuttgart.de###DC
 singulart.com##.cookies
@@ -21498,7 +21509,9 @@ teleauskunft.de##.cookie-container
 telefonoassistenza.net###window
 telegram.hr##.disclaimer
 telehit.com##.Privacy.Telehit
-telekom.de###cookies.bounceInDown, .pi-notification
+telekom.de###main ~ #cookies
+telekom.mk###cookiesModal
+telekom.sk##.con-ban-wrapper
 telemarket24.ru##.disklay-box
 telering.at##.uc-fab.uc-fab-open
 telesputnik.ru##.adbPopup
@@ -22780,6 +22793,7 @@ yourbaroness.com###important-notice
 yourkit.com###terms-wrapper-id
 youronlinechoices.com##.fl-page.dnone, .mainContentInside .info
 yourweather.co.uk###gpdr, #GPDR, #gdpr, #GDPR
+yourwineonline.be##.cookies
 yousee.dk##.app > div[data-radium] > div[data-radium][style*="fixed"]
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
