@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-25 02:17:19
+! Version: 2023-06-25 09:40:25
 ! Total count: 96228
 
 ###ACClayerBackground
@@ -96222,7 +96222,7 @@ zyro.com##.zyro-cookies
 ~wirtualnemedia.pl,~footroll.pl,~shinden.pl##body > div[class^="app_gdpr"]
 ~withings.com##.cookie_modal:not(body):not(html)
 ~wwz.ch##.cookie__footer:not(body):not(html)
-~x.qcheng.cc##[id|=ad]
+~x.qcheng.cc,~4yydstxt178.com##[id|=ad]
 ~xs4all.nl,~constantcontact.com,~saxion.edu,~xmradio.nl,~pieseauto.ro##.cookie-wall:not(body):not(html):not(.cw-modal)
 ~xsports.lv##.notice-cookie:not(body):not(html)
 ~yourstorebox.com##.react-cookie-law-dialog
