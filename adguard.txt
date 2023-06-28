@@ -3,8 +3,8 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-06-28 09:24:41
-! Total count: 96228
+! Version: 2023-06-28 14:19:07
+! Total count: 96226
 
 ###ACClayerBackground
 ###AF_GDPR
@@ -16677,8 +16677,6 @@ cmp.quantcast.com$domain=gettr.com|deviantart.com
 cmp.setupcmp.com
 cmp.uniconsent.com$domain=~photopea.com
 cnam-bretagne.fr##.ojc_consent
-cnbeta.com##+js(set, JB, noopFunc)
-cnbeta.com##.cbv,#artibody~*,#upcoming_box,div.article-global,div.meta > span.fr:last-child
 cnet.com###-e_xobwhg_utggxk
 cnig.es###layerCookie
 cnn.com##.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition

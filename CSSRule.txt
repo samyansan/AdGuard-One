@@ -14979,8 +14979,6 @@ cm.be##.new-notification
 cm.games###cookie
 cmegroup.com###cmePermissionQuestion
 cnam-bretagne.fr##.ojc_consent
-cnbeta.com##+js(set, JB, noopFunc)
-cnbeta.com##.cbv,#artibody~*,#upcoming_box,div.article-global,div.meta > span.fr:last-child
 cnet.com###-e_xobwhg_utggxk
 cnig.es###layerCookie
 cnn.com##.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition
