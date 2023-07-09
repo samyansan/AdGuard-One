@@ -10186,6 +10186,7 @@
 ##.cpOverlay[data-cookie-consent-overlay]
 ##.cpb-privacy-policy-widget
 ##.cpck-banner
+##.cpm-cookies-bar
 ##.cpm_container > .cookieModal
 ##.cpnb[data-cookie-name*="cookiesDirective"]
 ##.cpolicy-warning:not(body):not(html)
@@ -15891,6 +15892,7 @@ elvah.de###__nuxt > div > section:first-child
 emagister.com##.fixed-footer
 emagister.fr##.fixed-footer
 email.it###inckem, #FrstCksDiv, body > div:not([id]):not([class])[style*="000"]
+emailleschilder.de##.cb-wrapper
 emarketer.com##.emgdpr-cookies
 embl.org##.vf-banner
 emclient.com###emcCookieNotification
@@ -16079,6 +16081,7 @@ evavonangern.de##.disclaimer
 evengreener.com###top-notice
 eventail.be###__next > div > div[style*="transform"]
 eventfrog.ch###tf-modal-container
+eventfrog.de###tf-modal-container
 eventwide.com##.privacy-blanket, .privacy-dialog
 everettspharmacy.co.uk##body > div[class]:not([style]):not([id])
 evermotion.org##.full-overlay
@@ -16212,6 +16215,7 @@ fgh-info.de##.alert-dismissible
 fgov.be##cookie-law
 fh-dortmund.de###cookies
 fh-muenster.de###matomo-wrapper
+fh-zwickau.de##.tx-whzcookieconsent-banner
 fhpelikan.com.pl###simple-modal, #simple-modal-overlay
 fi.google.com##fi-cookie-consent
 fiatklubpolska.pl###navbar_notice_1.restore
@@ -23087,10 +23091,10 @@ zyro.com##.zyro-cookies
 ~goteborg.com###__layout div[class*="cookie-popup"]
 ~gov.lv,~riga.lv##.cookieBackground:not(body):not(html)
 ~gramatica-alemana.es,~vaillant.com,~vaillant.info,~vaillant.co.uk,~vaillant.com.ro,~vaillant.no,~vaillant.pl,~vaillant.nl,~vaillant.de,~vaillant.it,~vaillant.fr,~vaillant.es,~vaillant.be,~vaillant.hr,~vaillant.sk,~vaillant.se,~vaillant.ua,~vaillant.at,~vaillant.cz,~vaillant.fi,~vaillant.si,~vaillant.dk,~vaillant.hu,~vaillant.rs###cookiewarning
-~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de###cconsent-modal.ccm--visible
-~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de##.cc-banner:not(body):not(html)
-~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de##.cc-window[aria-describedby*="consent"]
-~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de##.cc-window[aria-label*="consent"]
+~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl###cconsent-modal.ccm--visible
+~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-banner:not(body):not(html)
+~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-window[aria-describedby*="consent"]
+~grander.com,~cyberforum.de,~bauen-und-heimwerken.de,~lsi-bochum.de,~membersuite.com,~wesendit.com,~accessosicuro.rete.toscana.it,~dmsg.de,~bgk.pl,~exagon.de,~sozialversicherung-kompetent.de,~varcevanje-energije.si,~donauregion.at,~salzkammergut.at,~studentenwerkfrankfurt.de,~manduka.com,~oberoesterreich.at,~upperaustria.com,~hornirakousko.cz,~gorna-austria.pl,~hornerakusko.sk,~oberoesterreich.nl,~swffm.de,~fransdewitte.nl##.cc-window[aria-label*="consent"]
 ~gruenderservice.at,~wko.at###cookiehint
 ~grueneerde.com##.CookieWarningComponent
 ~healthmate.withings.com##body > #cookies.active
