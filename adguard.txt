@@ -3,7 +3,7 @@
 ! Powerd by SamSan
 ! Description: Just a merged Adblock rule. Nothing more
 ! Expires: 6 hours (update frequency)
-! Version: 2023-07-10 14:19:39
+! Version: 2023-07-10 20:30:16
 ! Total count: 99086
 
 ###ACClayerBackground
@@ -14988,7 +14988,6 @@
 17u.cn
 1881.no##.adn-window, #ot-consent
 18virginsex.com##.cookie
-1905.com##+js(json-prune,videolink)
 1aautoservice.de##.mod-layer
 1avisum.de##.announcement
 1mot.net###cp
@@ -42341,7 +42340,7 @@ zyro.com##.zyro-cookies
 ||ciasteczkowapolityka.pl/getscript$script
 ||ciberbanner.com^
 ||cibleclick.com^
-||cibntv.net/youku/$media,mp4
+||cibntv.net/youku/$media
 ||cicada.escapethecorporatecult.com^
 ||ciconversion.evergage.com^
 ||cictivesmuha.xyz^
@@ -76189,6 +76188,7 @@ zyro.com##.zyro-cookies
 ||reliaquote.com^
 ||relievedgeoff.com^
 ||relistinfo.com^
+||relive.vodfile.m1905.com/video/qiantie202$media
 ||relkconka.com^
 ||relmaxtop.com^
 ||relogotd.com^

@@ -13369,7 +13369,6 @@
 17173.com###vjs-ad-on-pause
 1881.no##.adn-window, #ot-consent
 18virginsex.com##.cookie
-1905.com##+js(json-prune,videolink)
 1aautoservice.de##.mod-layer
 1avisum.de##.announcement
 1mot.net###cp
